@@ -2,7 +2,7 @@
 title: Adobe-doel
 description: In deze sectie vindt u informatie over het gebruik van de Places Service bij Adobe Target.
 translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+source-git-commit: d33e4e2d798c7048bdd275cdf6c0aabf3434f789
 
 ---
 
@@ -29,11 +29,8 @@ Nadat de extensie Plaatsen in gebeurtenissen voor entry en exits verzendt, kunt 
    In dit voorbeeld is de naam van de regel **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
 1. Klik onder de **[!UICONTROL Events]** sectie op **[!UICONTROL Add]**.
-
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Adobe Target]**.
-
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Event Type]** de optie **[!UICONTROL Content Requested]**.
-
 1. Klik op **[!UICONTROL Keep Changes]**.
 
 ![een gebeurtenis toevoegen](/help/assets/ad-setEvent_target.png)
@@ -47,13 +44,9 @@ Nadat de extensie Plaatsen in gebeurtenissen voor entry en exits verzendt, kunt 
 In het volgende voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de regel alleen wordt geactiveerd voor gebruikers die de app vijf of meer keren hebben gestart.
 
 1. Klik onder de **[!UICONTROL Conditions]** sectie op **[!UICONTROL Add]**.
-
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Mobile Core]**.
-
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Condition Type]** de optie **[!UICONTROL Launches]**.
-
 1. Wijzig in het rechterdeelvenster de vervolgkeuzelijst en de nummerbesturingselementen zodat de voorwaarde wordt gelezen **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
-
 1. Klik op **[!UICONTROL Keep Changes]**.
 
 ![een voorwaarde toevoegen](/help/assets/ad-setCondition_target.png)
@@ -61,13 +54,9 @@ In het volgende voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de r
 ## 4. De handeling definiëren
 
 1. Klik onder de **[!UICONTROL Actions]** sectie op **[!UICONTROL Add]**.
-
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Mobile Core]**.
-
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Action Type]** de optie **[!UICONTROL Attach Data]**.
-
 1. Typ in het rechterdeelvenster in het **[!UICONTROL JSON Payload]** veld de gegevens die aan deze gebeurtenis worden toegevoegd.
-
 1. Klik op **[!UICONTROL Keep Changes]**.
 
 In het rechterdeelvenster kunt u een vrije JSON-payload toevoegen die gegevens toevoegt aan een SDK-gebeurtenis voordat de extensies die naar deze gebeurtenis luisteren deze horen.
@@ -89,5 +78,4 @@ Nadat u uw configuratie voltooit, verifieer dat uw Regel als het volgende beeld 
 ![voltooide regel](/help/assets/ad-ruleComplete-target.png)
 
 1. Klik op **[!UICONTROL Save]**
-
 1. Bouw uw bezit van de Lancering opnieuw en stel het aan het correcte Milieu op.
