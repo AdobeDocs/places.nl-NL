@@ -2,7 +2,7 @@
 title: Veelgestelde vragen
 description: Dit onderwerp verstrekt extra informatie over sommige vaak gestelde vragen.
 translation-type: tm+mt
-source-git-commit: 8691dbf061ac020a60d3880fe16951dcc79040cb
+source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
 
 ---
 
@@ -10,6 +10,10 @@ source-git-commit: 8691dbf061ac020a60d3880fe16951dcc79040cb
 # Veelgestelde vragen
 
 Hier volgt een aantal informatie en veelgestelde vragen over Plaatsen Service.
+
+## Migreren van trackLocation in de v4 SDK
+
+Als u migreert van v4 SDK en een vervanging aan `trackLocation` API zoekt, gelieve te verwijzen naar het onderwerp de Dienst van Plaatsen van het [Gebruik zonder de Actieve Controle](use-places-without-active-monitoring.md)van het Gebied.
 
 ## Grootte en betrouwbaarheid
 
@@ -34,4 +38,3 @@ Het toezicht op een geografisch gebied begint onmiddellijk na de registratie voo
 Wees voorzichtig bij het opgeven van de set te controleren regio&#39;s. Regio&#39;s zijn een gedeelde systeembronnen en het totale aantal regio&#39;s dat in het hele systeem beschikbaar is, is beperkt. Om deze reden, beperkt de Plaats van de Kern tot 20 het aantal gebieden die gelijktijdig door één enkele app kunnen worden gecontroleerd. Als u deze limiet wilt overschrijden, kunt u alleen die gebieden in de directe omgeving van de gebruiker registreren.
 
 [Zie aanvullende informatie op de website] voor ontwikkelaars van Apple (https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/LocationAwarenessPG/RegionMonitoring/RegionMonitoring.html#//apple_ref/doc/uid/TP40009497-CH9-SW11)
-
