@@ -2,7 +2,7 @@
 title: De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole
 description: Deze sectie verstrekt informatie over hoe de Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole.
 translation-type: tm+mt
-source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
+source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
 
 ---
 
@@ -10,8 +10,6 @@ source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
 # De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole {#use-places-without-active-monitoring}
 
 Het is mogelijk dat voor het gebruik van de hoofdletters en kleine letters voor uw toepassing geen actieve gebiedscontrole is vereist. De Dienst van Plaatsen kan nog worden gebruikt om de plaatsgegevens van uw gebruikers met andere producten van het Platform van de Ervaring te integreren.
-
-In deze sectie wordt uitgelegd hoe u een statuscontrole voor het lidmaatschap alleen kunt uitvoeren op het moment dat de locatie van de gebruiker wordt opgehaald (breedte en lengte).
 
 ## Vereiste
 
@@ -38,7 +36,7 @@ Nadat u de plaats van de gebruiker verkrijgt, kunt u het tot SDK overgaan om een
 
 ### Android
 
-Hier volgt een voorbeeldimplementatie in Android die een [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F..index#5):
+Hier volgt een voorbeeldimplementatie in Android die een [`BroadcastReceiver`](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F...index#5):
 
 ```java
 public class LocationBroadcastReceiver extends BroadcastReceiver {
@@ -84,7 +82,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Doelstelling-C
 
-Hier volgt een voorbeeldimplementatie in iOS van een [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) methode [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc):
+Hier volgt een voorbeeldimplementatie voor iOS. De code toont de implementatie van de [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) methode in [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -100,7 +98,7 @@ Hier volgt een voorbeeldimplementatie in iOS van een [`CLLocationManagerDelegate
 
 ### Swift
 
-Hier volgt een voorbeeldimplementatie in iOS van een [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) methode [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager):
+Hier volgt een voorbeeldimplementatie voor iOS. De code toont de implementatie van de [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) methode in [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager):
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -114,9 +112,21 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3. Invoergebeurtenissen activeren wanneer de gebruiker zich in een POI bevindt
+## 3. Gegevens van Plaatsen koppelen aan uw analyseverzoeken
 
-De SDK retourneert een lijst met nabijgelegen POI&#39;s, inclusief of de gebruiker zich momenteel binnen elke POI bevindt. Als de gebruiker zich in een POI bevindt, kunt u de SDK een ingangsgebeurtenis voor dat gebied laten activeren.
+Door de `getNearbyPointsOfInterest` API aan te roepen, maakt de Plaatsen SDK alle POI-gegevens relevant voor het apparaat beschikbaar via gegevenselementen in Launch. Met de regel Gegevens [](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) koppelen kunnen gegevens van Plaatsen automatisch worden toegevoegd aan toekomstige verzoeken aan Analytics. Dit elimineert de behoefte aan een eenmalig vraag aan Analytics op het tijdstip dat de plaats van het apparaat wordt verzameld.
+
+Zie [Add de Context van de Plaats aan de Verzoeken](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) van Analytics om meer over dit onderwerp te leren.
+
+## Optioneel - Invoergebeurtenissen activeren wanneer de gebruiker zich in een POI bevindt
+
+>[!TIP]
+>
+>De aanbevolen manier om Plaatsen-gegevens vast te leggen is om Plaatsen [bij te voegen aan uw analyseverzoeken](#attach-places-data-to-your-analytics-requests).
+>
+>Als het gebruiksgeval vereist dat een gebeurtenis [van het](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) gebiedsingang door SDK wordt teweeggebracht, zal het manueel moeten worden gedaan zoals hieronder geschetst.
+
+De lijst die door de `getNearbyPointsOfInterest` API wordt geretourneerd, bevat [aangepaste objecten](places-ext-aep-sdks/places-extension/cust-places-objects.md) die aangeven of de gebruiker zich momenteel binnen een POI bevindt. Als de gebruiker zich in een POI bevindt, kunt u de SDK een ingangsgebeurtenis voor dat gebied laten activeren.
 
 >[!IMPORTANT]
 >
@@ -229,7 +239,9 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Volledige voorbeeldimplementatie
 
-In de onderstaande codevoorbeelden ziet u hoe u de huidige locatie van het apparaat ophaalt, de benodigde gebeurtenissen activeert en ervoor zorgt dat u tijdens één bezoek niet meerdere items voor dezelfde locatie ophaalt.
+In de onderstaande codevoorbeelden ziet u hoe u de huidige locatie van het apparaat ophaalt, de benodigde gebeurtenissen voor het invoeren activeert en ervoor zorgt dat u tijdens één bezoek niet meerdere items voor dezelfde locatie ophaalt.
+
+Dit codevoorbeeld omvat de facultatieve stap van het [teweegbrengen van een ingangsgebeurtenissen wanneer de gebruiker in POI](#trigger-entry-events-when-the-user-is-in-a-poi)is.
 
 >[!IMPORTANT]
 >
