@@ -1,13 +1,33 @@
 ---
-title: Opmerkingen bij de release
+title: Releaseopmerkingen
 description: Opmerkingen bij de release voor Plaatsen Service.
 translation-type: tm+mt
-source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
+source-git-commit: f5fa6005396e3c5b5b8eb92c7c920d2d0d974743
+workflow-type: tm+mt
+source-wordcount: '1419'
+ht-degree: 1%
 
 ---
 
 
-# Opmerkingen bij de release {#release-notes}
+# Releaseopmerkingen {#release-notes}
+
+## 6 mei 2020
+
+* **PlaatstMonitor 2.2.1**
+
+   * **Android**
+
+      * Verbeterde logboekregistratie
+
+## 5 mei 2020
+
+
+* **PlaatstMonitor 2.1.3**
+
+   * **iOS**
+
+      * Verbeterde logboekregistratie
 
 ## 20 februari 2020
 
@@ -202,7 +222,7 @@ Oplossing voor de volgende problemen in de interface Plaatsen:
 
 De volgende updates zijn aangebracht in deze release:
 
-**Android-plaatsen 1.1.0**
+**Android-plaatsen 1.2.0**
 
 * Er is een nieuwe API toegevoegd om een afzonderlijke Geofence te verwerken.
 * Opgeloste problemen om meerdere opeenvolgende gebeurtenissen bij binnenkomst te voorkomen.
