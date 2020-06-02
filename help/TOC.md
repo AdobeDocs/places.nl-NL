@@ -1,17 +1,21 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Places Service
+user-guide-title: Places-service
+user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 translation-type: tm+mt
-source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
+source-git-commit: 43b1eb0d384e2e75e444b737c0ab15798492d0a8
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 8%
 
 ---
 
 
-# Plaatsingsservice {#using}
+# Places-service {#using}
 
 + [Overzicht van Plaatsingsservice](home.md)
-+ [Opmerkingen bij de release](release-notes.md)
++ [Releaseopmerkingen](release-notes.md)
 + [Aan de slag](getting-started.md)
 + [Toegang tot de Places-service](places-gain-access.md)
 + Gebruikersinterface Plaatsingsservice {#poi-mgmt-ui}
@@ -76,11 +80,11 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Pushmeldingen](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Meldingen in de app](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
-   + Adobe Campagne Standard {#places-acs}
+   + Adobe Campaign Standard {#places-acs}
       + [De Dienst van Plaatsen van het gebruik met de Norm van de Campagne van Adobe](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [Pushmeldingen](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Berichten in de app](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
-   + Adobe-doel {#places-target}
+   + Adobe Target {#places-target}
       + [Plaatsingsservice gebruiken met Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Testen en valideren {#places-testing-validation}
    + [Plaatsingsservice testen en valideren](places-testing-validation/test-validate-places.md)
