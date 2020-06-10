@@ -2,7 +2,10 @@
 title: Uitbreiding Places
 description: Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken.
 translation-type: tm+mt
-source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
+source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +33,11 @@ Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken
 
 ## De extensie Plaatsen toevoegen aan uw app {#add-places-to-app}
 
-U kunt de extensie Plaatsen toevoegen aan uw Android- en iOS-toepassingen.
+U kunt de extensie Plaatsen toevoegen aan uw Android- en iOS-toepassingen. De stappen voor het toevoegen van Plaatsen aan uw iOS- of Android-toepassing vindt u hieronder. Plaatsen zijn ook beschikbaar voor Cordova en React Native. Zie de bijbehorende koppelingen voor informatie over het toevoegen van Plaatsen aan uw toepassing wanneer u ontwikkelt met een van deze platforms:
+
+**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+
+**Native ACPPlaces** Reageren: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
 
 ### Android
 
