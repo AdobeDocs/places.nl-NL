@@ -2,9 +2,9 @@
 title: Uitbreiding Places
 description: Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken.
 translation-type: tm+mt
-source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 3%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 3%
 
 Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken. Deze extensie is de interface naar de API&#39;s van de Places Query Service. Door te luisteren naar gebeurtenissen die GPS-coördinaten en geofence region-gebeurtenissen bevatten, verzendt deze extensie nieuwe gebeurtenissen die worden verwerkt door de Rules Engine. De extensie Plaatsen haalt ook een lijst op met de dichtstbijzijnde POI voor de toepassingsgegevens die van de API&#39;s worden opgehaald en levert. De gebieden die door de API&#39;s worden geretourneerd, worden opgeslagen in cache en persistentie, waardoor een beperkte offlineverwerking mogelijk is.
 
-## De extensie Plaatsen installeren in Adobe Experience Platform Launch
+## De extensie Plaatsen installeren in Adobe Experience Platform starten
 
 1. Klik in Experience Platform Launch op het tabblad **[!UICONTROL Extensions]**.
 1. Zoek op het **[!UICONTROL Catalog]** tabblad de **[!UICONTROL Places]** extensie en klik op **[!UICONTROL Install]**.
 1. Selecteer de bibliotheken Plaatsen die u in deze eigenschap wilt gebruiken. Dit zijn de bibliotheken die in uw app toegankelijk zijn.
 1. Klik op **[!UICONTROL Save]**.
 
-   Wanneer u klikt **[!UICONTROL Save]**, zoekt het Platform SDK van de Ervaring de Diensten van Plaatsen naar POIs in de bibliotheken die u selecteerde. De POI-gegevens worden niet opgenomen in de download van de bibliotheek wanneer u de app maakt, maar een op locatie gebaseerde subset van POI&#39;s wordt tijdens runtime gedownload naar het apparaat van de eindgebruiker en is gebaseerd op de GPS-coördinaten van de gebruiker.
+   Wanneer u klikt **[!UICONTROL Save]**, zoekt de Experience Platform SDK de Diensten van Plaatsen naar POIs in de bibliotheken die u selecteerde. De POI-gegevens worden niet opgenomen in de download van de bibliotheek wanneer u de app maakt, maar een op locatie gebaseerde subset van POI&#39;s wordt tijdens runtime gedownload naar het apparaat van de eindgebruiker en is gebaseerd op de GPS-coördinaten van de gebruiker.
 
 1. Voltooi het publicatieproces om de SDK-configuratie bij te werken.
 
@@ -35,9 +35,9 @@ Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken
 
 U kunt de extensie Plaatsen toevoegen aan uw Android- en iOS-toepassingen. De stappen voor het toevoegen van Plaatsen aan uw iOS- of Android-toepassing vindt u hieronder. Plaatsen zijn ook beschikbaar voor Cordova en React Native. Zie de bijbehorende koppelingen voor informatie over het toevoegen van Plaatsen aan uw toepassing wanneer u ontwikkelt met een van deze platforms:
 
-**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+**[Plug-in Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
-**Native ACPPlaces** Reageren: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
+**[Insteekmodule Native plaatsen reageren](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
 
 ### Android
 
