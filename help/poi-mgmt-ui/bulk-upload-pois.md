@@ -2,12 +2,25 @@
 title: POI's voor uploaden in bulk
 description: Deze sectie verstrekt informatie over hoe te om uw POIs in bulk te uploaden.
 translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+source-git-commit: 1ffc1f4237dfb872614a4bffd43d3fdaefc62fa9
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 0%
 
 ---
 
 
 # Bulkupload van POI&#39;s {#bulk-upload-pois}
+
+De knoop van POIs van de **Invoer** in de Dienst van Plaatsen kan worden gebruikt om nieuwe POIs in bulk te uploaden gebruikend een Csv- dossier. Er is een voorbeeldspreadsheetsjabloon beschikbaar waarmee u kunt zien welke gegevenskolommen vereist zijn en hoe u optionele aangepaste metagegevens kunt toevoegen.
+
+![Scherm voor bulkimport](/help/assets/Bulk-import.png)
+
+Hieronder volgt een video waarin het proces voor bulkimport en bulkbewerking wordt getoond:
+
+>[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+
+## Python API-scripts
 
 Een reeks manuscripten Python zijn gecreeerd om de partijinvoer van POIs van een .csv dossier in een POI gegevensbestand te vereenvoudigen door de Dienst APIs van het Web te gebruiken. Deze scripts kunnen worden gedownload van dit open-source [git-rapport](https://github.com/adobe/places-scripts).
 
