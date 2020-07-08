@@ -2,15 +2,31 @@
 title: Releaseopmerkingen
 description: Opmerkingen bij de release voor Plaatsen Service.
 translation-type: tm+mt
-source-git-commit: f5fa6005396e3c5b5b8eb92c7c920d2d0d974743
+source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 1%
+source-wordcount: '1503'
+ht-degree: 2%
 
 ---
 
 
 # Releaseopmerkingen {#release-notes}
+
+## 8 juli 2020
+
+* **Hiermee worden monitorextensies geplaatst en geplaatst**
+
+   * Extensies voor monitoren zijn toegevoegd voor [Native toepassingen Reageren](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * De extensies voor Plaatsen en Monitor zijn toegevoegd voor [Cordova-toepassingen](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Zie voor meer informatie: [Extensie Plaatsen gebruiken](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+
+
+## 12 mei 2020
+
+* **Places Service**
+
+   * Ongelimiteerde POI&#39;s voor importeren uit een CSV-bestand met de knop POI&#39;s importeren
+   * Meerdere POI&#39;s selecteren en waarden voor metagegevens bulksgewijs bewerken of toevoegen
 
 ## 6 mei 2020
 
@@ -173,7 +189,7 @@ De volgende updates zijn aangebracht in deze release:
 
 * Er is een nieuwe API toegevoegd die alle Plaatsgerelateerde gegevens van de gedeelde status, het geheugen in de app en de gedeelde voorkeur wist.
 * Probleem verholpen waarbij de gedeelde status niet werd bijgewerkt tijdens het starten van de toepassing.
-* Probleem verholpen waarbij `getNearbyPointsOfInterest` callback foutcode op `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` geen internet retourneerde.
+* Probleem verholpen waarbij `getNearbyPointsOfInterest` callback foutcode retourneerde `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` op geen internet.
 * `getNearbyPointsOfInterest` API (zonder errorCallback) wordt `successCallback` aangeroepen met een lege poilijst als er een fout optreedt bij het ophalen van de nabijgelegen aandachtspunten.
 
 ## 19 juli 2019
@@ -182,7 +198,7 @@ De volgende updates zijn aangebracht in deze release:
 
 **iOS-locaties 1.2.0**
 
-Er is een nieuwe API toegevoegd die alle Plaatsgerelateerde gegevens van de gedeelde status, het geheugen in de app en `NSUserDefaults`wist.
+Er is een nieuwe API toegevoegd waarmee alle Plaatsgerelateerde gegevens worden gewist uit de gedeelde status, het geheugen in de app en `NSUserDefaults`.
 
 ## 25 juni 2019
 
@@ -213,7 +229,7 @@ De volgende updates zijn aangebracht in deze release:
 
 Oplossing voor de volgende problemen in de interface Plaatsen:
 
-* Bijgewerkt de Schakelaar van de Oplossing in Plaatsen om zich aan de rest van de Wolk van de Ervaring te richten.
+* Bijgewerkt de Schakelaar van de Oplossing in Plaatsen om met de rest van Experience Cloud te richten.
 * Probleem verholpen waarbij de rangorde werd opgeslagen in gevallen waarin geen wijzigingen in de rangorde werden aangebracht.
 * De minimale toegestane straal in de gebruikersinterface is verhoogd tot 10 meter.
 * Probleem verholpen waarbij, als u alle getallen in het veld verwijdert, het straalveld weer werd ingesteld op 20 meter.
@@ -268,7 +284,7 @@ De Monitor van Plaatsen beheert de OS-vlakke Plaats APIs en communiceert direct 
 
 ### Bètaversie
 
-Dit is de eerste versie van de Dienst van Plaatsen, een reeks hulpmiddelen die klanten toestaat om de ervaringen van hun gebruikers met echte plaatsgegevens te verrijken. Voor de eerste release is het belangrijkste gebruiksgeval dat we mobiele apps in staat stellen aangepaste locatiegegevens op te halen en op die gegevens te reageren via Adobe Experience Platform Launch.
+Dit is de eerste versie van de Dienst van Plaatsen, een reeks hulpmiddelen die klanten toestaat om de ervaringen van hun gebruikers met echte plaatsgegevens te verrijken. Voor de eerste release is het belangrijkste gebruiksgeval dat mobiele apps aangepaste locatiegegevens kunnen ophalen en deze gegevens kunnen verwerken via het Adobe Experience Platform Launch.
 
 ### Belangrijkste kenmerken
 
@@ -283,7 +299,7 @@ We hebben een beheerinterface beschikbaar gemaakt waarin u uw belangenbehartigin
 
 #### Extensie plaatsen
 
-Met de extensie Plaatsen kunt u de bibliotheken van de Plaatsingsservice toevoegen aan uw mobiele app en de bijbehorende POI&#39;s bewerken. Gebruikend de regelbouwer in de Lancering van het Platform van de Ervaring, kunt u acties teweegbrengen om in brand te steken wanneer de gebruikers POIs ingaan en weggaan.
+Met de extensie Plaatsen kunt u de bibliotheken van de Plaatsingsservice toevoegen aan uw mobiele app en de bijbehorende POI&#39;s bewerken. Gebruikend de regelbouwer in Experience Platform Launch, kunt u acties teweegbrengen om in brand te steken wanneer de gebruikers POIs ingaan en weggaan.
 
 In de extensie Plaatsen:
 
@@ -307,6 +323,6 @@ Voor meer informatie over Plaatsen APIs, zie de dienst API [van het](/help/web-s
 
 ### Binnenkort beschikbaar
 
-#### Analyseintegratie
+#### Analytics Integration
 
-De uitbreiding van de Analyse wordt bijgewerkt om de gegevens van de plaatscontext van uw gegevensbestand van de Dienst van Plaatsen aan alle uitgaande vraag van Analytics automatisch toe te voegen wanneer een gebruiker in POI (passieve vraag) is. Deze update zal ook regelverwezenlijking toestaan om de spoorvraag van de Analyse in brand te steken bij POI ingang of uitgang (Actieve vraag).
+De uitbreiding van Analytics wordt bijgewerkt om de gegevens van de plaatscontext van uw gegevensbestand van de Dienst van Plaatsen aan alle uitgaande vraag van Analytics automatisch toe te voegen wanneer een gebruiker in POI (passieve vraag) is. Deze update zal ook regelverwezenlijking toestaan om de spoorvraag van Analytics bij POI ingang of uitgang (Actieve vraag) direct in brand te steken.
