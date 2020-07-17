@@ -2,7 +2,10 @@
 title: De extensie Plaatsen gebruiken
 description: Informatie over het installeren, configureren en gebruiken van de extensie Places Monitor.
 translation-type: tm+mt
-source-git-commit: ac1d410a676557064d5390f8392f402541754478
+source-git-commit: 7fdaace59886225b7fd9b0eba8cc6c2a139fa2d7
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 6%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: ac1d410a676557064d5390f8392f402541754478
 
 Als u de extensie Plaatsen Monitor wilt gebruiken, voert u de volgende taken uit:
 
-## De extensie Places Monitor installeren in Launch-programma van Experience Platform
+## De extensie Plaatsen in Experience Platform Launch installeren
 
 1. Klik in Experience Platform Launch op het tabblad **[!UICONTROL Extensions]**.
 1. Zoek op het **[!UICONTROL Catalog]** tabblad de **[!UICONTROL Places Monitor]** extensie en klik op **Installeren**.
@@ -26,7 +29,15 @@ Er zijn geen configuratietaken voor de uitbreiding van de Monitor van Plaatsen.
 
 ## De extensie Plaatsen toevoegen aan uw app {#add-monitor-extension-to-app}
 
-U moet de extensie Places Monitor toevoegen aan uw Android- of iOS-app.
+Hieronder vindt u aanwijzingen voor het toevoegen van de extensie Plaatsen Monitor aan uw Android- of iOS-toepassing.
+
+De extra platformsteun voor de uitbreiding van de Monitor van Plaatsen omvat:
+**[Monitor Cordova-locaties](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)**
+
+**[Monitor van native locaties reageren](https://github.com/adobe/react-native-acpplaces-monitor/blob/master/README.md)**
+
+**[Monitor voor dynamische locaties](https://github.com/adobe/flutter_acpplaces_monitor/blob/master/README.md)**
+
 
 ### Android
 
@@ -172,7 +183,7 @@ Als u voor alle versies van Android wilt declareren dat uw toepassing locatierec
 ```
 
 
-## Locatie-updates op de achtergrond inschakelen {#enable-location-updates-background}
+## Locatie-updates op de achtergrond inschakelen  {#enable-location-updates-background}
 
 iOS ondersteunt het leveren van locatiegebeurtenissen voor apps die zijn opgeschort of niet meer actief zijn. Als u locatie-updates wilt ontvangen op de achtergrond voor de extensie Places Monitor, configureert u de mogelijkheid voor Locatie-updates voor uw app in `Xcode.background-location-updates`.
 
