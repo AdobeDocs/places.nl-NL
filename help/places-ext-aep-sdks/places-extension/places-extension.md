@@ -2,9 +2,9 @@
 title: Uitbreiding Places
 description: Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken.
 translation-type: tm+mt
-source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
+source-git-commit: a7dddb78e1e00a0bde01ea668334932759a9dae8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '694'
 ht-degree: 3%
 
 ---
@@ -33,11 +33,16 @@ Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken
 
 ## De extensie Plaatsen toevoegen aan uw app {#add-places-to-app}
 
-U kunt de extensie Plaatsen toevoegen aan uw Android- en iOS-toepassingen. De stappen voor het toevoegen van Plaatsen aan uw iOS- of Android-toepassing vindt u hieronder. Plaatsen zijn ook beschikbaar voor Cordova en React Native. Zie de bijbehorende koppelingen voor informatie over het toevoegen van Plaatsen aan uw toepassing wanneer u ontwikkelt met een van deze platforms:
+U kunt de extensie Plaatsen toevoegen aan uw Android- en iOS-toepassingen. De stappen voor het toevoegen van Plaatsen aan uw iOS- of Android-toepassing vindt u hieronder. De uitbreidingen van Plaatsen zijn ook beschikbaar voor de volgende hieronder platforms. Zie de bijbehorende koppelingen voor informatie over het toevoegen van Plaatsen aan uw toepassing wanneer u ontwikkelt met een van deze platforms:
 
 **[Plug-in Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
 **[Insteekmodule Native plaatsen reageren](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+
+**[Plug-in voor plaatsen voor tekst](https://github.com/adobe/flutter-acpplaces_monitor)**
+
+**[Plug-in Xamarin Places](https://github.com/adobe/xamarin-acpcore)**
+
 
 ### Android
 
