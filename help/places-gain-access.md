@@ -1,8 +1,11 @@
 ---
 title: 'Toegang tot de Places-service '
-description: Deze sectie verstrekt informatie over hoe te om een gebruiker aan de Dienst van Plaatsen toe te voegen en de Lancering van het Platform van de Ervaring, zodat de gebruiker tot de Dienst van Plaatsen kan toegang hebben.
+description: Deze sectie verstrekt informatie over hoe te om een gebruiker aan de Dienst en het Experience Platform Launch van Plaatsen toe te voegen, zodat de gebruiker tot de Dienst van Plaatsen kan toegang hebben.
 translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+source-git-commit: 26538602a73e806a4822705c7a3aa44d76351030
+workflow-type: tm+mt
+source-wordcount: '1079'
+ht-degree: 8%
 
 ---
 
@@ -11,36 +14,36 @@ source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 U hebt toegang tot de Plaatsen Service via het snelmenu op de [Adobe Experience Cloud-startpagina](https://experience.adobe.com).
 Als je gebruikersnaam toegang heeft, wordt het pictogram Plaatsen service weergegeven zoals hieronder wordt aangegeven:
 
-![snelmenu](/help/assets/quick-access.png)
+![snelmenu](/help/assets/quickaccess.png)
 
-U kunt ook de Places Service openen vanuit het menu Adobe Experience Platform:
+U kunt ook het menu Plaatsen openen via het menu Adobe Experience Platform:
 
-![Het menu Experience Platform](/help/assets/exp-platform-menu-sm.png)
+![Menu Experience Platform](/help/assets/solutionaccessmenu.png)
 
-Als u de Plaatsingsservice in geen van deze menu&#39;s ziet, neemt u contact op met een beheerder in uw organisatie om uw gebruikers-id toe te voegen aan de Dienst Plaatsen Core in de beheerconsole.
+Als u de Dienst van Plaatsen in één van beiden van deze menu&#39;s ziet, contacteer een beheerder in uw organisatie om uw gebruikersnaam aan de Dienst van de Kern van Plaatsen in de Admin Console toe te voegen.
 
-## Een gebruiker toevoegen aan de Service Places en de Start van het Platform van de Ervaring
+## Een gebruiker toevoegen aan de service Plaatsen en het Experience Platform Launch
 
-Om gebruikers toegang te geven tot de gebruikersinterface [voor het starten van het](https://launch.adobe.com)ervaringsplatform, moeten zij als gebruiker worden toegevoegd aan de Dienst van de Kern van Plaatsen in de Console Admin. Om gebruikers toegang te geven tot de Start van het Experience Platform, mobiele eigenschappen te configureren en Plaatsen te gebruiken met de SDK van het Adobe Experience Platform, moeten ze worden toegevoegd aan de Launch van het Experience Platform in de beheerconsole en de volgende machtigingen krijgen voor het starten van het Experience Platform:
+Om gebruikers toe te staan om tot het [Experience Platform Launch UI](https://launch.adobe.com)toegang te hebben, moeten zij aan de Dienst van de Kern van Plaatsen in de Admin Console als gebruiker worden toegevoegd. Om gebruikers toegang tot Experience Platform Launch te verlenen, mobiele eigenschappen te vormen, en Plaatsen met de SDK van Adobe Experience Platform te gebruiken, moeten zij aan Experience Platform Launch in de Admin Console worden toegevoegd en de volgende toestemmingen voor Experience Platform Launch worden gegeven:
 
 * Alle eigendomsrechten:
    * Ontwikkelen
    * Goedkeuren
-   * Publiceren
+   * Publicatie
    * Extensies beheren
    * Omgevingen beheren
 * Eigenschappen beheren onder Bedrijfsrechten
 
-Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stappen uit om gebruikers toe te voegen aan Experience Platform Launch and Places Service. Als u eerder gebruikers hebt toegevoegd, worden mogelijk meerdere profielen weergegeven, zodat u het juiste profiel selecteert.
+Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stappen uit om gebruikers toe te voegen aan Experience Platform Launch- en Plaatsingsservice. Als u eerder gebruikers hebt toegevoegd, worden mogelijk meerdere profielen weergegeven, zodat u het juiste profiel selecteert.
 
 >[!IMPORTANT]
 >
->Alleen org-beheerders hebben toegang tot de beheerconsole en kunnen de gebruikers toevoegen.
+>Alleen org-beheerders hebben toegang tot de Admin Console en voegen de gebruikers toe.
 
-### 1. Controleren of de service Plaatsen en het startprogramma van het ervaringsplatform zijn ingericht
+### 1. Controleren of de service Plaatsen en het Experience Platform Launch zijn ingericht
 
 1. Meld u aan bij uw Experience Cloud-organisatie.
-1. Klik in de rechterbovenhoek op de schelpschakelaar van Experience Cloud.
+1. Klik in de rechterbovenhoek op de Experience Cloud shell-switch.
 
    ![shellswitch](/help/assets/places_shell_switcher1.png)
 
@@ -48,9 +51,9 @@ Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stap
 
    Als u **Beheer** niet ziet in de lijst, bent u geen beheerder. U moet contact opnemen met uw org-beheerder om deze procedure te voltooien.
 
-1. Klik op de **[!UICONTROL Admin Console]** kaart op de pagina Experience Cloud Administration **[!UICONTROL Take me there]**.
+1. Klik op de **[!UICONTROL Admin Console]** kaart op de pagina Beheer Experience Cloud op **[!UICONTROL Take me there]**.
 
-1. Als u in de beheerconsole toegang hebt tot meerdere organisaties, controleert u of de juiste organisatie in de rechterbovenhoek van de pagina is geselecteerd.
+1. Als u in de Admin Console toegang hebt tot meerdere organisaties, controleert u of de juiste organisatie in de rechterbovenhoek van de pagina is geselecteerd.
 
    Dit is de organisatie waaraan u uw gebruikers zult toevoegen. Als de juiste org niet is geselecteerd, klikt u op de org en selecteert u de org in de vervolgkeuzelijst.
 
@@ -62,21 +65,21 @@ Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stap
 
    ![](/help/assets/places_provisioned1.png)
 
-   Als zij worden getoond, zijn de Dienst van Plaatsen en de Lancering van het Platform van de Ervaring provisioned voor uw organisatie. Als ze niet worden weergegeven, moeten ze worden ingericht voor uw organisatie.
+   Als zij worden getoond, zijn de Dienst en het Experience Platform Launch van Plaatsen provisioned voor uw organisatie. Als ze niet worden weergegeven, moeten ze worden ingericht voor uw organisatie.
 
 
 ### 2. Profiel instellen en machtigingen toevoegen
 
-1. Stel een opstartprofiel voor het ervaringsplatform in, waarmee de gebruikers die aan het profiel zijn toegevoegd, de functie Experience Platform Launch en de mobiele eigenschappen kunnen gebruiken met de Experience Platform SDK.
+1. Stel een profiel voor Experience Platforms Launch in, waarmee de gebruikers die aan het profiel zijn toegevoegd, Experience Platform Launch en de mobiele eigenschappen kunnen gebruiken met de SDK van het Experience Platform.
 
    a. Klik in de menubalk op **[!UICONTROL Product]**.
 
    b. Klik in het linkerdeelvenster in de lijst met producten op **[!UICONTROL Adobe Experience Platform Launch]**.
 
-   * Het (de) profiel(en) van de Lancering van het Platform van de Ervaring verschijnen op het recht.
-   * De Lancering van het Platform van de ervaring heeft een standaardprofiel genoemd *Lancering - (org naam)* .
+   * Het profiel of de profielen van het Experience Platform Launch worden rechts weergegeven.
+   * Experience Platform Launch heeft een standaardprofiel met de naam *Launch - (org-naam)* .
 
-      Als u eerder gebruikers hebt toegevoegd aan Experience Platform Launch, worden mogelijk meerdere profielen weergegeven.
+      Als u eerder gebruikers aan Experience Platform Launch hebt toegevoegd, worden mogelijk meerdere profielen weergegeven.
 
 1. Selecteer het juiste profiel:
 
@@ -102,15 +105,15 @@ Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stap
 
 U hebt machtigingen toegevoegd aan het profiel dat u hebt gemaakt.
 
-### 3. Een gebruiker of ontwikkelaar toevoegen aan uw profielen Plaatsen Service en Experience Platform Launch
+### 3. Een gebruiker of ontwikkelaar toevoegen aan de service- en Experience Platform Launch-profielen Plaatsen
 
-U kunt een gebruiker en/of een ontwikkelaar toevoegen aan uw profielen van de Dienst van Plaatsen en van de Ervaring Platform van de Lancering.
+U kunt een gebruiker en/of een ontwikkelaar toevoegen aan de profielen Plaatsen Service en Experience Platform Launch.
 
 ### Een gebruiker toevoegen
 
-U voegt als volgt een gebruiker toe aan de Startprofielen Places Service en Experience Platform:
+U voegt als volgt een gebruiker toe aan de profielen Plaatsen Service en Experience Platform Launch:
 
-1. Voeg een gebruiker aan het profiel van de Lancering van het Platform van de Ervaring toe.
+1. Voeg een gebruiker aan het profiel van het Experience Platform Launch toe.
 
    a. Klik in de menubalk op **[!UICONTROL Overview]**.
 
@@ -122,12 +125,13 @@ U voegt als volgt een gebruiker toe aan de Startprofielen Places Service en Expe
       Als de punt aan de rechterkant zwart is, kunt u alleen ontwikkelaars toevoegen. Als u een gebruiker wilt toevoegen, klikt u op de stip aan de linkerkant.
    c. Klik **[!UICONTROL + Add Users]**.
 
-   d. Voer de Adobe-id van de gebruiker in.
+   d. Voer de Adobe ID van de gebruiker in.
 
    e. Voer een van de volgende stappen uit:
 
    * Als u een nieuwe gebruiker toevoegt, klikt u **[!UICONTROL New user]** en voert u de voor- en achternaam van de gebruiker in.
    * Als u een bestaande gebruiker toevoegt, klikt u op de weergegeven gebruikersnaam.
+
    f. Selecteer in de **[!UICONTROL Please select a profile for this product]** vervolgkeuzelijst het profiel dat u eerder hebt bewerkt.
 
    g. Klik **[!UICONTROL Save]**.
@@ -142,14 +146,16 @@ U voegt als volgt een gebruiker toe aan de Startprofielen Places Service en Expe
 
    * Onder aan de kaart worden twee punten weergegeven.
    * De stip aan de linkerkant is zwart.
+
    b. Klik **[!UICONTROL + Assign Users]**.
 
-   c. Voer de Adobe-id van de gebruiker in.
+   c. Voer de Adobe ID van de gebruiker in.
 
    d. Voer een van de volgende stappen uit:
 
    * Als u een nieuwe gebruiker toevoegt, klikt u **[!UICONTROL New user]** en voert u de voor- en achternaam van de gebruiker in.
    * Als u een bestaande gebruiker toevoegt, klikt u op de weergegeven gebruikersnaam.
+
    e. Selecteer het profiel Plaatsen in de **[!UICONTROL Please select a profile for this product]** vervolgkeuzelijst.
 
    f. Klik **[!UICONTROL Save]**.
