@@ -2,7 +2,10 @@
 title: Aan de slag
 description: Aan de slag met Plaatsen Service.
 translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+source-git-commit: 30650c1e11a52f6bbc118d374b8ff6050b5d80ce
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 3%
 
 ---
 
@@ -11,7 +14,11 @@ source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 Hier volgt een handige video voor een overzicht van de Places Services:
 
->[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+<!--
+Test of different youtube link for exl
+-->
+
+>[!VIDEO](https://youtu.be/aV6i_ayxWCw)
 
 ## Plaatsingsservice gebruiken
 
@@ -19,11 +26,11 @@ Voer de volgende taken uit om de Places Service te gebruiken:
 
 ### 1. Zorg ervoor dat uw gebruiker is voorzien om de Dienst van Plaatsen te gebruiken
 
-De productcontext van Plaatsen Service is beschikbaar bij alle Experience Cloud-organisaties.
+De het productcontext van Plaatsen van de Dienst is beschikbaar met alle organisaties van de Experience Cloud.
 
-* Zorg ervoor dat u als gebruiker onder de Places Service en Ervaar de productcontexten van de Lancering van het Platform in de Console Admin wordt vermeld.
+* Zorg ervoor dat u als gebruiker onder de de productcontexten van Plaatsen van de Dienst en van het Experience Platform Launch in de Admin Console wordt vermeld.
 
-   Voor meer informatie, zie het *Toevoegen van een gebruiker aan de Lancering van het Platform en de Dienst* van Plaatsen in [Veelgestelde vragen](/help/places-gain-access.md).
+   Zie Een gebruiker *toevoegen aan Experience Platform Launch en Plaatsen Service* in [Veelgestelde vragen](/help/places-gain-access.md)voor meer informatie.
 
 
 ### 2. Je POI&#39;s maken
