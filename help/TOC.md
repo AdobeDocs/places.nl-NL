@@ -1,18 +1,18 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Places-service
+user-guide-title: Servicehandleiding plaatsen
 user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 translation-type: tm+mt
-source-git-commit: 43b1eb0d384e2e75e444b737c0ab15798492d0a8
+source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 8%
+source-wordcount: '298'
+ht-degree: 11%
 
 ---
 
 
-# Places-service {#using}
+# Places Service {#using}
 
 + [Overzicht van Plaatsingsservice](home.md)
 + [Releaseopmerkingen](release-notes.md)
@@ -66,13 +66,13 @@ ht-degree: 8%
       + [Referentie voor monitor-API plaatsen](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [De Dienst van Plaatsen van het gebruik met uw eigen monitoroplossing](using-your-own-monitor.md)
 + [De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole](use-places-without-active-monitoring.md)
-+ De Dienst van Plaatsen van het gebruik als deel van het Platform van de Ervaring Starten werkschema {#use-places-launch-workflow}
-   + [De Dienst van Plaatsen van het gebruik als deel van het Platform van de Ervaring Starten werkschema](use-places-launch-workflow/places-launch-workflow.md)
++ De Dienst van Plaatsen van het gebruik als deel van het Experience Platform Launch werkschema {#use-places-launch-workflow}
+   + [De Dienst van Plaatsen van het gebruik als deel van het Experience Platform Launch werkschema](use-places-launch-workflow/places-launch-workflow.md)
    + [Gegevenselementen definiëren](use-places-launch-workflow/define-data-elements.md)
    + [In- en uitreisregels maken](use-places-launch-workflow/create-rule-places-property.md)
 + De Dienst van Plaatsen van het gebruik met andere Oplossingen van Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
-      + [Plaatsingsservice gebruiken met Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
+      + [Plaatsingsservice gebruiken voor Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [POI-invoer- en afsluitgegevens naar Analytics verzenden](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Locatiecontext toevoegen aan verzoeken van Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
       + [Rapport over locatiegegevens in Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
@@ -81,11 +81,11 @@ ht-degree: 8%
       + [Pushmeldingen](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Meldingen in de app](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
    + Adobe Campaign Standard {#places-acs}
-      + [De Dienst van Plaatsen van het gebruik met de Norm van de Campagne van Adobe](use-places-with-other-solutions/places-acs/places-acs-overview.md)
+      + [Plaatsingsservice gebruiken voor Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [Pushmeldingen](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Berichten in de app](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
-      + [Plaatsingsservice gebruiken met Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
+      + [Plaatsingsservice gebruiken voor Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Testen en valideren {#places-testing-validation}
    + [Plaatsingsservice testen en valideren](places-testing-validation/test-validate-places.md)
 + [Veelgestelde vragen](places-faqs.md)
