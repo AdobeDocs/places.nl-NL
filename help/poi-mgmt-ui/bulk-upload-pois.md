@@ -2,9 +2,9 @@
 title: POI's voor uploaden in bulk
 description: Deze sectie verstrekt informatie over hoe te om uw POIs in bulk te uploaden.
 translation-type: tm+mt
-source-git-commit: 1ffc1f4237dfb872614a4bffd43d3fdaefc62fa9
+source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ De knoop van POIs van de **Invoer** in de Dienst van Plaatsen kan worden gebruik
 
 ![Scherm voor bulkimport](/help/assets/Bulk-import.png)
 
-Hieronder volgt een video waarin het proces voor bulkimport en bulkbewerking wordt getoond:
+In deze video ziet u het proces voor bulkimport en bulkbewerking:
 
->[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+<!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
+
+[Plaatst Service Bulk Import- en Edit POI&#39;s](https://www.youtube.com/watch?v=75qVtirsXhg)
 
 ## Python API-scripts
 
@@ -101,7 +103,7 @@ De waarden van de volgende kolommen worden gebruikt in de Dienst UI van Plaatsen
 
    * `api_key`
 
-      Dit is de REST API-sleutel van uw Plaatsen die is verkregen via de integratie van Adobe I/O-locaties. Voor informatie over hoe te om de API sleutel te verkrijgen, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
+      Dit is de REST API-sleutel van uw locaties die is verkregen via de integratie van de Adobe I/O-locaties. Voor informatie over hoe te om de API sleutel te verkrijgen, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
    b. Sla uw wijzigingen op.
 
 1. Navigeer in een terminalvenster naar de `…/places-scripts/import/` map.
