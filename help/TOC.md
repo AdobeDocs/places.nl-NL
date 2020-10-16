@@ -2,12 +2,12 @@
 product: Places Service
 audience: end-user
 user-guide-title: Servicehandleiding plaatsen
-user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
+user-guide-description: Plaatsingsservice is een geo-locatieservice waarmee mobiele apps met een herkenbare locatie de context van de locatie kunnen begrijpen.
 translation-type: tm+mt
 source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 11%
+source-wordcount: '316'
+ht-degree: 10%
 
 ---
 
