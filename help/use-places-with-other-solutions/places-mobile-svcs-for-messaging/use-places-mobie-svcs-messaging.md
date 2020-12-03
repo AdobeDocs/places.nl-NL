@@ -3,6 +3,9 @@ title: De Dienst van Plaatsen gebruiken met de Mobiele Diensten voor overseinen
 description: Deze sectie toont u hoe te om de Dienst van Plaatsen met de Mobiele Diensten voor overseinen te gebruiken.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
@@ -27,13 +30,13 @@ Alvorens u de Mobiele uitbreiding van de Diensten voor overseinen kunt gebruiken
 
 * De ACS SDK is correct geconfigureerd met de extensies Places Service en/of Places Monitor.
 
-   Dit betekent dat gegevens beschikbaar zijn als gebeurtenissen en/of voorwaarden in de GPU-engine voor startregels voor uw mobiele app. Voor meer informatie, zie de uitbreiding [van](/help/places-ext-aep-sdks/places-extension/places-extension.md) Plaatsen of de uitbreiding [van de Monitor van](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)Plaatsen.
+   Dit betekent dat gegevens beschikbaar zijn als gebeurtenissen en/of omstandigheden in de engine voor regels voor Experience Platforms Launch voor uw mobiele app. Voor meer informatie, zie de uitbreiding [van](/help/places-ext-aep-sdks/places-extension/places-extension.md) Plaatsen of de uitbreiding [van de Monitor van](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)Plaatsen.
 
-* Word vertrouwd met het maken en publiceren van de regels voor het starten van het Experience Platform voor de ACP SDK in uw mobiele app.
+* Word vertrouwd met het maken en publiceren van regels voor Experience Platforms Launch voor de ACS-SDK in uw mobiele app.
 
    Zie [Regels voor meer informatie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
 
-* De gegevenselementen van de Lancering van het Platform van de ervaring worden gecreeerd van de uitbreidingsgegevens van Plaatsen die in de motor van Regels zullen worden gebruikt.
+* De gegevenselementen van het Experience Platform Launch worden gecreeerd van de uitbreidingsgegevens van Plaatsen die in de motor van Regels zullen worden gebruikt.
 
    Zie [Gegevenselementen](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements)voor meer informatie.
 
@@ -41,7 +44,7 @@ Alvorens u de Mobiele uitbreiding van de Diensten voor overseinen kunt gebruiken
 
 Voordat u rapportage kunt gebruiken, moet u aan de volgende voorwaarden voldoen:
 
-* Verzend de servicegegevens van Plaatsen naar de rapportsuite van Adobe Analytics.
+* Plaatsen van servicegegevens naar Adobe Analytics Report Suite verzenden.
 
    Zie Plaatsingsservice [gebruiken met Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)voor meer informatie.
 
@@ -51,9 +54,9 @@ Voordat u rapportage kunt gebruiken, moet u aan de volgende voorwaarden voldoen:
 
 ## Visualisatie melden
 
-U kunt rapporten van de Mobiele Dienst in werking stellen gebruikend de gegevens van de Dienst van Plaatsen die naar de Analytics van Adobe worden verzonden. In het volgende voorbeeld worden gebeurtenissen verzonden wanneer gebruikers items in een van de POI&#39;s hebben. In dit rapport is een filter van de POI-invoergebeurtenis toegevoegd over het uit-van-de-box gebruikersrapport:
+U kunt rapporten van de Mobiele Dienst in werking stellen gebruikend de gegevens van de Dienst van Plaatsen die naar Adobe Analytics worden verzonden. In het volgende voorbeeld worden gebeurtenissen verzonden wanneer gebruikers items in een van de POI&#39;s hebben. In dit rapport is een filter van de POI-invoergebeurtenis toegevoegd over het uit-van-de-box gebruikersrapport:
 
 ![Visualisatie rapporteren](/help/assets/report-visualize.png)
 
-De extra flexibiliteit in het visualiseren van de gegevens van de Dienst van Plaatsen is beschikbaar in de interfaces van de Analytics van Adobe.
+De extra flexibiliteit in het visualiseren van de gegevens van de Dienst van Plaatsen is beschikbaar in de interfaces van Adobe Analytics.
 
