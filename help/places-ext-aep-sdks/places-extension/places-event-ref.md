@@ -1,8 +1,11 @@
 ---
 title: Referentie van gebeurtenis Plaatsen
-description: 'Een lijst met de gebeurtenissen die worden afgehandeld door de extensie Plaatsen. '
+description: 'Een lijst met de gebeurtenissen die door de extensie Plaatsen worden afgehandeld. '
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 6%
 
 ---
 
@@ -46,7 +49,7 @@ Deze gebeurtenis is een verzoek om de nabijgelegen POIs te krijgen door rekening
 | breedtegraad | double | true | n.v.t. | Houdt de breedtewaarde voor het centrum van het onderzoek naar nabijgelegen POIs. |
 | lengtegraad | double | true | n.v.t. | Houdt de lengtewaarde voor het centrum van het onderzoek naar nabijgelegen POIs. |
 | radius | integer | false | n.v.t. | Straal, in meters, gebruikt bij het zoeken naar nabijgelegen POI&#39;s. |
-| aantal | integer | false | 10 | Maximum aantal POI&#39;s dat moet worden geretourneerd in resulterende responsgebeurtenis. |
+| count | integer | false | 10 | Maximum aantal POI&#39;s dat moet worden geretourneerd in resulterende responsgebeurtenis. |
 
 ## ProcessRegionEvent
 
