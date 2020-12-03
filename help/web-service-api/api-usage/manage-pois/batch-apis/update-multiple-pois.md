@@ -3,13 +3,16 @@ title: Meerdere POI's bijwerken
 description: Gebruik de batch-API's om meerdere POI's bij te werken.
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
 
 # Meerdere POI&#39;s bijwerken {#update-multiple-pois}
 
-Een POST-methode waarmee u meerdere POI&#39;s kunt bijwerken.
+Een methode van de POST die u veelvoudige POIs laat bijwerken.
 
 ## Verzoek
 
