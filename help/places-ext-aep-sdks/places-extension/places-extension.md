@@ -14,7 +14,7 @@ ht-degree: 3%
 
 Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken. Deze extensie is de interface naar de API&#39;s van de Places Query Service. Door te luisteren naar gebeurtenissen die GPS-coördinaten en geofence region-gebeurtenissen bevatten, verzendt deze extensie nieuwe gebeurtenissen die worden verwerkt door de Rules Engine. De extensie Plaatsen haalt ook een lijst op met de dichtstbijzijnde POI voor de toepassingsgegevens die van de API&#39;s worden opgehaald en levert. De gebieden die door de API&#39;s worden geretourneerd, worden opgeslagen in cache en persistentie, waardoor een beperkte offlineverwerking mogelijk is.
 
-## De extensie Plaatsen installeren in Adobe Experience Platform starten
+## De extensie Plaatsen installeren in Adobe Experience Platform Launch
 
 1. Klik in Experience Platform Launch op het tabblad **[!UICONTROL Extensions]**.
 1. Zoek op het **[!UICONTROL Catalog]** tabblad de **[!UICONTROL Places]** extensie en klik op **[!UICONTROL Install]**.
