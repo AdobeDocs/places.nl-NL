@@ -3,13 +3,16 @@ title: Een bibliotheek verwijderen
 description: Verwijder een bibliotheek met de REST-API's van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 0%
 
 ---
 
 
 # Een bibliotheek verwijderen {#delete-a-library}
 
-Een methode DELETE waarmee u een bibliotheek kunt verwijderen.
+Een methode van DELETE waarmee u een bibliotheek kunt verwijderen.
 
 ## Verzoek
 
