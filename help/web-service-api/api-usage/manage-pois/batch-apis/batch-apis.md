@@ -3,6 +3,9 @@ title: Batch-API's
 description: Met batch-API's kunt u meerdere API's maken, bijwerken en verwijderen.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
