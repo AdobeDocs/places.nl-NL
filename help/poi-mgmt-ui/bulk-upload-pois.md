@@ -103,7 +103,7 @@ De waarden van de volgende kolommen worden gebruikt in de Dienst UI van Plaatsen
 
    * `api_key`
 
-      Dit is de REST API-sleutel van uw locaties die is verkregen via de integratie van de Adobe I/O-locaties. Voor informatie over hoe te om de API sleutel te verkrijgen, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
+      Dit is de REST API-sleutel van uw Plaatsen die is verkregen via de Adobe I/O Places Integration. Voor informatie over hoe te om de API sleutel te verkrijgen, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
    b. Sla uw wijzigingen op.
 
 1. Navigeer in een terminalvenster naar de `…/places-scripts/import/` map.
