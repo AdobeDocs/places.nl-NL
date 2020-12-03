@@ -3,13 +3,16 @@ title: Een POI bijwerken
 description: Werk een POI bij met de REST-API's van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
 
 # Een POI bijwerken {#update-a-poi}
 
-Een PUT-methode waarmee u een POI kunt bijwerken.
+Een methode van de PUT die u POI laat bijwerken.
 
 ## Verzoek
 
