@@ -1,8 +1,11 @@
 ---
 title: Gegevenselementen definiëren
-description: Deze sectie biedt informatie over het maken, gebruiken en publiceren van gegevenselementen in Experience Platform Launch for Places.
+description: Deze sectie biedt informatie over het maken, gebruiken en publiceren van gegevenselementen in Experience Platform Launch voor Plaatsen.
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +18,7 @@ Aan de hand van de volgende informatie krijgt u inzicht in gegevenselementen en 
 
 Gegevenselementen zijn de bouwstenen voor het gegevenswoordenboek van de toepassing en worden gebruikt om gegevens te verzamelen, te organiseren en te leveren over marketing en advertentietechnologie.
 
-Een gegevenselement is een variabele waarbij de waarde kan worden toegewezen aan een bezoeker-id, een carriernaam, een advertentie-id, een pushid enzovoort. In de Lancering van het Platform van de Ervaring, kunt u deze waarde door zijn veranderlijke naam van verwijzingen voorzien. Deze verzameling gegevenselementen wordt het woordenboek van gedefinieerde gegevens dat u kunt gebruiken om uw regels (gebeurtenissen, voorwaarden en handelingen) samen te stellen. Dit woordenboek wordt gedeeld door de Launch van het Experience Platform waar het kan worden gebruikt met elke extensie in uw eigenschap.
+Een gegevenselement is een variabele waarbij de waarde kan worden toegewezen aan een bezoeker-id, een carriernaam, een advertentie-id, een pushid enzovoort. In Experience Platform Launch, kunt u deze waarde door zijn veranderlijke naam van verwijzingen voorzien. Deze verzameling gegevenselementen wordt het woordenboek van gedefinieerde gegevens dat u kunt gebruiken om uw regels (gebeurtenissen, voorwaarden en handelingen) samen te stellen. Dit woordenboek wordt in het hele Experience Platform Launch gedeeld waar het kan worden gebruikt met elke extensie in uw eigenschap.
 
 Met de extensie Plaatsen kunt u naar waarden verwijzen vanuit de volgende doelen:
 
@@ -38,7 +41,7 @@ Elke POI bevat de volgende gegevensverwijzingen:
 * **[!UICONTROL Region ID]**: Id van de POI
 * **[!UICONTROL Region/State]**: regio, provincie of staat van de POI
 
-### Een gegevenselement maken
+### Een data-element maken
 
 1. Klik op het **[!UICONTROL Data Elements]** tabblad op de pagina Eigenschappen voor uw app.
 
