@@ -1,15 +1,18 @@
 ---
-title: Overzicht van de Adobe I/O-integratie
+title: Overzicht van Adobe I/O-integratie
 description: Informatie over het maken van een Adobe I/O-integratie.
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 6%
 
 ---
 
 
 # Overzicht van integratie en voorwaarden {#integration-prereqs}
 
-Deze informatie laat u zien hoe u een Adobe I/O en een integratie van de Dienst van Plaatsen creeert.
+Deze informatie toont u hoe te om een Adobe I/O en een integratie van de Dienst van Plaatsen tot stand te brengen.
 
 ## Vereisten voor gebruikerstoegang
 
@@ -19,11 +22,11 @@ Verifieer met de beheerder van het Systeem van uw organisatie dat de volgende ta
 * U bent toegevoegd aan de organisatie.
 * U bent toegevoegd als Gebruiker aan de Dienst van de Kern van Plaatsen in uw organisatie.
 
-   Voor meer informatie, zie *Voeg een gebruiker of een ontwikkelaar aan uw Dienst van Plaatsen en de profielen* van de Lancering van het Platform van de Ervaring in de Toegang van de [Aanwinst tot de Dienst](/help/places-gain-access.md)van Plaatsen toe.
+   Voor meer informatie, zie *Voeg een gebruiker of een ontwikkelaar aan uw de Dienst van Plaatsen en profielen* van het Experience Platform Launch in de Toegang van [de Aanwinst tot de Dienst](/help/places-gain-access.md)van Plaatsen toe.
 
 * U bent als ontwikkelaar toegevoegd aan de Dienst van de Kern van Plaatsen in uw organisatie.
 
-   Voor meer informatie bij het toevoegen van ontwikkelaars zie *Voeg een gebruiker of een ontwikkelaar aan uw de Dienst van Plaatsen en de Profielen* van de Lancering van het Platform van de Ervaring in de Toegang van de [Versterking tot de Dienst](/help/places-gain-access.md)van Plaatsen toe.
+   Voor meer informatie bij het toevoegen van ontwikkelaars zie *Voeg een gebruiker of een ontwikkelaar aan uw de Dienst en profielen* van Experience Platforms Launch van Plaatsen in de Toegang van [de Aanwinst tot de Dienst](/help/places-gain-access.md)van Plaatsen toe.
 
    Zie [Ontwikkelaars](https://helpx.adobe.com/enterprise/using/manage-developers.html)beheren voor meer informatie over de rol van ontwikkelaar.
 
@@ -39,11 +42,11 @@ Integratie met Adobe I/O biedt deze items en een manier om de token aan te vrage
 
 * Voor meer informatie over JWTs, zie [Inleiding aan Tokens](https://jwt.io/introduction/)van het Web JSON.
 * Als u een integratie voor de Plaatsen-service wilt maken, raadpleegt u de sectie *De integratie* van Plaatsen maken hieronder.
-* Zie Overzicht [van](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)Adobe I/O-verificatie voor meer informatie over de integratie van API-sleutels, het genereren van een JWT en openbare-sleutelcertificaten.
+* Zie Overzicht [van](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)Adobe I/O-verificatie voor meer informatie over API-sleutelintegratie, het genereren van een JWT en openbare-sleutelcertificaten.
 
 >[!IMPORTANT]
 >
->Als u zich niet kunt aanmelden bij de Adobe I/O-console of als de Plaatsingsservice geen optie is op de pagina *Integraties* maken, raadpleegt u de vereisten *van de* organisatie in het API-overzicht [van de](/help/web-service-api/places-web-services.md)webservices.
+>Als u zich niet bij de console van Adobe I/O kunt aanmelden, of als de Dienst van Plaatsen geen optie op de *Create pagina* van Integraties is, zie de vereisten *van de* Organisatie in het overzicht [van API van de Diensten van het](/help/web-service-api/places-web-services.md)Web.
 
 ## De integratie van de Plaatsen-service maken
 
@@ -93,17 +96,17 @@ De volgende video begeleidt u door het proces om het belangrijkste paar te produ
 
 ![integratievideo](/help/assets/places_integration_video.gif)
 
-### Een integratie van de Plaatsingsservice maken in de Adobe I/O-console
+### De integratie van Plaatsen Service maken in de Adobe I/O-console
 
 Om een integratie van de Dienst van Plaatsen tot stand te brengen:
 
-1. Ga naar [https://console.adobe.io](https://console.adobe.io) en meld u aan met uw Adobe-id.
+1. Ga naar [https://console.adobe.io](https://console.adobe.io) en meld u aan met uw Adobe ID.
 1. Klik in de sectie **Snel starten** op Integratie **** maken.
 1. Selecteer **[!UICONTROL Access an API]** en klik op **[!UICONTROL Continue]**.
 
    **[!UICONTROL Access an API]** is de standaardlocatie.
 
-1. Als u toegang hebt tot meerdere Experience Cloud-organisaties, selecteert u de organisatie in de vervolgkeuzelijst rechtsboven.
+1. Als u toegang hebt tot meer dan één organisatie van de Experience Cloud, selecteer de organisatie van de drop-down lijst op het hoogste recht.
 1. Selecteer onder **[!UICONTROL Experience Cloud]** de optie **[!UICONTROL Places Service]** als de Adobe-service die u wilt integreren en klik op **[!UICONTROL Continue]**.
 1. Selecteer **[!UICONTROL New integration]** en klik op **[!UICONTROL Continue]**.
 1. Voer in het scherm Een nieuwe integratie maken een naam en beschrijving in.
@@ -146,4 +149,4 @@ Een JWT-token genereren:
 
 >[!IMPORTANT]
 >
->Adobe-toegangstokens zijn **slechts** 24 uur geldig, dus sla de CURL-voorbeeldopdracht op (stap 5). Als het toegangstoken niet meer geldig is, moet u het token opnieuw genereren.
+>De tokens van de Adobe toegang zijn **slechts** 24 uur geldig, zodat sparen het bevel van steekproefCURL (stap 5). Als het toegangstoken niet meer geldig is, moet u het token opnieuw genereren.
