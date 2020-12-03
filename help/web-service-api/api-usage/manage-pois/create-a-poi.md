@@ -3,13 +3,16 @@ title: Een POI maken
 description: Een POI maken met de REST-API's van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 0%
 
 ---
 
 
 # Een POI maken {#create-a-poi}
 
-Een POST-methode waarmee u een POI kunt maken.
+Een methode van de POST die u laat tot een POI leiden.
 
 ## Verzoek
 
