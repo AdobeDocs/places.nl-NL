@@ -3,13 +3,16 @@ title: Alle POI's in uw organisatie lezen
 description: Lees alle POI's in uw organisatie met de REST-API's van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 0%
 
 ---
 
 
 # Alle POI&#39;s in uw organisatie lezen {#read-all-pois-org}
 
-Een GET methode die alle POIs in uw organisatie terugkeert.
+Een methode van GET die alle POIs in uw organisatie terugkeert.
 
 ## Verzoek
 
