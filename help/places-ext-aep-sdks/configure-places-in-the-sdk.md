@@ -3,6 +3,9 @@ title: De SDK configureren met de extensie Plaatsen
 description: 'U kunt de SDK configureren met de extensie Plaatsen, zodat u weet waar de site zich bevindt in uw mobiele app. '
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 9%
 
 ---
 
