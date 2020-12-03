@@ -1,17 +1,20 @@
 ---
-title: Adobe-doel
+title: Adobe Target
 description: In deze sectie vindt u informatie over het gebruik van de Places Service bij Adobe Target.
 translation-type: tm+mt
 source-git-commit: d33e4e2d798c7048bdd275cdf6c0aabf3434f789
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 7%
 
 ---
 
 
-# Plaatsingsservice gebruiken met Adobe Target {#places-target}
+# Plaatsingsservice gebruiken voor Adobe Target {#places-target}
 
 In dit document wordt ervan uitgegaan dat de extensie Plaatsen is geïmplementeerd in de toepassing. Zie Extensies [Plaatsen als u hulp nodig hebt bij het implementeren van de extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Nadat de extensie Plaatsen in gebeurtenissen voor entry en exits verzendt, kunt u regels in Launch gebruiken om de gegevens van de Plaatsingsservice aan uw Adobe Target SDK-gebeurtenissen toe te voegen. Als de gewenste eigenschap is geselecteerd in Launch, kunt u dit type regel maken door de volgende taken uit te voeren:
+Nadat de extensie Plaatsen gebeurtenissen voor entry en exits verzendt, kunt u regels in Launch gebruiken om de gegevens van de Plaatsingsservice aan uw Adobe Target SDK-gebeurtenissen toe te voegen. Als de gewenste eigenschap is geselecteerd in Launch, kunt u dit type regel maken door de volgende taken uit te voeren:
 
 ## 1. Een regel maken
 
@@ -28,7 +31,7 @@ Nadat de extensie Plaatsen in gebeurtenissen voor entry en exits verzendt, kunt 
 
    In dit voorbeeld is de naam van de regel **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
-1. Klik onder de **[!UICONTROL Events]** sectie op **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Adobe Target]**.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Event Type]** de optie **[!UICONTROL Content Requested]**.
 1. Klik op **[!UICONTROL Keep Changes]**.
@@ -43,7 +46,7 @@ Nadat de extensie Plaatsen in gebeurtenissen voor entry en exits verzendt, kunt 
 
 In het volgende voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de regel alleen wordt geactiveerd voor gebruikers die de app vijf of meer keren hebben gestart.
 
-1. Klik onder de **[!UICONTROL Conditions]** sectie op **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Mobile Core]**.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Condition Type]** de optie **[!UICONTROL Launches]**.
 1. Wijzig in het rechterdeelvenster de vervolgkeuzelijst en de nummerbesturingselementen zodat de voorwaarde wordt gelezen **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
@@ -53,7 +56,7 @@ In het volgende voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de r
 
 ## 4. De handeling definiëren
 
-1. Klik onder de **[!UICONTROL Actions]** sectie op **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Mobile Core]**.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Action Type]** de optie **[!UICONTROL Attach Data]**.
 1. Typ in het rechterdeelvenster in het **[!UICONTROL JSON Payload]** veld de gegevens die aan deze gebeurtenis worden toegevoegd.
@@ -67,7 +70,7 @@ In het volgende voorbeeld worden `poiCity` en `poiName` waarden toegevoegd aan d
 >
 >Deze JSON-payload gebruikt een speciale notatie voor het `request` object. In de oorspronkelijke gebeurtenis `request` is dit een array van anonieme objecten. Wanneer gegevens aan alle objecten in een array worden gekoppeld met behulp van Gegevens koppelen, zorgt de `[*]` notatie op een sleutel waarvan bekend is dat deze een array bevat, ervoor dat de lading op alle objecten in die array wordt toegepast.
 >
->De notatie van `request[*]` kan luid worden gelezen, net als _voor elk object in de`request`array_.
+>De notatie van `request[*]` kan luid worden gelezen, net als _voor elk object in de `request` array_.
 
 ![de handeling definiëren](/help/assets/ad-setAction-target.png)
 
