@@ -3,6 +3,9 @@ title: Referentie voor monitor-API plaatsen
 description: Een lijst met API's voor de Monitor van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +30,7 @@ public static void registerExtension();
 
 #### Voorbeeld
 
-Roep deze methode aan in de `onCreate` methode waar u de rest van het Platform SDK van de Ervaring initialiseert.
+Roep deze methode in de `onCreate` methode aan waar u de rest van Experience Platform SDK initialiseert.
 
 ```java
 public class MobileApp extends Application {
@@ -159,7 +162,7 @@ Hier volgt de syntaxis en voorbeeldcode voor deze API:
 
 #### Voorbeeld
 
-De Monitor van Plaatsen beginnen wanneer SDK initialiseert:
+De monitor Plaatsen wordt gestart wanneer de SDK wordt geïnitialiseerd:
 
 ```objective-c
 [ACPCore start:^{
@@ -261,7 +264,7 @@ U kunt locatierechten instellen op een van de volgende waarden:
 
 * `PlacesMonitorLocationPermission.WHILE_USING_APP`
 
-   Met deze waarde wordt de gebruiker alleen tijdens het gebruik van de toepassing gevraagd om toegang te krijgen tot de apparaatlocatie. Een toepassing wordt als in gebruik beschouwd wanneer de gebruiker de toepassing op hun apparatenscherm bekijkt, bijvoorbeeld een activiteit loopt op de voorgrond.
+   Met deze waarde wordt de gebruiker alleen tijdens het gebruik van de toepassing gevraagd om toegang te krijgen tot de apparaatlocatie. Een toepassing wordt geacht in gebruik te zijn wanneer de gebruiker de toepassing op hun apparatenscherm bekijkt, bijvoorbeeld een activiteit loopt op de voorgrond.
 
    >[!TIP]
    >
