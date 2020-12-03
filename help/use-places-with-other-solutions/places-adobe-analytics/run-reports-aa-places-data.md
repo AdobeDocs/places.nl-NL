@@ -3,6 +3,9 @@ title: Locatiecontext toevoegen aan verzoeken van Analytics
 description: Deze sectie verstrekt informatie over hoe te om plaatscontext aan verzoeken van Analytics toe te voegen.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 7%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 >
 >In dit document wordt ervan uitgegaan dat de Plaatsen-service in uw toepassing is geïmplementeerd. Zie Extensies [Plaatsen voor meer informatie over het implementeren van Plaatsen Service](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt u regels in de Lancering van het Platform van de Ervaring tot stand brengen en uw gegevens van de Dienst van Plaatsen aan alle gebeurtenissen van de Analytics van Adobe vastmaken. Als u dit type regel wilt maken, selecteert u de eigenschap in Launch en voert u de volgende stappen uit:
+Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt u regels in Experience Platform Launch tot stand brengen en uw gegevens van de Dienst van Plaatsen aan alle gebeurtenissen van Adobe Analytics vastmaken. Als u dit type regel wilt maken, selecteert u de eigenschap in Launch en voert u de volgende stappen uit:
 
 ## 1. Een regel maken
 
@@ -29,7 +32,7 @@ Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt 
 
    In dit voorbeeld is de naam van de regel **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**.
 
-1. Klik onder de **[!UICONTROL Events]** sectie op **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Mobile Core]**.
 
@@ -48,7 +51,7 @@ Nu kunt u de trekkers bepalen die u voor deze Regel wilt omvatten. In dit voorbe
 
 In dit voorbeeld, wordt een Voorwaarde gecreeerd die de Regel veroorzaakt om slechts voor klanten te teweegbrengen AT&amp;T.
 
-1. Klik onder de **[!UICONTROL Conditions]** sectie op **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Mobile Core]**.
 
@@ -62,7 +65,7 @@ In dit voorbeeld, wordt een Voorwaarde gecreeerd die de Regel veroorzaakt om sle
 
 ## 4. De handeling definiëren
 
-1. Klik onder de **[!UICONTROL Actions]** sectie op **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Mobile Core]**.
 
