@@ -3,13 +3,16 @@ title: Alle POI's in een bibliotheek lezen
 description: Alle POI's in een bibliotheek lezen met de REST-API's van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 0%
 
 ---
 
 
 # Alle POI&#39;s in een bibliotheek lezen {#read-all-pois-library}
 
-Een GET methode die alle POIs in een bibliotheek terugkeert.
+Een methode van GET die alle POIs in een bibliotheek terugkeert.
 
 ## Verzoek
 
