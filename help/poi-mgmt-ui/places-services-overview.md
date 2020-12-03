@@ -3,6 +3,9 @@ title: Overzicht van Plaatsingsservice
 description: 'Deze sectie verstrekt informatie over het creëren van en het gebruiken van punten van belang (POI)s. '
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
