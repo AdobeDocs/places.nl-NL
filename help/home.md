@@ -1,26 +1,29 @@
 ---
-title: Plaatsingsservice
+title: Places Service
 description: 'Plaatsingsservice is een belangrijke context voor het begrijpen van de betrokkenheid van mobiele gebruikers. Met deze context kunnen ontwikkelaars van mobiele apps het toepassingsontwerp verbeteren en deze een meer persoonlijke en boeiende ervaring maken. '
 translation-type: tm+mt
 source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 8%
 
 ---
 
 
-# Plaatsingsservice {#home}
+# Places Service {#home}
 
-![&quot;Plaatsingsservice&quot;](/help/assets/places-service-header.png)
+![&quot;Places Service&quot;](/help/assets/places-service-header.png)
 
 Locatie is een belangrijke context voor het begrijpen van mobiele gebruikers en voor de communicatie met deze gebruikers. Met deze context kunnen ontwikkelaars van mobiele apps het toepassingsontwerp verbeteren en deze een meer persoonlijke en boeiende ervaring maken.
 
-De Dienst van Plaatsen, vroeger genoemd de Dienst van de Locatie van het Platform van de Ervaring van Adobe, is een geo-locatieservice die mobiele apps met plaatsbewustzijn toelaat om de plaatscontext te begrijpen door rijke en makkelijk te gebruiken interfaces SDK te gebruiken vergezeld van een flexibele gegevensbestand van interessepunten (POIs).
+De Dienst van Plaatsen, die vroeger als de Dienst van de Plaats van Adobe Experience Platform wordt bekend, is een geo-plaatsdienst die mobiele apps met plaatsbewustzijn toelaat om de plaatscontext te begrijpen door rijke en gemakkelijk-aan-gebruiksSDK interfaces te gebruiken die door een flexibele gegevensbestand van belangenpunten (POIs) worden vergezeld.
 
 Met Plaatsingsservice kunt u het volgende bereiken:
 
-* Maak en beheer een database met POI&#39;s die kunnen worden gebruikt met andere Adobe Experience Cloud-oplossingen.
+* Maak en beheer een database van POI&#39;s die kunnen worden gebruikt met andere Adobe Experience Cloud-oplossingen.
 * Koppel aangepaste metagegevens aan de POI&#39;s om deze rijker en betekenisvoller te maken door extra kenmerken op te geven.
 * Visualiseer de POIs op een kaart om de ruimtecontext gemakkelijk te begrijpen en meta-gegevensattributen toe te voegen/uit te geven.
-* Configureer de SDK in Adobe Experience Platform Launch om de op locatie geactiveerde regels en op metagegevens gebaseerde voorwaarden te definiëren.
+* Configureer de SDK in Adobe Experience Platform Launch om de regels en op metagegevens gebaseerde voorwaarden te definiëren die door de locatie worden geactiveerd.
 * Verminder de code die u moet schrijven om de plaats van een apparaat te controleren en gebruik de uitbreiding van Plaatsen om de plaats-specifieke regels automatisch teweeg te brengen.
 
 Op deze manier kunt u acties uitvoeren vanuit locatiesignalen in real-time, wanneer en waar dat van belang is. De juiste context biedt een verrijkende mobiele ervaring in betrokkenheid.
@@ -74,7 +77,7 @@ Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
 * Een **bibliotheek** is een verzameling van POI&#39;s, die worden gegroepeerd om eenvoudig regels aan een reeks POI&#39;s in plaats van aan één POI toe te voegen.
 
-* Een **extensie** is de Experience Platform Launch-extensie die vereist is om de Places SDK in uw mobiele apps te integreren.
+* Een **extensie** is de extensie Experience Platform Launch die nodig is om de SDK van Plaatsen te integreren in uw mobiele apps.
 
    De extensie die wordt gebruikt met de andere mobiele SDK&#39;s om locatiecontext aan uw ervaringen toe te voegen.
 
