@@ -3,13 +3,16 @@ title: Een bibliotheek maken
 description: Maak een bibliotheek met de REST-API van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 0%
 
 ---
 
 
 # Een bibliotheek maken {#create-a-library}
 
-Een POST-methode waarmee u een bibliotheek kunt maken.
+Een methode van de POST waarmee u een bibliotheek kunt creëren.
 
 ## Verzoek
 
