@@ -3,17 +3,20 @@ title: Pushmeldingen
 description: In deze sectie ziet u hoe u de service Plaatsen gebruikt voor pushberichten.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 1%
 
 ---
 
 
 # Pushmeldingen
 
-Met Mobile Services kunt u pushmeldingen verzenden naar de segmenten Adobe Analytics. In de Dienst van Plaatsen, kunt u het publiek voor uw pushbericht segmenteren door hun historische interactie met uw POIs te gebruiken. U kunt bijvoorbeeld een bericht verzenden naar gebruikers die zich de afgelopen 30 dagen in een van uw winkels hebben bevinden.
+Met Mobile Services kunt u pushberichten naar Adobe Analytics-segmenten verzenden. In de Dienst van Plaatsen, kunt u het publiek voor uw pushbericht segmenteren door hun historische interactie met uw POIs te gebruiken. U kunt bijvoorbeeld een bericht verzenden naar gebruikers die zich de afgelopen 30 dagen in een van uw winkels hebben bevinden.
 
 Controleer voordat u begint of u de volgende taken hebt uitgevoerd:
 
-* De gegevens van de Plaatsingsdienst zijn verwerkt door de Analytics van Adobe.
+* Plaatsingsservicegegevens zijn door Adobe Analytics verwerkt.
 
    Dit betekent dat uw mobiele app met succes de gegevens van de Dienst van Plaatsen naar een Reeks van het Rapport heeft verzonden en dat de gegevens voor segmentatie beschikbaar zijn.
 
