@@ -3,6 +3,9 @@ title: Veelgestelde vragen
 description: Dit onderwerp verstrekt extra informatie over sommige vaak gestelde vragen.
 translation-type: tm+mt
 source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +20,7 @@ Als u migreert van v4 SDK en een vervanging aan `trackLocation` API zoekt, gelie
 
 ## Grootte en betrouwbaarheid
 
-Belangrijk om te weten dat alle geofences die worden gebruikt in regio-controle, worden gebruikt vanuit een mobiele app, ongeacht het gebruik van Adobe of een andere service. De besturingssystemen raden enkele parameters aan om in gedachten te houden wanneer u geofences maakt. Voor maximale betrouwbaarheid moet de stroomsterkte ten minste 100 m bedragen. Het is oké om kleinere geofences te creëren, maar entry en exit gebeurtenissen kunnen niet worden geproduceerd, of kunnen worden geproduceerd nadat de gebruiker ophoudt zich voor een periode beweegt.
+Let op: alle geofences die worden gebruikt in regio-controle vanaf een mobiele app, ongeacht het gebruik van Adobe of een andere service. De besturingssystemen raden enkele parameters aan om in gedachten te houden wanneer u geofences maakt. Voor maximale betrouwbaarheid moet de stroomsterkte ten minste 100 m bedragen. Het is oké om kleinere geofences te creëren, maar entry en exit gebeurtenissen kunnen niet worden geproduceerd, of kunnen worden geproduceerd nadat de gebruiker ophoudt zich voor een periode beweegt.
 
 Bovendien kunnen de nauwkeurigheid en betrouwbaarheid worden verminderd op basis van hardwarecondities, zoals het uitschakelen of niet beschikbaar zijn van Wi-Fi, en ook op basis van de locatie van het apparaat in verband met het belemmeren van GPS-signalen. Zo kunnen berggebieden, stedelijke omgevingen en binnengebieden de nauwkeurigheid van de locatie van de besturingssystemen iOS en Android verminderen.
 
