@@ -3,6 +3,9 @@ title: Overzicht van PO's beheren
 description: 'Begrijp en werk met POIs. '
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 0%
 
 ---
 
