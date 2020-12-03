@@ -3,6 +3,9 @@ title: POI-invoer- en afsluitgegevens naar Analytics verzenden
 description: Deze sectie verstrekt informatie over hoe te om POI ingang en uitgangsgegevens naar Analytics te verzenden.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 8%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 >
 >Deze sectie veronderstelt dat u de Dienst van Plaatsen in uw toepassing hebt uitgevoerd. Zie Extensies [Plaatsen voor meer informatie over het implementeren van Plaatsen Service](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt u regels in de Lancering van het Platform van de Ervaring tot stand brengen om de gegevens van de Dienst van Plaatsen naar de Analytics van Adobe te verzenden. Als u dit type regel wilt maken, selecteert u de eigenschap in Launch en voert u de volgende stappen uit:
+Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt u regels in Experience Platform Launch tot stand brengen om de gegevens van de Dienst van Plaatsen naar Adobe Analytics te verzenden. Als u dit type regel wilt maken, selecteert u de eigenschap in Launch en voert u de volgende stappen uit:
 
 ## 1. Een regel maken
 
@@ -31,7 +34,7 @@ Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt 
 
    Op die manier is de regel gemakkelijk herkenbaar in uw lijst met regels. In dit voorbeeld is de naam van de regel **[!UICONTROL Send Data to Analytics]**.
 
-1. Klik in de **[!UICONTROL Events]** sectie op **[!UICONTROL Add]**.
+1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Places Service]**.
 
@@ -50,7 +53,7 @@ Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt 
 
 In dit voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de regel alleen wordt geactiveerd wanneer de naam van de huidige POI gelijk is aan **[!UICONTROL My POI]**.
 
-1. Klik onder de **[!UICONTROL Conditions]** sectie op **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Places Service]**.
 
@@ -65,7 +68,7 @@ In dit voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de regel alle
 
 ## 4. De handeling definiëren
 
-1. Klik onder de **[!UICONTROL Actions]** sectie op **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Adobe Analytics]**.
 
