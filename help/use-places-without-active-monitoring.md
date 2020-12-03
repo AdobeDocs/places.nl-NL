@@ -3,13 +3,16 @@ title: De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole
 description: Deze sectie verstrekt informatie over hoe de Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole.
 translation-type: tm+mt
 source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 0%
 
 ---
 
 
 # De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole {#use-places-without-active-monitoring}
 
-Het is mogelijk dat voor het gebruik van de hoofdletters en kleine letters voor uw toepassing geen actieve gebiedscontrole is vereist. De Dienst van Plaatsen kan nog worden gebruikt om de plaatsgegevens van uw gebruikers met andere producten van het Platform van de Ervaring te integreren.
+Het is mogelijk dat voor het gebruik van de hoofdletters en kleine letters voor uw toepassing geen actieve gebiedscontrole is vereist. De Dienst van Plaatsen kan nog worden gebruikt om de plaatsgegevens van uw gebruikers met andere producten van de Experience Platform te integreren.
 
 ## Vereiste
 
@@ -132,7 +135,7 @@ De lijst die door de `getNearbyPointsOfInterest` API wordt geretourneerd, bevat 
 >
 >Als u wilt voorkomen dat uw app meerdere gebeurtenissen voor het invoeren van gegevens activeert tijdens één bezoek, houdt u een lijst bij van de gebieden waarvan u weet dat de gebruiker deze heeft ingevoerd. Wanneer het verwerken van de reactie van nabijgelegen POIs van SDK, teweeg een ingangsgebeurtenis slechts wanneer het gebied niet in uw lijst is.
 >
->In het volgende codevoorbeeld worden `NSUserDefaults` (iOS) en `SharedPreferences` (Android) gebruikt om de lijst met gebieden te beheren:
+>In het volgende codevoorbeeld worden `NSUserDefaults` (iOS) en `SharedPreferences` (Android) gebruikt om de lijst met regio&#39;s te beheren:
 
 ### Android
 
@@ -408,6 +411,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Naast het in werking stellen van de de ingangsgebeurtenissen van de Dienst van Plaatsen in SDK, wegens de het teweegbrengen ingangsgebeurtenissen, kunnen alle gegevens die uw POIs bepalen door de rest van SDK via de Lancering van het Platform van de Ervaring worden gebruikt `data elements` . Met de Lancering van het Platform van de Ervaring `rules`, kunt u dynamisch de gegevens van de Dienst van Plaatsen aan inkomende gebeurtenissen vastmaken die door SDK worden verwerkt. Bijvoorbeeld, kunt u de meta- gegevens van POI vastmaken waarin de gebruiker wordt gevestigd en de gegevens verzenden naar Analytics als contextgegevens.
+Naast het in werking stellen van de de ingangsgebeurtenissen van de Dienst van Plaatsen in SDK, wegens de het teweegbrengen ingangsgebeurtenissen, kunnen alle gegevens die uw POIs bepalen door de rest van SDK via `data elements` in Experience Platform Launch worden gebruikt. Met Experience Platform Launch `rules`, kunt u dynamisch de gegevens van de Dienst van Plaatsen aan inkomende gebeurtenissen vastmaken die door SDK worden verwerkt. Bijvoorbeeld, kunt u de meta- gegevens van POI vastmaken waarin de gebruiker wordt gevestigd en de gegevens verzenden naar Analytics als contextgegevens.
 
-Zie Plaatsingsservice [gebruiken met andere Adobe-oplossingen](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)voor meer informatie.
+Voor meer informatie, zie het [Gebruiken van de Dienst van Plaatsen met andere oplossingen](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)van Adobe.
