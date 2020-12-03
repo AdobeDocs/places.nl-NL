@@ -3,13 +3,16 @@ title: Meerdere POI's maken
 description: Gebruik de batch-API's om meerdere POI's te maken.
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
 
 # Meerdere POI&#39;s maken {#create-multiple-pois}
 
-Een POST-methode waarmee u meerdere POI&#39;s kunt maken.
+Een methode van de POST die u veelvoudige POIs laat tot stand brengen.
 
 ## Verzoek
 
