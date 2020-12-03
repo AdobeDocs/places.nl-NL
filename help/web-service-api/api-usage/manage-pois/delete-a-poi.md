@@ -3,13 +3,16 @@ title: Een POI verwijderen
 description: Verwijder een POI met de REST-API's van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 0%
 
 ---
 
 
 # Een POI verwijderen {#delete-a-poi}
 
-A DELETE method that lets you delete a POI.
+Een methode van DELETE waarmee u een POI kunt schrappen.
 
 ## Verzoek
 
