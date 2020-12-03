@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -248,7 +248,7 @@ De volgende updates zijn aangebracht in deze release:
 De eerste release van de Places Monitor voor Android.
 
 De Monitor van Plaatsen beheert de OS-vlakke Plaats APIs en communiceert direct met de uitbreiding van Plaatsen. Als beide extensies zijn geïnstalleerd, kunnen klanten regio&#39;s controleren die zich buiten de verpakking bevinden in hun toepassing.
-Klik hier voor meer informatie over de Monitor Plaatsen.
+Voor meer informatie over de Monitor van Plaatsen, klik hier.
 
 
 ## 2 mei 2019
@@ -284,7 +284,7 @@ De Monitor van Plaatsen beheert de OS-vlakke Plaats APIs en communiceert direct 
 
 ### Bètaversie
 
-Dit is de eerste versie van de Dienst van Plaatsen, een reeks hulpmiddelen die klanten toestaat om de ervaringen van hun gebruikers met echte plaatsgegevens te verrijken. Voor de eerste release is het belangrijkste gebruiksgeval dat mobiele apps aangepaste locatiegegevens kunnen ophalen en deze gegevens kunnen verwerken via het Adobe Experience Platform Launch.
+Dit is de eerste versie van de Dienst van Plaatsen, een reeks hulpmiddelen die klanten toestaat om de ervaringen van hun gebruikers met echte plaatsgegevens te verrijken. Voor de eerste release is het belangrijkste gebruiksgeval dat mobiele apps aangepaste locatiegegevens kunnen ophalen en deze gegevens via Adobe Experience Platform Launch kunnen verwerken.
 
 ### Belangrijkste kenmerken
 
@@ -325,4 +325,4 @@ Voor meer informatie over Plaatsen APIs, zie de dienst API [van het](/help/web-s
 
 #### Analytics Integration
 
-De uitbreiding van Analytics wordt bijgewerkt om de gegevens van de plaatscontext van uw gegevensbestand van de Dienst van Plaatsen aan alle uitgaande vraag van Analytics automatisch toe te voegen wanneer een gebruiker in POI (passieve vraag) is. Deze update zal ook regelverwezenlijking toestaan om de spoorvraag van Analytics bij POI ingang of uitgang (Actieve vraag) direct in brand te steken.
+De uitbreiding van de Analyse wordt bijgewerkt om de gegevens van de plaatscontext van uw gegevensbestand van de Dienst van Plaatsen aan alle uitgaande vraag van Analytics automatisch toe te voegen wanneer een gebruiker in POI (passieve vraag) is. Deze update zal ook regelverwezenlijking toestaan om de spoorvraag van de Analyse in brand te steken bij POI ingang of uitgang (Actieve vraag).
