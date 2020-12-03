@@ -3,6 +3,9 @@ title: Overzicht van API-gebruik
 description: Deze sectie bevat informatie over de REST API's die beschikbaar zijn voor Places Service.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
