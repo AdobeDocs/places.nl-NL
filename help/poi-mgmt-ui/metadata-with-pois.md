@@ -3,6 +3,9 @@ title: Metagegevens gebruiken met POI's
 description: Deze sectie verstrekt informatie en strategieën over hoe te om meta-gegevens met POIs te gebruiken.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ POI-metagegevens kunnen op verschillende manieren worden gebruikt. Vanuit een PO
 
 ## Plaatst de meta-gegevens van de Dienst in Lancering
 
-In de Lancering van het Platform van de Ervaring, kunt u gegevenselementen voor elk de meta-gegevensgebied tot stand brengen van de Dienst van Plaatsen dat voor het volgen of overseinendoeleinden belangrijk is.
+In Experience Platform Launch, kunt u gegevenselementen voor elk de meta-gegevensgebied tot stand brengen van de Dienst van Plaatsen dat voor het volgen of overseinendoeleinden belangrijk is.
 
 ![data-element voor de gym-faciliteit](/help/assets/gymfacility.png)
 
@@ -23,8 +26,8 @@ Vervolgens kunt u een handeling maken met de extensie Analytics voor het maken v
 
 ![actie voor de gym-faciliteit](/help/assets/Analytics-gym.png)
 
-## In-app-berichten in Adobe-campagne
+## In-app-berichten in Adobe Campaign
 
-Metagegevens kunnen worden gebruikt als filter voor lokale meldingen en in-app berichten die zijn gedefinieerd in Adobe Campagnestandaard. Het gebruik van metagegevens als filter biedt u de mogelijkheid om een relevanter bericht te maken dat in een context staat voor de werkelijke locatie.
+Metagegevens kunnen worden gebruikt als filter voor lokale meldingen en in-app-berichten die in Adobe Campaign Standard zijn gedefinieerd. Het gebruik van metagegevens als filter biedt u de mogelijkheid om een relevanter bericht te maken dat in een context staat voor de werkelijke locatie.
 
 ![het filtreren lokale berichten en in-app berichten in ACS](/help/assets/ACS_gym_metadata.png)
