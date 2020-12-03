@@ -3,6 +3,9 @@ title: Bibliotheek lezen
 description: Een bibliotheek lezen met de REST-API van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
@@ -10,7 +13,7 @@ source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 # Bibliotheek lezen {#read-a-library}
 
-Een GET methode die de details voor een bibliotheek terugkeert.
+Een methode van de GET die de details voor een bibliotheek terugkeert.
 
 ## Verzoek
 
