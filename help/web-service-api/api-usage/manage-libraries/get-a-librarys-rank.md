@@ -3,13 +3,16 @@ title: De rang van een bibliotheek ophalen
 description: U krijgt de rang van een bibliotheek met de REST-API van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 0%
 
 ---
 
 
 # De rang van een bibliotheek ophalen {#get-library-rank}
 
-Een GET methode waarmee u bibliotheken kunt rangschikken.
+Een methode van de GET die u toestaat om bibliotheken te rangschikken.
 
 ## Verzoek
 
