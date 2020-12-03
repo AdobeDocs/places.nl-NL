@@ -3,6 +3,9 @@ title: Rapport over locatiegegevens in Analytics Workspace
 description: Deze sectie bevat informatie over het rapporteren van locatiegegevens in de Analytics Workspace.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 6%
 
 ---
 
@@ -19,7 +22,7 @@ Dit document gaat uit van het volgende:
 
    Zie Extensies [plaatsen voor meer informatie over het implementeren van de extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-1. De gebruiker van de Analyse van Adobe is admin en heeft toegang tot verwerkingsregels.
+1. De Adobe Analytics-gebruiker is een beheerder en heeft toegang tot verwerkingsregels.
 
    Zie Overzicht [van](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)verwerkingsregels voor meer informatie over verwerkingsregels.
 
@@ -64,8 +67,8 @@ In dit voorbeeld heeft het rapport de volgende instellingen:
 
 * Metrisch - **[!UICONTROL Occurrences]**
 
-* Dimensie - **[!UICONTROL Action Name]**
+* Dimension - **[!UICONTROL Action Name]**
 
-   * Verbroken op afmeting - **[!UICONTROL Places POI Name]**
+   * Verbroken door Dimension - **[!UICONTROL Places POI Name]**
 
 ![&quot;Een rapport maken in de werkruimte&quot;](/help/assets/aa-workspace.png)
