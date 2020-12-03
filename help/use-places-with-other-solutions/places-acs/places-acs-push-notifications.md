@@ -60,7 +60,7 @@ De regels in Experience Platform Launch staan u toe om complexe, multi-oplossing
 
    In deze sectie kunt u filteren op of beperkingen instellen voor het tijdstip waarop deze regel moet worden geactiveerd.
 
-1. Klik onder de **[!UICONTROL Actions]** sectie op **[!UICONTROL +]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL +]**.
 1. Selecteer in de **[!UICONTROL Extension]** vervolgkeuzelijst de optie **[!UICONTROL Mobile Core]** en selecteer in de **[!UICONTROL Action Type]** vervolgkeuzelijst **[!UICONTROL Send Postback]**.
 1. In **[!UICONTROL URL]**, moet u uw Campaign Standard plaatseindpunt construeren.
 
