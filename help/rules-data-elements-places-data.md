@@ -1,13 +1,16 @@
 ---
-title: De regels en gegevenselementen van de Lancering van het Platform van de Ervaring gebruiken met de gegevens van Plaatsen.
+title: De regels en gegevenselementen van het Experience Platform Launch gebruiken met de gegevens van Plaatsen.
 description: Informatie over regels en gegevenselementen en Plaatsgegevens.
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 46%
 
 ---
 
 
-# De regels en gegevenselementen van de Lancering van het Platform van de Ervaring gebruiken met de gegevens van Plaatsen
+# De regels en gegevenselementen van het Experience Platform Launch gebruiken met de gegevens van Plaatsen
 
 ## Regels
 
@@ -17,7 +20,7 @@ Experience Platform Launch is een op regels gebaseerd systeem en zoekt naar gebr
 
 De elementen van gegevens zijn de bouwstenen voor uw gegevenswoordenboek of gegevenskaart. U kunt gegevenselementen gebruiken om gegevens te verzamelen, te organiseren en te leveren over marketing en advertentietechnologie.
 
-Een gegevenselement is een variabele, en de waarde voor deze variabele kan aan vraagkoorden, URLs, koekjeswaarden, variabelen worden in kaart gebracht JavaScript, etc. In de Lancering van het Platform van de Ervaring, kunt u deze waarde door zijn veranderlijke naam van verwijzingen voorzien. De inzameling van gegevenselementen wordt het woordenboek van bepaalde gegevens die u kunt gebruiken om uw regels (gebeurtenissen, voorwaarden, en acties) te bouwen, en het gegevenswoordenboek wordt gedeeld over de Lancering van het Platform van de Ervaring en kan met de uitbreiding van Plaatsen worden gebruikt.
+Een gegevenselement is een variabele, en de waarde voor deze variabele kan aan vraagkoorden, URLs, koekjeswaarden, variabelen worden in kaart gebracht JavaScript, etc. In Experience Platform Launch, kunt u deze waarde door zijn veranderlijke naam van verwijzingen voorzien. De inzameling van gegevenselementen wordt het woordenboek van bepaalde gegevens dat u kunt gebruiken om uw regels (gebeurtenissen, voorwaarden, en acties) te bouwen, en het gegevenswoordenboek wordt gedeeld over Experience Platform Launch en kan met de uitbreiding van Plaatsen worden gebruikt.
 
 Zie [Gegevenselementen](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) en [Een data-element maken](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) voor meer informatie over data-elementen.
 
