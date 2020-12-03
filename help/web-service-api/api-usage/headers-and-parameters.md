@@ -3,11 +3,14 @@ title: Kopteksten en parameters
 description: Kopballen en parameters die in de REST APIs van de Dienst van Plaatsen beschikbaar zijn.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 3%
 
 ---
 
 
-# Kopteksten en parameters {#headers-and-parameters}
+# Headers and parameters {#headers-and-parameters}
 
 Hier zijn de details over de kopballen en de parameters die in de REST API van de Dienst van Plaatsen beschikbaar zijn:
 
@@ -15,9 +18,9 @@ Hier zijn de details over de kopballen en de parameters die in de REST API van d
 
 | Koptekst | Beschrijving | Methode | Voorbeeld |
 | :--- | :--- | :--- | :--- |
-| `Authorization` | Uw token voor toonder | Alles |  |
-| `x-api-key` | Uw API-sleutel | Alles | `19776964b4cde49e08d8f62e5824f777b` |
-| `x-gw-ims-org-id` | Uw org-id | Alles | `18FB61145BAC2FFB0A494777@AdobeOrg` |
+| `Authorization` | Uw token voor toonder | Alle |  |
+| `x-api-key` | Uw API-sleutel | Alle | `19776964b4cde49e08d8f62e5824f777b` |
+| `x-gw-ims-org-id` | Uw org-id | Alle | `18FB61145BAC2FFB0A494777@AdobeOrg` |
 | `Content-Type` | Indeling van verzonden of ontvangen inhoud | PUT, POST | `application/json` |
 | `Accept-Language` | Taal voor foutberichten | Optioneel | `en-US` |
 
