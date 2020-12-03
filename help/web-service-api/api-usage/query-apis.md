@@ -3,6 +3,9 @@ title: Overzicht
 description: Inzicht in en gebruik van Query API's.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 0%
 
 ---
 
@@ -10,7 +13,7 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 # Query-API&#39;s
 
-Een GET methode die u toestaat om POIs te vragen die aan de bezoeker het dichtst zijn.
+Een methode van de GET die u toestaat om POIs te vragen die aan de bezoeker het dichtst zijn.
 
 ## Verzoek
 
