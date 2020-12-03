@@ -3,13 +3,16 @@ title: Alle bibliotheken in uw organisatie lezen
 description: Lees alle bibliotheken in uw organisatie met de REST-API van Plaatsen.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
 
 # Alle bibliotheken in uw organisatie lezen {#read-all-lib-in-org}
 
-Een GET methode die de details voor alle bibliotheken in uw organisatie terugkeert.
+Een methode van de GET die de details voor alle bibliotheken in uw organisatie terugkeert.
 
 ## Verzoek
 
