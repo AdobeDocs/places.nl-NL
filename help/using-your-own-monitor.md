@@ -3,6 +3,9 @@ title: Uw eigen monitor gebruiken
 description: U kunt ook uw controleservices gebruiken en integreren met de Places Service met behulp van de API's voor de uitbreiding Plaatsen Service.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
