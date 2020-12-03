@@ -3,13 +3,16 @@ title: Een POI lezen
 description: Lees een POI door de REST API's van Plaatsen te gebruiken.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
 
 # Een POI lezen {#read-a-poi}
 
-Een GET methode die de details voor POI terugkeert.
+Een methode van de GET die de details voor POI terugkeert.
 
 ## Verzoek
 
