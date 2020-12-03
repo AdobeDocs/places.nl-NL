@@ -3,6 +3,9 @@ title: Overzicht van de interface voor het beheer van punten van belang
 description: Deze sectie verstrekt informatie over om bibliotheken en POIs door de Dienst UI van Plaatsen tot stand te brengen en te beheren.
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 0%
 
 ---
 
