@@ -3,6 +3,9 @@ title: Meldingen in de app
 description: Deze sectie toont u hoe te om de Dienst van Plaatsen met Overseinen in-App te gebruiken.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 1%
 
 ---
 
@@ -33,9 +36,9 @@ Deze typen zijn in-app berichten omdat ze door de SDK worden geactiveerd. Lokale
 
 Voordat u begint, begrijpt u hoe u een bericht in de app verzendt en maakt in Mobile Services en hoe triggers werken. Zie Een bericht in de app [maken voor meer informatie.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
-## Regels voor het starten van het Experience Platform
+## Regels in Experience Platform Launch
 
-U kunt de regels van de Lancering van het Platform van de Ervaring tot stand brengen die de gegevens verzenden die u als deel van uw in-app berichttrekkerregels aan Analytics wilt kunnen gebruiken. U kunt gegevens van de uitbreidingen van Plaatsen in uw regels van de Lancering van het Platform van de Ervaring als of gebeurtenissen en/of voorwaarden afhankelijk van uw gebruiksgeval gebruiken.
+U kunt regels voor Experience Platforms Launch maken die de gegevens die u wilt gebruiken als onderdeel van de triggerregels voor berichten in de app naar Analytics verzenden. U kunt gegevens van de uitbreidingen van Plaatsen in uw Experience Platform Launch als of gebeurtenissen en/of voorwaarden afhankelijk van uw gebruikscase gebruiken.
 
 * Locatiegegevens gebruiken als de activeringsgebeurtenis.
 
