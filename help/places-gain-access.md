@@ -2,16 +2,16 @@
 title: 'Toegang tot de Places-service '
 description: Deze sectie verstrekt informatie over hoe te om een gebruiker aan de Dienst en het Experience Platform Launch van Plaatsen toe te voegen, zodat de gebruiker tot de Dienst van Plaatsen kan toegang hebben.
 translation-type: tm+mt
-source-git-commit: 26538602a73e806a4822705c7a3aa44d76351030
+source-git-commit: ecf50d67d4c08e79d9c3be64480f27d435fd7fcb
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 8%
+source-wordcount: '1074'
+ht-degree: 5%
 
 ---
 
 # Toegang tot de Places-service {#adding-user-launch-places}
 
-U hebt toegang tot de Plaatsen Service via het snelmenu op de [Adobe Experience Cloud-startpagina](https://experience.adobe.com).
+U kunt tot de Dienst van Plaatsen van het snelle toegangsmenu op [Adobe Experience Cloud huis](https://experience.adobe.com) toegang hebben.
 Als je gebruikersnaam toegang heeft, wordt het pictogram Plaatsen service weergegeven zoals hieronder wordt aangegeven:
 
 ![snelmenu](/help/assets/quickaccess.png)
@@ -24,7 +24,7 @@ Als u de Dienst van Plaatsen in één van beiden van deze menu&#39;s ziet, conta
 
 ## Een gebruiker toevoegen aan de service Plaatsen en het Experience Platform Launch
 
-Om gebruikers toe te staan om tot het [Experience Platform Launch UI](https://launch.adobe.com)toegang te hebben, moeten zij aan de Dienst van de Kern van Plaatsen in de Admin Console als gebruiker worden toegevoegd. Om gebruikers toegang tot Experience Platform Launch te verlenen, mobiele eigenschappen te vormen, en Plaatsen met de SDK van Adobe Experience Platform te gebruiken, moeten zij aan Experience Platform Launch in de Admin Console worden toegevoegd en de volgende toestemmingen voor Experience Platform Launch worden gegeven:
+Om gebruikers toegang te geven tot [Experience Platform Launch UI](https://launch.adobe.com), moeten zij aan de Dienst van de Kern van Plaatsen in de Admin Console als gebruiker worden toegevoegd. Om gebruikers toegang tot Experience Platform Launch te verlenen, mobiele eigenschappen te vormen, en Plaatsen met de SDK van Adobe Experience Platform te gebruiken, moeten zij aan Experience Platform Launch in de Admin Console worden toegevoegd en de volgende toestemmingen voor Experience Platform Launch worden gegeven:
 
 * Alle eigendomsrechten:
    * Ontwikkelen
@@ -49,9 +49,9 @@ Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stap
 
 1. Klik onder **[!UICONTROL Platform]** op **[!UICONTROL Administration]**.
 
-   Als u **Beheer** niet ziet in de lijst, bent u geen beheerder. U moet contact opnemen met uw org-beheerder om deze procedure te voltooien.
+   Als u **[!UICONTROL Administration]** niet ziet in de lijst, bent u geen beheerder. U moet contact opnemen met uw org-beheerder om deze procedure te voltooien.
 
-1. Klik op de **[!UICONTROL Admin Console]** kaart op de pagina Beheer Experience Cloud op **[!UICONTROL Take me there]**.
+1. In de pagina van het Beleid van de Experience Cloud, op **[!UICONTROL Admin Console]** kaart, klik **[!UICONTROL Take me there]**.
 
 1. Als u in de Admin Console toegang hebt tot meerdere organisaties, controleert u of de juiste organisatie in de rechterbovenhoek van de pagina is geselecteerd.
 
@@ -77,7 +77,7 @@ Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stap
    b. Klik in het linkerdeelvenster in de lijst met producten op **[!UICONTROL Adobe Experience Platform Launch]**.
 
    * Het profiel of de profielen van het Experience Platform Launch worden rechts weergegeven.
-   * Experience Platform Launch heeft een standaardprofiel met de naam *Launch - (org-naam)* .
+   * Experience Platform Launch heeft een standaardprofiel met de naam *Starten - (org naam)*.
 
       Als u eerder gebruikers aan Experience Platform Launch hebt toegevoegd, worden mogelijk meerdere profielen weergegeven.
 
@@ -85,7 +85,7 @@ Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stap
 
    a. Klik op de naam van het standaardprofiel.
 
-   b. Klik op het **[!UICONTROL Permissions]** tabblad.
+   b. Klik op het tabblad **[!UICONTROL Permissions]**.
 
    c. Klik op **[!UICONTROL Edit]** naast **[!UICONTROL Property Rights]**.
 
@@ -93,11 +93,11 @@ Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stap
 
    Met deze stap worden alle beschikbare machtigingen naar de lijst met opgenomen machtigingen verplaatst.
 
-   e. Klik **[!UICONTROL Company Rights]**.
+   e. Klik op **[!UICONTROL Company Rights]**.
 
    f. Klik in het linkerdeelvenster op **[!UICONTROL + Manage Properties]**.
 
-   g. Klik **[!UICONTROL Save]**.
+   g. Klik op **[!UICONTROL Save]**.
 
 >[!IMPORTANT]
 >
@@ -117,48 +117,48 @@ U voegt als volgt een gebruiker toe aan de profielen Plaatsen Service en Experie
 
    a. Klik in de menubalk op **[!UICONTROL Overview]**.
 
-   b. On the **[!UICONTROL Adobe Experience Platform Launch]** card, verify the following:
+   b. Controleer het volgende op de **[!UICONTROL Adobe Experience Platform Launch]**-kaart:
 
    * Onder aan de kaart worden twee punten weergegeven.
    * De stip aan de linkerkant is zwart.
 
       Als de punt aan de rechterkant zwart is, kunt u alleen ontwikkelaars toevoegen. Als u een gebruiker wilt toevoegen, klikt u op de stip aan de linkerkant.
-   c. Klik **[!UICONTROL + Add Users]**.
+   c. Klik op **[!UICONTROL + Add Users]**.
 
    d. Voer de Adobe ID van de gebruiker in.
 
    e. Voer een van de volgende stappen uit:
 
-   * Als u een nieuwe gebruiker toevoegt, klikt u **[!UICONTROL New user]** en voert u de voor- en achternaam van de gebruiker in.
+   * Als u een nieuwe gebruiker toevoegt, klikt u op **[!UICONTROL New user]** en voert u de voor- en achternaam van de gebruiker in.
    * Als u een bestaande gebruiker toevoegt, klikt u op de weergegeven gebruikersnaam.
 
-   f. Selecteer in de **[!UICONTROL Please select a profile for this product]** vervolgkeuzelijst het profiel dat u eerder hebt bewerkt.
+   f. Selecteer in de vervolgkeuzelijst **[!UICONTROL Please select a profile for this product]** het profiel dat u eerder hebt bewerkt.
 
-   g. Klik **[!UICONTROL Save]**.
+   g. Klik op **[!UICONTROL Save]**.
 
-1. Voeg een gebruiker toe aan **[!UICONTROL Places Core Services]**.
+1. Voeg een gebruiker aan **[!UICONTROL Places Core Services]** toe.
 
    >[!TIP]
    >
    >Momenteel hebben alle gebruikers van de Plaatsingsservice dezelfde machtigingen, dus u hoeft de machtigingen niet te bewerken.
 
-   a. On the **[!UICONTROL Places Core Services]** card, verify the following:
+   a. Controleer het volgende op de **[!UICONTROL Places Core Services]**-kaart:
 
    * Onder aan de kaart worden twee punten weergegeven.
    * De stip aan de linkerkant is zwart.
 
-   b. Klik **[!UICONTROL + Assign Users]**.
+   b. Klik op **[!UICONTROL + Assign Users]**.
 
    c. Voer de Adobe ID van de gebruiker in.
 
    d. Voer een van de volgende stappen uit:
 
-   * Als u een nieuwe gebruiker toevoegt, klikt u **[!UICONTROL New user]** en voert u de voor- en achternaam van de gebruiker in.
+   * Als u een nieuwe gebruiker toevoegt, klikt u op **[!UICONTROL New user]** en voert u de voor- en achternaam van de gebruiker in.
    * Als u een bestaande gebruiker toevoegt, klikt u op de weergegeven gebruikersnaam.
 
-   e. Selecteer het profiel Plaatsen in de **[!UICONTROL Please select a profile for this product]** vervolgkeuzelijst.
+   e. Selecteer het profiel Plaatsen in de vervolgkeuzelijst **[!UICONTROL Please select a profile for this product]**.
 
-   f. Klik **[!UICONTROL Save]**.
+   f. Klik op **[!UICONTROL Save]**.
 
 ### Een ontwikkelaar toevoegen
 
@@ -169,7 +169,7 @@ Een ontwikkelaar toevoegen:
 1. Controleer op de **[!UICONTROL Places Core Services]**-kaart het volgende:
 
    * Onder aan de kaart worden twee punten weergegeven.
-   * Klik op de stip aan de rechterkant, zodat deze onder aan de kaart **[!UICONTROL Assign Developers]** wordt weergegeven.
+   * Klik op de stip aan de rechterkant, zodat **[!UICONTROL Assign Developers]** onder aan de kaart wordt weergegeven.
 
 1. Klik op **[!UICONTROL + Assign Developers]**.
 
@@ -180,8 +180,8 @@ Een ontwikkelaar toevoegen:
    * Als u een nieuwe gebruiker toevoegt, klikt u op **[!UICONTROL New user]** en voert u de voor- en achternaam van de gebruiker in.
    * Als u een bestaande gebruiker toevoegt, klikt u op de weergegeven gebruikersnaam.
 
-1. Selecteer het profiel Plaatsen in de **[!UICONTROL Please select a profile for this product]** vervolgkeuzelijst.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Please select a profile for this product]** het serviceprofiel Plaatsen.
 
-1. Klik op **Opslaan**.
+1. Klik op **[!UICONTROL Save]**.
 
-Gebruikers ontvangen een e-mail met de melding dat zij toegang hebben tot Experience Platform Launch. They can can log in to the [Experience Platform Launch](https://launch.adobe.com) or the [Places Service](https://places.adobe.com) UIs for this organization. Als u stap 4 in de procedure **Een ontwikkelaar toevoegen** hebt voltooid, kan de gebruiker zich ook aanmelden bij de [Adobe I/O-console](https://console.adobe.io) om een Places-integratie te maken en de REST-API van Places te gebruiken.
+Gebruikers ontvangen een e-mail met de melding dat zij toegang hebben tot Experience Platform Launch. Ze kunnen zich aanmelden bij het [Experience Platform Launch](https://launch.adobe.com) of [Plaatst Service](https://places.adobe.com) UI&#39;s voor deze organisatie. Als u stap 4 in de **[!UICONTROL Add a developer]** procedure voltooit, kan de gebruiker ook login aan [Adobe I/O console](https://console.adobe.io) om een integratie van Plaatsen tot stand te brengen en de REST API van Plaatsen te gebruiken.
