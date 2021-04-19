@@ -1,10 +1,9 @@
 ---
-product: Places Service
 audience: end-user
 user-guide-title: Servicehandleiding plaatsen
 user-guide-description: Plaatsingsservice is een geo-locatieservice waarmee mobiele apps met een herkenbare locatie de context van de locatie kunnen begrijpen.
 translation-type: tm+mt
-source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
+source-git-commit: 12283d11829ee70a808bc11d2bc1241cb1770ac3
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 10%
@@ -15,7 +14,7 @@ ht-degree: 10%
 # Places Service {#using}
 
 + [Overzicht van Plaatsingsservice](home.md)
-+ [Releaseopmerkingen](release-notes.md)
++ [Aanvullende informatie](release-notes.md)
 + [Aan de slag](getting-started.md)
 + [Toegang tot de Places-service](places-gain-access.md)
 + Plaatst service-interface {#poi-mgmt-ui}
