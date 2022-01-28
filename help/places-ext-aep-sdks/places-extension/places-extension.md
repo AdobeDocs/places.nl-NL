@@ -1,14 +1,13 @@
 ---
 title: Uitbreiding Places
 description: Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken.
-translation-type: tm+mt
-source-git-commit: a7dddb78e1e00a0bde01ea668334932759a9dae8
+exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
+source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 3%
 
 ---
-
 
 # Uitbreiding Places {#places-extension}
 
@@ -17,23 +16,23 @@ Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken
 ## De extensie Plaatsen installeren in Adobe Experience Platform Launch
 
 1. Klik in Experience Platform Launch op het tabblad **[!UICONTROL Extensions]**.
-1. Zoek op het **[!UICONTROL Catalog]** tabblad de **[!UICONTROL Places]** extensie en klik op **[!UICONTROL Install]**.
+1. Op de **[!UICONTROL Catalog]** tabblad, zoekt u de **[!UICONTROL Places]** en klik op **[!UICONTROL Install]**.
 1. Selecteer de bibliotheken Plaatsen die u in deze eigenschap wilt gebruiken. Dit zijn de bibliotheken die in uw app toegankelijk zijn.
 1. Klik op **[!UICONTROL Save]**.
 
-   Wanneer u klikt **[!UICONTROL Save]**, zoekt de Experience Platform SDK de Diensten van Plaatsen naar POIs in de bibliotheken die u selecteerde. De POI-gegevens worden niet opgenomen in de download van de bibliotheek wanneer u de app maakt, maar een op locatie gebaseerde subset van POI&#39;s wordt tijdens runtime gedownload naar het apparaat van de eindgebruiker en is gebaseerd op de GPS-coördinaten van de gebruiker.
+   Wanneer u op **[!UICONTROL Save]**, zoekt het Experience Platform SDK de Diensten van Plaatsen naar POIs in de bibliotheken die u selecteerde. De POI-gegevens worden niet opgenomen in de download van de bibliotheek wanneer u de app maakt, maar een op locatie gebaseerde subset van POI&#39;s wordt tijdens runtime gedownload naar het apparaat van de eindgebruiker en is gebaseerd op de GPS-coördinaten van de gebruiker.
 
 1. Voltooi het publicatieproces om de SDK-configuratie bij te werken.
 
-   Zie [Publiceren](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html)voor meer informatie over publiceren in Experience Platform Launch.
+   Ga voor meer informatie over publiceren in Experience Platform Launch naar [Publiceren](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### De extensie Plaatsen configureren {#configure-places-extension}
 
-![](//help/assets/places-extension.png)
+![](/help/assets/places-extension.png)
 
 ## De extensie Plaatsen toevoegen aan uw app {#add-places-to-app}
 
-U kunt de extensie Plaatsen toevoegen aan uw Android- en iOS-toepassingen. De stappen voor het toevoegen van Plaatsen aan uw iOS- of Android-toepassing vindt u hieronder. De uitbreidingen van Plaatsen zijn ook beschikbaar voor de volgende hieronder platforms. Zie de bijbehorende koppelingen voor informatie over het toevoegen van Plaatsen aan uw toepassing wanneer u ontwikkelt met een van deze platforms:
+U kunt de extensie Plaatsen toevoegen aan uw Android- en iOS-toepassingen. U vindt hieronder de stappen voor het toevoegen van Plaatsen aan uw iOS- of Android-toepassing. De uitbreidingen van Plaatsen zijn ook beschikbaar voor de volgende hieronder platforms. Zie de bijbehorende koppelingen voor informatie over het toevoegen van Plaatsen aan uw toepassing wanneer u ontwikkelt met een van deze platforms:
 
 **[Plug-in Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
@@ -66,14 +65,14 @@ U kunt als volgt de extensie Plaatsen met Java toevoegen aan uw app:
 
 Als u de extensie Plaatsen wilt toevoegen aan uw app met Objectief-C of Swift:
 
-1. Voeg de bibliotheken Plaatsen en [Mobiele Kern](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) aan uw project toe. U moet de volgende pods toevoegen aan uw `Podfile`:
+1. Voeg de plaatsen toe en [Mobiele kern](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) aan uw project. U moet de volgende pods toevoegen aan uw `Podfile`:
 
    ```objective-c
    pod 'ACPPlaces', '~> 1.0'
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Als u Cocoapods niet gebruikt, kunt u de Mobile Core en de Places bibliotheken van onze [releasepagina](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) op Github handmatig opnemen.
+   Als u geen Cococoapods gebruikt, kunt u de Mobile Core en de Places bibliotheken van onze [releasepagina](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) op Github.
 
 1. Cocoapods bijwerken:
 
@@ -103,7 +102,7 @@ U moet de extensie Plaatsen registreren met Mobile Core in Android en iOS.
 
 #### Android
 
-Registreer de extensies Plaatsen in de `OnCreate` methode van de app:
+In de app `OnCreate` De methode registreert de uitbreidingen van Plaatsen:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -125,7 +124,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-Registreer in de `application:didFinishLaunchingWithOptions:` methode van uw app de extensie Plaatsen bij uw andere SDK-registratieaanroepen:
+In de app `application:didFinishLaunchingWithOptions:` registreert u de extensie Plaatsen bij uw andere SDK-registratieaanroepen:
 
 **Doelstelling-C**
 
@@ -151,11 +150,11 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 Locatiegegevens kunnen snel verouderd raken, vooral als het apparaat geen updates voor de achtergrondlocatie ontvangt.
 
-Controleer de tijd-aan-levende voor het lidmaatschapsgegevens van Plaatsen op het apparaat door het `places.membershipttl` configuratiemontages te plaatsen. De waarde die wordt doorgegeven, vertegenwoordigt het aantal seconden dat de status Plaatsen geldig blijft voor het apparaat.
+U kunt de time-to-live-gegevens voor Plaatsen-lidmaatschapsgegevens op het apparaat bepalen door de instelling `places.membershipttl` configuratie-instelling. De waarde die wordt doorgegeven, vertegenwoordigt het aantal seconden dat de status Plaatsen geldig blijft voor het apparaat.
 
 #### Android
 
-Binnen callback van `MobileCore.start()` werk de configuratie met de noodzakelijke veranderingen vóór het roepen bij `lifecycleStart`:
+Binnen de callback van `MobileCore.start()` werk de configuratie met de noodzakelijke veranderingen vóór het roepen bij `lifecycleStart`:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -189,7 +188,7 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-Op de eerste lijn in callback van `ACPCore`s `start:` methode, vraag `updateConfiguration:`
+Op de eerste regel in de callback van `ACPCore`s `start:` methode, aanroepen `updateConfiguration:`
 
 **Doelstelling-C**
 
@@ -231,7 +230,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Configuratiesleutels
 
-Om de configuratie SDK programmatically bij te werken bij runtime, gebruik de volgende informatie om uw waarden van de de uitbreidingsconfiguratie van Plaatsen te veranderen. Voor meer informatie, zie de Verwijzing [van](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)Configuratie API.
+Om de configuratie SDK programmatically bij te werken bij runtime, gebruik de volgende informatie om uw waarden van de de uitbreidingsconfiguratie van Plaatsen te veranderen. Zie voor meer informatie [Configuratie-API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
 | Sleutel | Vereist | Beschrijving |
 | :--- | :--- | :--- |
