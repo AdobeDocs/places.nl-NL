@@ -4,8 +4,8 @@ description: Met de extensie Plaatsen kunt u op basis van de locatie van uw gebr
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Als u de extensie Plaatsen wilt toevoegen aan uw app met Objectief-C of Swift:
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Als u geen Cococoapods gebruikt, kunt u de Mobile Core en de Places bibliotheken van onze [releasepagina](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) op Github.
+   Als u Cocoapods niet gebruikt, kunt u ook handmatig de Mobile Core- en de Places-bibliotheken uit onze [releasepagina](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) op Github.
 
 1. Cocoapods bijwerken:
 
