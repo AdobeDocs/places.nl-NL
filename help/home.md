@@ -1,18 +1,15 @@
 ---
 title: Places Service
-description: 'Plaatsingsservice is een belangrijke context voor het begrijpen van de betrokkenheid van mobiele gebruikers. Met deze context kunnen ontwikkelaars van mobiele apps het toepassingsontwerp verbeteren en deze een meer persoonlijke en boeiende ervaring maken. '
-translation-type: tm+mt
-source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
+description: Plaatsingsservice is een belangrijke context voor het begrijpen van de betrokkenheid van mobiele gebruikers. Met deze context kunnen ontwikkelaars van mobiele apps het toepassingsontwerp verbeteren en deze een meer persoonlijke en boeiende ervaring maken.
+exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
+source-git-commit: c13da9ea3dc0cd574f2f9a496405867f7d36eae0
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 8%
+source-wordcount: '706'
+ht-degree: 7%
 
 ---
 
-
-# Places Service {#home}
-
-![&quot;Places Service&quot;](/help/assets/places-service-header.png)
+# Plaatsingsservice {#home}
 
 Locatie is een belangrijke context voor het begrijpen van mobiele gebruikers en voor de communicatie met deze gebruikers. Met deze context kunnen ontwikkelaars van mobiele apps het toepassingsontwerp verbeteren en deze een meer persoonlijke en boeiende ervaring maken.
 
@@ -30,7 +27,7 @@ Op deze manier kunt u acties uitvoeren vanuit locatiesignalen in real-time, wann
 
 Hier volgen enkele voorbeelden van manieren waarop u Plaatsen kunt gebruiken:
 
-* Verzend een bericht in real time wanneer iemand een POI ingaat, *&quot;Hé..welkom in het stadion.&quot;*
+* Verzend een bericht in real time wanneer iemand POI ingaat, *&quot;Hey...welkom in het stadion.&quot;*
 * Analyseer het voetverkeer van je eigen winkels tegenover je concurrenten.
 * Segmenteer een publiek dat op off-line gedrag door publieksprofielen met locatiecontext te gebruiken wordt gebaseerd.
 * Richt een gebruiker met een in-store ervaring wanneer relevant.
@@ -41,7 +38,7 @@ De Dienst van Plaatsen omvat de volgende componenten:
 
 * **Webservice**
 
-   U kunt POI&#39;s maken en beheren met de REST-API&#39;s van Plaatsen. Zie Bibliotheken [beheren en](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) Inkooporderbedrijven [beheren voor meer informatie over de REST API&#39;s](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+   U kunt POI&#39;s maken en beheren met de REST-API&#39;s van Plaatsen. Zie voor meer informatie over de REST API&#39;s [Bibliotheken beheren](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) en [POI&#39;s beheren](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **POI-beheerinterface**
 
@@ -49,7 +46,7 @@ De Dienst van Plaatsen omvat de volgende componenten:
 
 * **Uitbreiding Places**
 
-   De mobiele API-interface voor meerdere platforms om de locatiecontext in uw mobiele apps te integreren. Zie De extensie [Plaatsen voor meer informatie over de SDK&#39;s](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+   De mobiele API-interface voor meerdere platforms om de locatiecontext in uw mobiele apps te integreren. Zie voor meer informatie over de SDK&#39;s [Extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **Opstartregels**
 
@@ -57,27 +54,27 @@ De Dienst van Plaatsen omvat de volgende componenten:
 
 * **Hiermee wordt de extensie Monitor geplaatst**
 
-   De mobiele SDK voor meerdere platforms die in uw mobiele app kan worden ingesloten om automatisch de wijzigingen in de locatie van uw gebruiker te controleren en de regels voor Plaatsen te activeren. Voor meer informatie, zie de uitbreiding [van de Monitor van](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Plaatsen.
+   De mobiele SDK voor meerdere platforms die in uw mobiele app kan worden ingesloten om automatisch de wijzigingen in de locatie van uw gebruiker te controleren en de regels voor Plaatsen te activeren. Zie voor meer informatie [Hiermee wordt de extensie Monitor geplaatst](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminologie
 
 Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
-* Een **aandachtspunt (POI)** is een geolocatie die van belang is voor uw organisatie.
+* A **punt van belangstelling (POI)** is een geolocatie die van belang is voor uw organisatie.
 
    U kunt POI&#39;s definiëren met kenmerken zoals een naam, straal, adres, categorie en metagegevenstags.
 
-* Een **geofence** is een soort POI.
+* A **geofence** is een type POI.
 
    Dit type POI is een virtuele geografische grens die door breedte- en lengtecoördinaten wordt bepaald.
 
-* Een **baken** is een soort POI.
+* A **baken** is een type POI.
 
    Dit POI-type is een fysiek apparaat dat een locatie vertegenwoordigt door een grafisch Bluetooth-signaal met laag vermogen uit te zenden. De steun van Beacons komt in een toekomstige versie.
 
 * Een **bibliotheek** is een verzameling van POI&#39;s, die worden gegroepeerd om eenvoudig regels aan een reeks POI&#39;s in plaats van aan één POI toe te voegen.
 
-* Een **extensie** is de extensie Experience Platform Launch die nodig is om de SDK van Plaatsen te integreren in uw mobiele apps.
+* An **extension** is de Experience Platform Launch-extensie die vereist is om de Places SDK te integreren in uw mobiele apps.
 
    De extensie die wordt gebruikt met de andere mobiele SDK&#39;s om locatiecontext aan uw ervaringen toe te voegen.
 
@@ -87,8 +84,8 @@ Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
 * De **orgID** is de id die uw organisatie vertegenwoordigt op het Adobe Experience Platform.
 
-   Zie [Uw orgID](https://forums.adobe.com/thread/2339895)zoeken voor meer informatie.
+   Zie voor meer informatie [Uw orgID zoeken](https://forums.adobe.com/thread/2339895).
 
-* De **Experience Cloud ID** -service biedt een universele, permanente id die uw bezoekers identificeert voor alle oplossingen in de Experience Cloud.
+* De **Experience Cloud-id** biedt een universele, permanente id die uw bezoekers identificeert voor alle oplossingen in de Experience Cloud.
 
-   Voor meer informatie, zie [Overzicht](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
+   Zie voor meer informatie [Overzicht](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
