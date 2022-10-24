@@ -2,10 +2,9 @@
 audience: end-user
 user-guide-title: Servicehandleiding plaatsen
 user-guide-description: Plaatsingsservice is een geo-locatieservice waarmee mobiele apps met een herkenbare locatie de context van de locatie kunnen begrijpen.
-translation-type: tm+mt
-source-git-commit: 12283d11829ee70a808bc11d2bc1241cb1770ac3
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '301'
 ht-degree: 10%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 10%
 + [Aanvullende informatie](release-notes.md)
 + [Aan de slag](getting-started.md)
 + [Toegang tot de Places-service](places-gain-access.md)
-+ Plaatst service-interface {#poi-mgmt-ui}
++ Gebruikersinterface Plaatsingsservice {#poi-mgmt-ui}
    + [Overzicht van de gebruikersinterface van de service Plaatsen](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Een POI maken](poi-mgmt-ui/create-a-poi-ui.md)
    + [Eerder gemaakte OI&#39;s beheren](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
@@ -30,7 +29,7 @@ ht-degree: 10%
    + API-gebruik {#api-usage}
       + [Overzicht van API-gebruik](web-service-api/api-usage/api-usage-overview.md)
       + [Kopteksten en parameters](web-service-api/api-usage/headers-and-parameters.md)
-      + Bibliotheken {#manage-libraries} beheren
+      + Bibliotheken beheren {#manage-libraries}
          + [Overzicht van bibliotheken beheren](web-service-api/api-usage/manage-libraries/manage-libraries.md)
          + [Een bibliotheek maken](web-service-api/api-usage/manage-libraries/create-a-library.md)
          + [Bibliotheek lezen](web-service-api/api-usage/manage-libraries/read-a-library.md)
@@ -39,7 +38,7 @@ ht-degree: 10%
          + [Alle bibliotheken in uw organisatie lezen](web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
          + [Een rang op uw bibliotheken instellen](web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
          + [De rang van een bibliotheek ophalen](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
-      + Belangrijke {#manage-pois} beheren
+      + Belangenpunten beheren {#manage-pois}
          + [Overzicht van PO&#39;s beheren](web-service-api/api-usage/manage-pois/manage-pois.md)
          + [Een POI maken](web-service-api/api-usage/manage-pois/create-a-poi.md)
          + [Een POI lezen](web-service-api/api-usage/manage-pois/read-a-poi.md)
@@ -59,10 +58,6 @@ ht-degree: 10%
       + [Plaatst API-referentie](places-ext-aep-sdks/places-extension/places-api-reference.md)
       + [Referentie van gebeurtenis Plaatsen](places-ext-aep-sdks/places-extension/places-event-ref.md)
       + [Objecten Aangepaste locaties](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-   + Hiermee wordt de extensie {#places-monitor-extension} voor monitor geplaatst
-      + [Hiermee wordt de extensie Monitor geplaatst](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
-      + [De extensie Plaatsen gebruiken](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
-      + [Referentie voor monitor-API plaatsen](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [De Dienst van Plaatsen van het gebruik met uw eigen monitoroplossing](using-your-own-monitor.md)
 + [De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole](use-places-without-active-monitoring.md)
 + De Dienst van Plaatsen van het gebruik als deel van het Experience Platform Launch werkschema {#use-places-launch-workflow}

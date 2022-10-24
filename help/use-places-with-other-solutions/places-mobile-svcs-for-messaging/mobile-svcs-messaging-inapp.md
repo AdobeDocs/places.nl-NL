@@ -1,14 +1,13 @@
 ---
 title: Meldingen in de app
 description: Deze sectie toont u hoe te om de Dienst van Plaatsen met Overseinen in-App te gebruiken.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
-
 
 # Meldingen in de app {#places-push-messaging}
 
@@ -27,18 +26,18 @@ Met Mobile Services kunt u locatiegegevens die naar Analytics worden verzonden, 
 Hier volgt een lijst met de beschikbare berichttypen in de app:
 
 * Volledig scherm
-* Waarschuwing
+* Melding
 * Lokale meldingen
 
-Deze typen zijn in-app berichten omdat ze door de SDK worden geactiveerd. Lokale meldingen zien er uit en voelen zich als pushmeldingen omdat ze worden weergegeven wanneer de app op de achtergrond wordt uitgevoerd. Met deze meldingen worden ook realtime meldingen verzonden wanneer gebruikers uw API&#39;s invoeren of afsluiten terwijl de app op de achtergrond wordt uitgevoerd. Voor meer informatie zie de uitbreiding [van de Monitor van](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Plaatsen.
+Deze typen zijn in-app berichten omdat ze door de SDK worden geactiveerd. Lokale meldingen zien er uit en voelen zich als pushmeldingen omdat ze worden weergegeven wanneer de app op de achtergrond wordt uitgevoerd. Met deze meldingen worden ook realtime meldingen verzonden wanneer gebruikers uw API&#39;s invoeren of afsluiten terwijl de app op de achtergrond wordt uitgevoerd.
 
 ### Vereisten
 
-Voordat u begint, begrijpt u hoe u een bericht in de app verzendt en maakt in Mobile Services en hoe triggers werken. Zie Een bericht in de app [maken voor meer informatie.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
+Voordat u begint, begrijpt u hoe u een bericht in de app verzendt en maakt in Mobile Services en hoe triggers werken. Zie voor meer informatie [Maak een bericht in de app.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
 ## Regels in Experience Platform Launch
 
-U kunt regels voor Experience Platforms Launch maken die de gegevens die u wilt gebruiken als onderdeel van de triggerregels voor berichten in de app naar Analytics verzenden. U kunt gegevens van de uitbreidingen van Plaatsen in uw Experience Platform Launch als of gebeurtenissen en/of voorwaarden afhankelijk van uw gebruikscase gebruiken.
+U kunt regels voor Experience Platforms Launch maken die de gegevens die u wilt gebruiken als onderdeel van de triggerregels voor berichten in de app naar Analytics verzenden. U kunt gegevens uit de extensies Plaatsen in uw Experience Platform Launch gebruiken als gebeurtenissen en/of voorwaarden, afhankelijk van uw gebruiksscenario.
 
 * Locatiegegevens gebruiken als de activeringsgebeurtenis.
 
@@ -54,16 +53,16 @@ Nadat de regel opstelling met de juiste gebeurtenis en voorwaardenparameters is,
 
 Een handeling maken:
 
-1. Selecteer de **[!UICONTROL Adobe Analytics]** extensie.
+1. Selecteer **[!UICONTROL Adobe Analytics]** extensie.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Action type]** de optie **[!UICONTROL Track.]**
 1. Typ een naam voor de handeling.
-1. In de juiste ruit, binnen **[!UICONTROL Context Data]**, selecteer het zeer belangrijk-waardepaar om de contextgegevens te plaatsen die naar Analytics zullen worden verzonden.
+1. In het rechterdeelvenster, in **[!UICONTROL Context Data]** selecteert u het sleutelwaardepaar om de contextgegevens in te stellen die naar Analytics worden verzonden.
 
-U kunt bijvoorbeeld selecteren `poiname` als de sleutel en `{%%Last Entered POI Name}` als de waarde.
+U kunt bijvoorbeeld `poiname` als sleutel en `{%%Last Entered POI Name}` als de waarde.
 
 >[!TIP]
 >
->De regels voor analyseverwerking kunnen worden ingesteld om deze contextgegevens op te halen. Zie [Verwerkingsregels](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html)voor meer informatie. In het voorbeeld in *Een handeling* maken verzendt de handeling de gebeurtenis `poiname` als de context voor het beschrijven van de gebeurtenis POI-invoer die naar Analytics wordt verzonden.
+>De regels voor analyseverwerking kunnen worden ingesteld om deze contextgegevens op te halen. Zie voor meer informatie [Verwerkingsregels](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). In het voorbeeld in *Een handeling maken*, verzendt de actie de `poiname` als context om de gebeurtenis van de POI ingang te beschrijven die naar Analytics wordt verzonden.
 
 ![een handeling maken](/help/assets/configure-action.png)
 
@@ -80,10 +79,10 @@ Als deel van uw parameters van de Trekker, kunt u het publiek voor het bericht m
 
    Deze optie kan worden gebruikt met een locatiespecifieke actie, zoals ingang, of het kan als context aan een andere gebeurtenis zoals een lancering of een knoopklik worden gebruikt.
 
-   Hier is een voorbeeld van hoe te om een in-app bericht te vormen om gebruikers te verwelkomen die POI ingaan die **[!UICONTROL Adobe]** in de naam heeft:
+   Hier is een voorbeeld van hoe te om een in-app bericht te vormen om gebruikers welkom te heten die POI ingaan die heeft **[!UICONTROL Adobe]** in de naam:
 
    ![triggerparameters](/help/assets/trigger-parameters.png)
 
-* De parameters in de rubrieken van de Dienst van Plaatsen in de *Triggers en de pagina van Traits* in de Mobiele Diensten werken niet met gegevens van de Dienst van Plaatsen.
+* Parameters in de rubrieken Plaatsen in het dialoogvenster *Triggers en reizigers* pagina in Mobile Services werkt niet met gegevens van de Places Service.
 
    Die parameters zijn slechts voor het gegevensbestand van de Dienst van Verouderde Plaatsen dat in de Mobiele Diensten werd gecreeerd.

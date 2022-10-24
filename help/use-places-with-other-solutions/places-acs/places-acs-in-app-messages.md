@@ -1,14 +1,13 @@
 ---
 title: Berichten in de app met Plaatsen Service
 description: Deze sectie verstrekt informatie over hoe te om het overseinen van de Duw in Campaign Standard met In-App berichten in Campaign Standard te gebruiken.
-translation-type: tm+mt
-source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
+exl-id: c80727b8-20c9-4ca0-9f2c-20ec646bb7fa
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 3%
+source-wordcount: '382'
+ht-degree: 2%
 
 ---
-
 
 # Berichten in de app met Plaatsen Service {#in-app-messages-loc-service}
 
@@ -20,18 +19,18 @@ Voer de volgende taken uit voordat u begint:
 
 * Een mobiele toepassing hebben geconfigureerd met de Adobe Experience Platform Mobile SDK, inclusief de [Adobe Campaign Standard-extensie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-* Integreer de [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) in uw app.
-* Voeg de extensie [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) toe aan de configuratie van uw mobiele app.
+* De [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) in uw app.
+* Voeg de [Adobe Campaign Standard-extensie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) naar uw mobiele toepassingsconfiguratie.
 
-* [Creeer POI](/help/poi-mgmt-ui/create-a-poi-ui.md) in de het beheersinterface van POI van de Dienst van Plaatsen.
+* [Een POI maken](/help/poi-mgmt-ui/create-a-poi-ui.md) in de POI van de Dienst van Plaatsen beheersinterface.
 
-* Installeer en configureer de extensie [](/help/places-ext-aep-sdks/places-extension/places-extension.md) Plaatsen en [Plaatst Monitor-extensies](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md) in uw mobiele toepassing.
+* Installeer en configureer de [Extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md) en een oplossing voor regionale monitoring ([CoreLocation-documentatie](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) voor iOS, of [Documentatie over Android-locatie](https://developer.android.com/training/location/geofencing)) in uw mobiele toepassing.
 
 ## In-app-berichten verzenden op basis van een geo-fence-item of -uitgang
 
 1. Klik in uw Adobe Campaign Standard-exemplaar op **[!UICONTROL Create In-App message]**.
-1. Selecteer voor het berichttype **[!UICONTROL Target all users of a Mobile application]**.
-1. Klik op de algemene details **[!UICONTROL Next]** en typ deze.
+1. Selecteer voor het berichttype de optie **[!UICONTROL Target all users of a Mobile application]**.
+1. Klikken **[!UICONTROL Next]** en typ de algemene details.
 1. Controleer in het linkerdeelvenster of u verschillende triggers kunt gebruiken die verwant zijn aan Places Services.
 
    * U kunt ervoor kiezen om de berichtweergave in de app te laten weergeven als de gebruiker een POI-geo-fence heeft ingevoerd.
@@ -41,7 +40,7 @@ Voer de volgende taken uit voordat u begint:
 
    ![&quot;Metagegevens voor berichtlocaties in de app&quot;](/help/assets/last-entered-vacation.png)
 
-1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
+1. Klik op de knop **[!UICONTROL Next]** om het In-app-bericht voor levering te voltooien.
 
    ![&quot;Een gebeurtenis maken&quot;](/help/assets/prepare-ACS.png)
 

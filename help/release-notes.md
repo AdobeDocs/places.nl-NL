@@ -1,23 +1,22 @@
 ---
-title: Releaseopmerkingen
+title: Aanvullende informatie
 description: Opmerkingen bij de release voor Plaatsen Service.
-translation-type: tm+mt
-source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
+exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
+source-git-commit: 2b5c53887c9ed0f2a672c377121a39537ee58f01
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1492'
 ht-degree: 3%
 
 ---
 
-
-# Releaseopmerkingen {#release-notes}
+# Aanvullende informatie {#release-notes}
 
 ## 8 juli 2020
 
 * **Hiermee worden monitorextensies geplaatst en geplaatst**
 
-   * Extensies voor monitoren zijn toegevoegd voor [Native toepassingen Reageren](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
-   * De extensies voor Plaatsen en Monitor zijn toegevoegd voor [Cordova-toepassingen](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Extensies voor monitoren plaatsen en plaatsen zijn toegevoegd voor [Native toepassingen Reageren](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * Extensies voor monitoren plaatsen en plaatsen zijn toegevoegd voor [Cordova-toepassingen](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
    * Zie voor meer informatie: [Extensie Plaatsen gebruiken](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
@@ -50,13 +49,13 @@ ht-degree: 3%
 * **ACPPlaces 1.3.1 (iOS)**
 
    * Plaatst uitbreiding meldt nu versieinformatie aan de gebeurtenishub in de Kern SDK.
-   * De informatie van het POI-lidmaatschap van het apparaat heeft nu een standaardtijd-aan-leven van één uur van de tijd het wordt verzameld. Voor meer informatie, zie het [Wijzigen van de Tijd-aan-levende Plaatsen van het lidmaatschap](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * De informatie van het POI-lidmaatschap van het apparaat heeft nu een standaardtijd-aan-leven van één uur van de tijd het wordt verzameld. Zie voor meer informatie [De tijd-om-live voor het lidmaatschap van Plaatsen wijzigen](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 
 * **Plaatsen 1.4.1 (Android)**
 
    * Plaatst uitbreiding meldt nu versieinformatie aan de gebeurtenishub in de Kern SDK.
-   * De informatie van het POI-lidmaatschap van het apparaat heeft nu een standaardtijd-aan-leven van één uur van de tijd het wordt verzameld. Voor meer informatie, zie het [Wijzigen van de Tijd-aan-levende Plaatsen van het lidmaatschap](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * De informatie van het POI-lidmaatschap van het apparaat heeft nu een standaardtijd-aan-leven van één uur van de tijd het wordt verzameld. Zie voor meer informatie [De tijd-om-live voor het lidmaatschap van Plaatsen wijzigen](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 27 januari 2020
 
@@ -64,7 +63,7 @@ ht-degree: 3%
 
    * **Android**
 
-      * Roep de API voor nieuwe plaatsen aan om de status van de locatievergunning te verzamelen wanneer de app wordt gestart en wanneer de autorisatie verandert terwijl de app wordt uitgevoerd.
+      * Roep de API voor nieuwe locaties aan om de status van de locatievergunning te verzamelen wanneer de app wordt gestart en wanneer de autorisatie verandert terwijl de app wordt uitgevoerd.
       * Toegevoegde setRequestLocationPermission API en verouderde setLocationPermission API.
 
 ## 9 januari 2020
@@ -73,7 +72,7 @@ ht-degree: 3%
 
    * **Android**
 
-      * Er is een nieuwe API toegevoegd `setAuthorizationStatus`om de status van de apparaatautorisatie voor Plaatsingsservices in te stellen. De waarde wordt opgeslagen en gebruikt in de gedeelde status Plaatsen.
+      * Een nieuwe API toegevoegd, `setAuthorizationStatus`, om de status van de apparaatautorisatie voor Plaatsen Services in te stellen. De waarde wordt opgeslagen en gebruikt in de gedeelde status Plaatsen.
 
 ## 4 december 2019
 
@@ -89,7 +88,7 @@ ht-degree: 3%
 
    * **iOS**
 
-      * Er is een nieuwe API toegevoegd `setAuthorizationStatus`om de status van de apparaatautorisatie voor Plaatsingsservices in te stellen. De waarde wordt opgeslagen en gebruikt in de gedeelde status Plaatsen.
+      * Een nieuwe API toegevoegd, `setAuthorizationStatus`, om de status van de apparaatautorisatie voor Plaatsen Services in te stellen. De waarde wordt opgeslagen en gebruikt in de gedeelde status Plaatsen.
 
 ## 25 november 2019
 
@@ -114,10 +113,10 @@ ht-degree: 3%
 
    * **iOS**
 
-      * Er is een nieuwe API toegevoegd `setRequestAuthorizationLevel`om het type aanvraag voor locatielevering in te stellen waarvoor de gebruiker wordt gevraagd.
+      * Een nieuwe API toegevoegd, `setRequestAuthorizationLevel`, om het type locatieautorisatieverzoek in te stellen waarvoor de gebruiker wordt gevraagd.
    * **Android**
 
-      * Er is een nieuwe API toegevoegd `setLocationPermission`om het type locatietoestemmingsaanvraag in te stellen waarvoor de gebruiker wordt gevraagd.
+      * Een nieuwe API toegevoegd, `setLocationPermission`om het type locatietoestemming in te stellen waarvoor de gebruiker wordt gevraagd.
       * De monitor Plaatsen ondersteunt nu Android 10.
 
 
@@ -151,7 +150,7 @@ De volgende updates zijn aangebracht in deze release:
 
 ### Extension 2.0.0 voor monitor starten
 
-* De installatie-instructies voor Android en iOS voor de Monitor 2.0 van Plaatsen zijn bijgewerkt.
+* Bijgewerkt van de installatie-instructies voor Android en iOS voor Places Monitor 2.0.
 
 ## 31 juli 2019
 
@@ -167,7 +166,7 @@ De volgende updates zijn aangebracht in deze release:
 
    Nieuwe API: `public static void stop (final boolean clearData);`
 
-* Bijgewerkt het gebruik van de `getNearbyPointsOfInterest` API om foutscenario&#39;s effectiever af te handelen.
+* Het gebruik van de `getNearbyPointsOfInterest` API om foutscenario&#39;s effectiever af te handelen.
 
 ## 25 juli 2019
 
@@ -177,9 +176,9 @@ De volgende updates zijn aangebracht in deze release:
 
 * Om alle gegevens van Plaatsen van het apparaat te ontruimen,
 
-   in ACPPlacesMonitor, verving een bestaande API `+ (void) stop;` met`+ (void) stop: (BOOL) clearData;`.
+   in ACPPlacesMonitor een bestaande API vervangen `+ (void) stop;` with`+ (void) stop: (BOOL) clearData;`.
 
-* Het gebruik van de ACPPlaces- `getNearbyPointsOfInterest` API is bijgewerkt om foutscenario&#39;s effectiever af te handelen.
+* Het gebruik van ACPPlaces is bijgewerkt `getNearbyPointsOfInterest` API om foutscenario&#39;s effectiever af te handelen.
 
 ## 22 juli 2019
 
@@ -189,14 +188,14 @@ De volgende updates zijn aangebracht in deze release:
 
 * Er is een nieuwe API toegevoegd die alle Plaatsgerelateerde gegevens van de gedeelde status, het geheugen in de app en de gedeelde voorkeur wist.
 * Probleem verholpen waarbij de gedeelde status niet werd bijgewerkt tijdens het starten van de toepassing.
-* Probleem verholpen waarbij `getNearbyPointsOfInterest` callback foutcode retourneerde `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` op geen internet.
-* `getNearbyPointsOfInterest` API (zonder errorCallback) wordt `successCallback` aangeroepen met een lege poilijst als er een fout optreedt bij het ophalen van de nabijgelegen aandachtspunten.
+* Probleem verholpen waarbij `getNearbyPointsOfInterest` callback heeft foutcode geretourneerd `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` op internet.
+* `getNearbyPointsOfInterest` API (zonder errorCallback) heeft de `successCallback` opgeroepen met een lege poilijst, als er een fout optreedt bij het ophalen van de nabijgelegen aandachtspunten.
 
 ## 19 juli 2019
 
 De volgende updates zijn aangebracht in deze release:
 
-**iOS-locaties 1.2.0**
+**iOS Plaatsen 1.2.0**
 
 Er is een nieuwe API toegevoegd waarmee alle Plaatsgerelateerde gegevens worden gewist uit de gedeelde status, het geheugen in de app en `NSUserDefaults`.
 
@@ -212,7 +211,7 @@ De volgende updates zijn aangebracht in deze release:
 
 De volgende updates zijn aangebracht in deze release:
 
-**iOS-locaties 1.1.0**
+**iOS Plaatsen 1.1.0**
 
 * Er is een nieuwe API toegevoegd om een foutcode te retourneren als er een fout optreedt bij het ophalen van nabijgelegen plaatsen.
 * Wanneer de privacystatus verandert in de optie Weigeren, worden alle gegevens met betrekking tot Plaatsen nu van het apparaat gewist.
@@ -278,13 +277,13 @@ iOS-monitor 1.0.0
 
 Eerste release van de Places Monitor voor iOS.
 
-De Monitor van Plaatsen beheert de OS-vlakke Plaats APIs en communiceert direct met de uitbreiding van Plaatsen. Als beide extensies zijn geïnstalleerd, kunnen klanten regio&#39;s controleren die zich buiten de verpakking bevinden in hun toepassing. Voor meer informatie over de Monitor van Plaatsen, zie de uitbreiding [van de Monitor van](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Plaatsen.
+De Monitor van Plaatsen beheert de OS-vlakke Plaats APIs en communiceert direct met de uitbreiding van Plaatsen. Als beide extensies zijn geïnstalleerd, kunnen klanten regio&#39;s controleren die zich buiten de verpakking bevinden in hun toepassing.
 
 ## 28 februari 2019
 
 ### Bètaversie
 
-Dit is de eerste versie van de Dienst van Plaatsen, een reeks hulpmiddelen die klanten toestaat om de ervaringen van hun gebruikers met echte plaatsgegevens te verrijken. Voor de eerste release is het belangrijkste gebruiksgeval dat mobiele apps aangepaste locatiegegevens kunnen ophalen en deze gegevens via Adobe Experience Platform Launch kunnen verwerken.
+Dit is de eerste versie van de Dienst van Plaatsen, een reeks hulpmiddelen die klanten toestaat om de ervaringen van hun gebruikers met echte plaatsgegevens te verrijken. Voor de eerste release is het belangrijkste gebruiksgeval dat mobiele apps aangepaste locatiegegevens kunnen ophalen en op die gegevens kunnen reageren via Adobe Experience Platform Launch.
 
 ### Belangrijkste kenmerken
 
@@ -294,8 +293,8 @@ Hier volgen de belangrijkste functies van deze release:
 
 We hebben een beheerinterface beschikbaar gemaakt waarin u uw belangenbehartigingen (POI&#39;s) kunt weergeven en beheren. U kunt ook uw POI&#39;s ordenen in bibliotheken. Naast standaardmetagegevens zoals plaats, staat en categorie, ondersteunen we ook de mogelijkheid om aangepaste metagegevens toe te voegen aan uw persoonlijke expressies.
 
-* Ga naar [https://places.adobe.com](https://places.adobe.com)om de gebruikersinterface te bekijken.
-* Zie [Aan de slag](/help/getting-started.md)om aan de slag te gaan met de gebruikersinterface.
+* Ga naar [https://places.adobe.com](https://places.adobe.com).
+* Ga als volgt te werk om aan de slag te gaan met de gebruikersinterface: [Aan de slag](/help/getting-started.md).
 
 #### Extensie plaatsen
 
@@ -307,7 +306,7 @@ In de extensie Plaatsen:
 * Gebeurtenissen van de regel die op POI ingang of uitgang teweegbrengen.
 * Creeer gegevenselementen die aan huidige POI van de gebruiker richten.
 
-For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Voor meer informatie over de extensie Plaatsen raadpleegt u [Extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### Plaatst API&#39;s
 
@@ -319,7 +318,7 @@ U kunt de Plaatsen APIs gebruiken om het volgende te doen:
 
    U kunt het meegeleverde Python-hulpprogramma gebruiken om de bulkimport te voltooien.
 
-Voor meer informatie over Plaatsen APIs, zie de dienst API [van het](/help/web-service-api/places-web-services.md)Web.
+Voor meer informatie over de Plaatsen APIs, zie [Webservice-API](/help/web-service-api/places-web-services.md).
 
 ### Binnenkort beschikbaar
 

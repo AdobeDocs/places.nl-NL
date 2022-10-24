@@ -1,26 +1,25 @@
 ---
 title: De Dienst van Plaatsen gebruiken met de Mobiele Diensten voor overseinen
 description: Deze sectie toont u hoe te om de Dienst van Plaatsen met de Mobiele Diensten voor overseinen te gebruiken.
-translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '346'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Mobile Services {#places-mobile-services}
 
 Alvorens u de Mobiele uitbreiding van de Diensten voor overseinen kunt gebruiken, herzie de volgende eerste vereisten:
 
-* In de Places Service zijn interessante punten gecreëerd. Zie Een [POI](/help/poi-mgmt-ui/create-a-poi-ui.md)maken voor meer informatie.
+* In de Places Service zijn interessante punten gecreëerd. Zie voor meer informatie [Een POI maken](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
    >[!IMPORTANT]
    >
-   >De dienst van Plaatsen omvat een nieuw en verbeterd POI gegevensbestand voor uw organisatie die buiten de erfenis Mobiele UI van de Diensten bestaat. POI&#39;s die zich bevinden op de navigatie op de pagina Mobiele service *Plaatsen* beheren, werken alleen voor versie 4 van de SDK.
+   >De dienst van Plaatsen omvat een nieuw en verbeterd POI gegevensbestand voor uw organisatie die buiten de erfenis Mobiele UI van de Diensten bestaat. POI&#39;s die zich op de mobiele service bevinden *Plaatsen beheren* paginanavigatie werkt alleen voor versie 4 van de SDK.
 
-* Hier volgt de pagina POI-beheer van locaties *beheren* in de oudere gebruikersinterface voor mobiele services voor oudere versies van de SDK:
+* Hier is het *Plaatsen beheren* De pagina van het beheer van POI in erfenis Mobiele Diensten UI voor oudere versies van SDK:
 
    ![Verouderde gebruikersinterface](/help/assets/legacy-location-v4-ui.png)
 
@@ -28,17 +27,17 @@ Alvorens u de Mobiele uitbreiding van de Diensten voor overseinen kunt gebruiken
 
    ![Gebruikerinterface voor servicebeheer plaatsen](/help/assets/places-ui.png)
 
-* De ACS SDK is correct geconfigureerd met de extensies Places Service en/of Places Monitor.
+* De ACS SDK is correct geconfigureerd met de extensie Plaatsen.
 
-   Dit betekent dat gegevens beschikbaar zijn als gebeurtenissen en/of omstandigheden in de engine voor regels voor Experience Platforms Launch voor uw mobiele app. Voor meer informatie, zie de uitbreiding [van](/help/places-ext-aep-sdks/places-extension/places-extension.md) Plaatsen of de uitbreiding [van de Monitor van](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)Plaatsen.
+   Dit betekent dat gegevens beschikbaar zijn als gebeurtenissen en/of omstandigheden in de engine voor regels voor Experience Platforms Launch voor uw mobiele app. Zie voor meer informatie [Extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * Word vertrouwd met het maken en publiceren van regels voor Experience Platforms Launch voor de ACS-SDK in uw mobiele app.
 
-   Zie [Regels voor meer informatie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
+   Zie voor meer informatie [Regelengine](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
 
 * De gegevenselementen van het Experience Platform Launch worden gecreeerd van de uitbreidingsgegevens van Plaatsen die in de motor van Regels zullen worden gebruikt.
 
-   Zie [Gegevenselementen](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements)voor meer informatie.
+   Zie voor meer informatie [Gegevenselementen](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 
 ## Rapportage
 
@@ -46,11 +45,11 @@ Voordat u rapportage kunt gebruiken, moet u aan de volgende voorwaarden voldoen:
 
 * Plaatsen van servicegegevens naar Adobe Analytics Report Suite verzenden.
 
-   Zie Plaatsingsservice [gebruiken met Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)voor meer informatie.
+   Zie voor meer informatie [Plaatsingsservice gebruiken voor Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
 
 * Word vertrouwd met het melden van de Mobiele Diensten.
 
-   Zie [Rapporten](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html)voor meer informatie.
+   Zie voor meer informatie [Rapporten](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
 
 ## Visualisatie melden
 
@@ -59,4 +58,3 @@ U kunt rapporten van de Mobiele Dienst in werking stellen gebruikend de gegevens
 ![Visualisatie rapporteren](/help/assets/report-visualize.png)
 
 De extra flexibiliteit in het visualiseren van de gegevens van de Dienst van Plaatsen is beschikbaar in de interfaces van Adobe Analytics.
-

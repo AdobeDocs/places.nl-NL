@@ -1,26 +1,25 @@
 ---
 title: De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole
 description: Deze sectie verstrekt informatie over hoe de Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole.
-translation-type: tm+mt
-source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
-
 
 # De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole {#use-places-without-active-monitoring}
 
 Het is mogelijk dat voor het gebruik van de hoofdletters en kleine letters voor uw toepassing geen actieve gebiedscontrole is vereist. De Dienst van Plaatsen kan nog worden gebruikt om de plaatsgegevens van uw gebruikers met andere producten van de Experience Platform te integreren.
 
-## Vereiste
+## Voorwaarde
 
 De ontwikkelaar verzamelt de locatie van het apparaat met behulp van de API&#39;s die worden geleverd door het besturingssysteem van het doelplatform.
 
 >[!TIP]
 >
->Zie [De extensie](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Places Monitor gebruiken als er actieve gebiedscontrole nodig is voor de gebruiksgevallen van uw app.
+>Als de gebruiksgevallen van uw app actieve gebiedscontrole vereisen, raadpleegt u [De Dienst van Plaatsen van het gebruik met uw eigen monitoroplossing](/help/using-your-own-monitor.md).
 
 De service Plaatsen gebruiken zonder controle van het actieve gebied:
 
@@ -85,7 +84,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Doelstelling-C
 
-Hier volgt een voorbeeldimplementatie voor iOS. De code toont de implementatie van de [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) methode in [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
+Hier volgt een voorbeeldimplementatie voor iOS. In de code wordt de uitvoering van de [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) in de [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -101,7 +100,7 @@ Hier volgt een voorbeeldimplementatie voor iOS. De code toont de implementatie v
 
 ### Swift
 
-Hier volgt een voorbeeldimplementatie voor iOS. De code toont de implementatie van de [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) methode in [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager):
+Hier volgt een voorbeeldimplementatie voor iOS. In de code wordt de uitvoering van de [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) in de [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager):
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -117,29 +116,29 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 
 ## 3. Gegevens van Plaatsen koppelen aan uw analyseverzoeken
 
-Door de `getNearbyPointsOfInterest` API aan te roepen, maakt de Plaatsen SDK alle POI-gegevens relevant voor het apparaat beschikbaar via gegevenselementen in Launch. Met de regel Gegevens [](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) koppelen kunnen gegevens van Plaatsen automatisch worden toegevoegd aan toekomstige verzoeken aan Analytics. Dit elimineert de behoefte aan een eenmalig vraag aan Analytics op het tijdstip dat de plaats van het apparaat wordt verzameld.
+Door de `getNearbyPointsOfInterest` API, maakt de SDK van Plaatsen alle POI-gegevens relevant voor het apparaat beschikbaar via gegevenselementen in Launch. Door een [Gegevens bijvoegen](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) In de regel, kunnen de gegevens van Plaatsen automatisch aan toekomstige verzoeken aan Analytics worden toegevoegd. Dit elimineert de behoefte aan een eenmalig vraag aan Analytics op het tijdstip dat de plaats van het apparaat wordt verzameld.
 
-Zie [Add de Context van de Plaats aan de Verzoeken](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) van Analytics om meer over dit onderwerp te leren.
+Zie [Locatiecontext toevoegen aan analyseverzoeken](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) voor meer informatie over dit onderwerp.
 
 ## Optioneel - Invoergebeurtenissen activeren wanneer de gebruiker zich in een POI bevindt
 
 >[!TIP]
 >
->De aanbevolen manier om Plaatsen-gegevens vast te leggen is om Plaatsen [bij te voegen aan uw analyseverzoeken](#attach-places-data-to-your-analytics-requests).
+>De aanbevolen manier om Plaatsen-gegevens vast te leggen is door [Gegevens van Plaatsen koppelen aan uw analyseverzoeken](#attach-places-data-to-your-analytics-requests).
 >
->Als het gebruiksgeval vereist dat een gebeurtenis [van het](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) gebiedsingang door SDK wordt teweeggebracht, zal het manueel moeten worden gedaan zoals hieronder geschetst.
+>Als voor het gebruik een [region entry, gebeurtenis](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) om door de SDK in werking te worden gesteld, moet dit handmatig gebeuren zoals hieronder beschreven.
 
-De lijst die door de `getNearbyPointsOfInterest` API wordt geretourneerd, bevat [aangepaste objecten](places-ext-aep-sdks/places-extension/cust-places-objects.md) die aangeven of de gebruiker zich momenteel binnen een POI bevindt. Als de gebruiker zich in een POI bevindt, kunt u de SDK een ingangsgebeurtenis voor dat gebied laten activeren.
+De lijst die door de `getNearbyPointsOfInterest` API bevat [aangepaste objecten](places-ext-aep-sdks/places-extension/cust-places-objects.md) die aangeven of de gebruiker zich momenteel binnen een POI bevindt. Als de gebruiker zich in een POI bevindt, kunt u de SDK een ingangsgebeurtenis voor dat gebied laten activeren.
 
 >[!IMPORTANT]
 >
 >Als u wilt voorkomen dat uw app meerdere gebeurtenissen voor het invoeren van gegevens activeert tijdens één bezoek, houdt u een lijst bij van de gebieden waarvan u weet dat de gebruiker deze heeft ingevoerd. Wanneer het verwerken van de reactie van nabijgelegen POIs van SDK, teweeg een ingangsgebeurtenis slechts wanneer het gebied niet in uw lijst is.
 >
->In het volgende codevoorbeeld worden `NSUserDefaults` (iOS) en `SharedPreferences` (Android) gebruikt om de lijst met regio&#39;s te beheren:
+>In het volgende codevoorbeeld: `NSUserDefaults` (iOS) en `SharedPreferences` (Android) worden gebruikt voor het beheer van de lijst met regio&#39;s:
 
 ### Android
 
-Het volgende codevoorbeeld toont de behandeling van het resultaat dat in callback van `getNearbyPointsOfInterest`, `List<PlacesPOI>`werd verstrekt:
+Het volgende codevoorbeeld toont de behandeling van het resultaat dat in callback van werd verstrekt `getNearbyPointsOfInterest`, `List<PlacesPOI>`:
 
 ```java
 void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
@@ -177,7 +176,7 @@ void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
 
 ### Doelstelling-C
 
-Het volgende codevoorbeeld toont de behandeling van het resultaat dat in callback van `getNearbyPointsOfInterest:limit:callback:errorCallback:`, werd verstrekt `NSArray<ACPPlacesPoi *> *`:
+Het volgende codevoorbeeld toont de behandeling van het resultaat dat in callback van werd verstrekt `getNearbyPointsOfInterest:limit:callback:errorCallback:`, en `NSArray<ACPPlacesPoi *> *`:
 
 ```objectivec
 - (void) handleUpdatedPOIs:(NSArray<ACPPlacesPoi *> *)nearbyPois {
@@ -211,7 +210,7 @@ Het volgende codevoorbeeld toont de behandeling van het resultaat dat in callbac
 
 ### Swift
 
-Het volgende codevoorbeeld toont de behandeling van het resultaat dat in callback van `getNearbyPoints(_ ofInterest: CLLocation, limit: UInt, callback: (([ACPPlacesPoi]?) -> Void)?, errorCallback: ((ACPPlacesRequestError) -> Void)?)`, werd verstrekt `[ACPPlacesPoi]`:
+Het volgende codevoorbeeld toont de behandeling van het resultaat dat in callback van werd verstrekt `getNearbyPoints(_ ofInterest: CLLocation, limit: UInt, callback: (([ACPPlacesPoi]?) -> Void)?, errorCallback: ((ACPPlacesRequestError) -> Void)?)`, en `[ACPPlacesPoi]`:
 
 ```swift
 func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
@@ -244,11 +243,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 In de onderstaande codevoorbeelden ziet u hoe u de huidige locatie van het apparaat ophaalt, de benodigde gebeurtenissen voor het invoeren activeert en ervoor zorgt dat u tijdens één bezoek niet meerdere items voor dezelfde locatie ophaalt.
 
-Dit codevoorbeeld omvat de facultatieve stap van het [teweegbrengen van een ingangsgebeurtenissen wanneer de gebruiker in POI](#trigger-entry-events-when-the-user-is-in-a-poi)is.
+Dit codevoorbeeld bevat de optionele stap van [het activeren van een entry-gebeurtenis wanneer de gebruiker zich in een POI bevindt](#trigger-entry-events-when-the-user-is-in-a-poi).
 
 >[!IMPORTANT]
 >
->Deze fragmenten zijn **slechts** voorbeelden. De ontwikkelaars moeten bepalen hoe zij de functionaliteit willen uitvoeren, en het besluit zou de beste praktijken moeten overwegen zoals die door het doelwerkende systeem worden geadviseerd.
+>Deze fragmenten zijn **alleen** voorbeelden. De ontwikkelaars moeten bepalen hoe zij de functionaliteit willen uitvoeren, en het besluit zou de beste praktijken moeten overwegen zoals die door het doelwerkende systeem worden geadviseerd.
 
 ### Android
 
@@ -411,6 +410,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Naast het in werking stellen van de de ingangsgebeurtenissen van de Dienst van Plaatsen in SDK, wegens de het teweegbrengen ingangsgebeurtenissen, kunnen alle gegevens die uw POIs bepalen door de rest van SDK via `data elements` in Experience Platform Launch worden gebruikt. Met Experience Platform Launch `rules`, kunt u dynamisch de gegevens van de Dienst van Plaatsen aan inkomende gebeurtenissen vastmaken die door SDK worden verwerkt. Bijvoorbeeld, kunt u de meta- gegevens van POI vastmaken waarin de gebruiker wordt gevestigd en de gegevens verzenden naar Analytics als contextgegevens.
+Naast het activeren van Places Service-entry-gebeurtenissen in de SDK, kunnen vanwege de activerende entry-gebeurtenissen alle gegevens die uw POI&#39;s definiëren, door de rest van de SDK worden gebruikt via `data elements` in Experience Platform Launch. Met Experience Platform Launch `rules`, kunt u de gegevens van de Dienst van Plaatsen aan inkomende gebeurtenissen dynamisch vastmaken die door SDK worden verwerkt. Bijvoorbeeld, kunt u de meta- gegevens van POI vastmaken waarin de gebruiker wordt gevestigd en de gegevens verzenden naar Analytics als contextgegevens.
 
-Voor meer informatie, zie het [Gebruiken van de Dienst van Plaatsen met andere oplossingen](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)van Adobe.
+Zie voor meer informatie [De Dienst van Plaatsen gebruiken met andere oplossingen van Adobe](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).

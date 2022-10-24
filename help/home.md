@@ -2,10 +2,10 @@
 title: Places Service
 description: Plaatsingsservice is een belangrijke context voor het begrijpen van de betrokkenheid van mobiele gebruikers. Met deze context kunnen ontwikkelaars van mobiele apps het toepassingsontwerp verbeteren en deze een meer persoonlijke en boeiende ervaring maken.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: c13da9ea3dc0cd574f2f9a496405867f7d36eae0
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 7%
+source-wordcount: '673'
+ht-degree: 8%
 
 ---
 
@@ -51,10 +51,6 @@ De Dienst van Plaatsen omvat de volgende componenten:
 * **Opstartregels**
 
    De geo-intelligente regels van de Lancering die u toelaten om acties met ingang en uitgangsgebeurtenissen teweeg te brengen. De regels staan u ook toe om geo-attributen in voorwaarden te gebruiken om de ervaring te personaliseren.
-
-* **Hiermee wordt de extensie Monitor geplaatst**
-
-   De mobiele SDK voor meerdere platforms die in uw mobiele app kan worden ingesloten om automatisch de wijzigingen in de locatie van uw gebruiker te controleren en de regels voor Plaatsen te activeren. Zie voor meer informatie [Hiermee wordt de extensie Monitor geplaatst](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminologie
 
