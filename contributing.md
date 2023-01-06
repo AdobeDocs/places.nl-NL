@@ -1,30 +1,37 @@
 ---
-source-git-commit: acbe79b1a66cb8a439f3cb223d3006128aaca457
-translation-type: tm+mt
+source-git-commit: c79135bed83932095df42869017ed2cc20be6e22
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 # Bijdragen
 
-Bedankt dat u hebt gekozen om bij te dragen!
+Bedankt dat u ervoor hebt gekozen om bij te dragen!
 
-Hieronder volgt een reeks richtlijnen die moeten worden gevolgd wanneer u een bijdrage levert aan dit project.
+Hieronder volgt een aantal richtlijnen die moeten worden gevolgd wanneer u een bijdrage levert aan dit project.
 
 ## Gedragscode
 
-Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Als u deelneemt, wordt van u verwacht dat u zich aan deze code houdt. Please report unacceptable behavior to
+Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Als u deelneemt, wordt van u verwacht dat u zich aan deze code houdt. Meld onaanvaardbaar gedrag aan
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Documentatie voor de bijdragegids
+## Documentatie voor de bijdragershandleiding
 
-Zie de [handleiding](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)voor contribuanten.
+Zie de [Handleiding voor bijdragers](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl).
 
-## Heb je een vraag?
+## Hebt u een vraag?
 
-Begin met het indienen van een probleem. De bestaande comités voor dit project werken aan consensus over de richting van het project en leveren oplossingen binnen de verschillende thema&#39;s (indien van toepassing).
+Begin met het indienen van een probleem. De bestaande committers van dit project doen hun best om 
+consensus te bereiken over de projectrichting en probleemoplossingen binnen probleemthreads
+(indien van toepassing).
 
-## Licentieovereenkomst voor contribuant
+## Licentieovereenkomst voor bijdragers
 
-Alle bijdragen van derden aan dit project moeten vergezeld gaan van een ondertekende bijdrageovereenkomst. Dit geeft Adobe de toestemming om uw bijdragen als deel van het project opnieuw te verdelen. [Onderteken onze CLA](http://opensource.adobe.com/cla.html). U hoeft slechts één keer een Adobe CLA te verzenden, dus als u al een eerder hebt verzonden, kunt u het beste gaan!
+Alle bijdragen van derden aan dit project moeten vergezeld gaan van een ondertekende 
+licentieovereenkomst voor bijdragers. Dit geeft Adobe de toestemming om uw bijdragen als deel van het project opnieuw te verdelen. [Onze CLA ondertekenen](http://opensource.adobe.com/cla.html). U
+hoeft maar één keer een Adobe-CLA in te dienen, dus als u er al eerder een hebt ingediend,
+kunt u aan de slag.
 
 ## Codebeoordelingen
 
@@ -35,10 +42,15 @@ Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Van contribuant aan vastleggingen
+## Van bijdrager tot committer
 
-We houden van bijdragen van onze gemeenschap! Als u een stap verder wilt gaan dan contribuant en een commissie met volledige schrijftoegang en een inspraak in het project wilt worden, moet u aan het project worden uitgenodigd. De bestaande commissies maken gebruik van een intern nominatieproces dat een luie consensus moet bereiken (stilte is goedkeuring) voordat uitnodigingen worden gedaan. Als u vindt dat u gekwalificeerd bent en dieper betrokken wilt worden, voelt u vrij om bestaande toezeggingen te bereiken om daarover een gesprek te hebben.
+We zien graag bijdragen van onze gemeenschap! Als u een stap verder wilt gaan dan bijdrager
+en een committer wilt worden met volledige schrijftoegang en inspraak in het project, moet u
+worden uitgenodigd voor het project. De bestaande committers maken gebruik van een intern nominatieproces
+dat een luie consensus moet bereiken (stilte is goedkeuring) voordat uitnodigingen
+worden verstuurd. Als u vindt dat u gekwalificeerd bent en meer betrokken wilt zijn, 
+neem dan gerust contact op met bestaande committers om daarover te praten.
 
 ## Beveiligingsproblemen
 
-Beveiligingsproblemen moeten niet worden gerapporteerd in deze Issue Tracker. In plaats daarvan [dient u een probleem in bij onze beveiligingsexperts](https://helpx.adobe.com/security/alertus.html)
+Beveiligingsproblemen mogen niet worden gemeld met deze probleemtracker. In plaats daarvan dient u [een probleem in bij onze beveiligingsexperts](https://helpx.adobe.com/nl/security/alertus.html)
