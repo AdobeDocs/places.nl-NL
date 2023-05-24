@@ -1,16 +1,15 @@
 ---
 title: Kopteksten en parameters
 description: Kopballen en parameters die in de REST APIs van de Dienst van Plaatsen beschikbaar zijn.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+exl-id: 3c7e76de-f0ff-4966-a3ec-7f64d819c140
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 3%
 
 ---
 
-
-# Headers and parameters {#headers-and-parameters}
+# Kopteksten en parameters {#headers-and-parameters}
 
 Hier zijn de details over de kopballen en de parameters die in de REST API van de Dienst van Plaatsen beschikbaar zijn:
 
@@ -58,4 +57,3 @@ Hier zijn de details over de kopballen en de parameters die in de REST API van d
 | `lib_id` | ID van de bibliotheek waarin de POI zich bevindt | n.v.t. | n.v.t. | beide, vereist | `"lib_id": "ac7a0b25-c6c2-43ba-bbc6-2b1777b80fe9"` |
 
 * Als de parameterwaarde niet is opgenomen, wordt de waarde ingesteld op `empty` in de database. Als het bestaande sleutel/waardepaar niet inbegrepen is, wordt het sleutel/waardepaar verwijderd voor die POI in het gegevensbestand.
-

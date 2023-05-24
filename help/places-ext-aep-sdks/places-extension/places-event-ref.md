@@ -1,14 +1,13 @@
 ---
 title: Referentie van gebeurtenis Plaatsen
-description: 'Een lijst met de gebeurtenissen die door de extensie Plaatsen worden afgehandeld. '
-translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+description: Een lijst met de gebeurtenissen die door de extensie Plaatsen worden afgehandeld.
+exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # Referentie van gebeurtenis Plaatsen {#places-event-reference}
 
@@ -73,4 +72,3 @@ Deze gebeurtenis zorgt ervoor dat de extensie Plaatsen een gebeurtenis voor een 
 ## Gebeurtenissen verzonden door de extensie Plaatsen
 
 Deze informatie is momenteel in uitvoering.
-

@@ -9,7 +9,7 @@ ht-degree: 8%
 
 ---
 
-# Plaatsingsservice {#home}
+# Places Service {#home}
 
 Locatie is een belangrijke context voor het begrijpen van mobiele gebruikers en voor de communicatie met deze gebruikers. Met deze context kunnen ontwikkelaars van mobiele apps het toepassingsontwerp verbeteren en deze een meer persoonlijke en boeiende ervaring maken.
 

@@ -1,14 +1,13 @@
 ---
 title: Uw eigen monitor gebruiken
 description: U kunt ook uw controleservices gebruiken en integreren met de Places Service met behulp van de API's voor de uitbreiding Plaatsen Service.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+exl-id: 8ca4d19b-0f23-4291-b335-af47f03179fa
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
 
 ---
-
 
 # Uw eigen monitor gebruiken {#using-your-monitor}
 
@@ -22,9 +21,9 @@ Als u besluit om uw controlediensten te gebruiken, registreer de geofences van P
 
 Voer in iOS de volgende stappen uit:
 
-1. Geef de locatie-updates die zijn verkregen van de Core location services van iOS door aan de Places extensie.
+1. Geef de locatie-updates die zijn verkregen van de Core location services van de iOS door aan de Places extension.
 
-1. Gebruik de API voor `getNearbyPointsOfInterest` Plaatsen-extensie om de array met `ACPPlacesPoi` objecten rond de huidige locatie op te halen.
+1. Gebruik de `getNearbyPointsOfInterest` Plaatst de extensie-API om de array van `ACPPlacesPoi` objecten rond de huidige locatie.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -34,7 +33,7 @@ Voer in iOS de volgende stappen uit:
    }
    ```
 
-1. Haal de informatie uit de verkregen `ACPPlacesPOI` objecten en begin met het controleren van die POI&#39;s.
+1. Haal de informatie uit de verkregen informatie `ACPPlacesPOI` objecten en begin met het controleren van die POI&#39;s.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -60,7 +59,7 @@ Voer in iOS de volgende stappen uit:
 
 1. Geef de locatie-updates die zijn verkregen van de Google Play-services of de Android-locatieservices door aan de Places Extension.
 
-1. Gebruik de API voor extensie `getNearbyPointsOfInterest` Plaatsen om de lijst met `PlacesPoi` objecten rond de huidige locatie op te halen.
+1. Gebruik de `getNearbyPointsOfInterest` Plaatst de Uitbreiding API om de lijst van te krijgen `PlacesPoi` objecten rond de huidige locatie.
 
    ```java
    LocationCallback callback = new LocationCallback() {
@@ -78,7 +77,7 @@ Voer in iOS de volgende stappen uit:
    };
    ```
 
-1. Haal de gegevens uit de verkregen `PlacesPOI` objecten en begin met het controleren van die POI&#39;s.
+1. De gegevens extraheren uit de verkregen gegevens `PlacesPOI` objecten en begin met het controleren van die POI&#39;s.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -103,7 +102,7 @@ Voer in iOS de volgende stappen uit:
    ```
 
 
-Het aanroepen van de `getNearbyPointsOfInterest` API resulteert in een netwerkaanroep die de locatie rondom de huidige locatie ophaalt.
+Het roepen van `getNearbyPointsOfInterest` API resulteert in een netwerkvraag die de plaats rond de huidige plaats krijgt.
 
 >[!IMPORTANT]
 >
@@ -113,7 +112,7 @@ Het aanroepen van de `getNearbyPointsOfInterest` API resulteert in een netwerkaa
 
 ### iOS
 
-Roep in iOS de API `processGeofenceEvent` Places in de `CLLocationManager` gedelegeerde. Deze API informeert u of de gebruiker een bepaald gebied is binnengekomen of vertrokken.
+Roep in iOS de `processGeofenceEvent` Plaatst API in `CLLocationManager` afgevaardigde. Deze API informeert u of de gebruiker een bepaald gebied is binnengekomen of vertrokken.
 
 ```objective-c
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
@@ -127,7 +126,7 @@ Roep in iOS de API `processGeofenceEvent` Places in de `CLLocationManager` gedel
 
 ### Android
 
-Roep in Android de `processGeofence` methode aan samen met de toepasselijke overgangsgebeurtenis in de ontvanger van de Geofence-uitzending. Mogelijk wilt u de lijst met ontvangen geofences beheren om dubbele items/uitgangen te voorkomen.
+Roep in Android de `processGeofence` samen met de juiste overgangsgebeurtenis in de ontvanger van de Geofence-uitzending. Mogelijk wilt u de lijst met ontvangen geofences beheren om dubbele items/uitgangen te voorkomen.
 
 ```java
 void onGeofenceReceived(final Intent intent) {

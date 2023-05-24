@@ -1,14 +1,13 @@
 ---
 title: Een bibliotheek verwijderen
 description: Verwijder een bibliotheek met de REST-API's van Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: ad45ea38-9e12-43d7-b05f-17d3e40abaf5
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 0%
 
 ---
-
 
 # Een bibliotheek verwijderen {#delete-a-library}
 
@@ -46,5 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRA
 
 >[!IMPORTANT]
 >
->Vervang variabelen zoals `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`en `<ORGID>`met werkelijke waarden.
-
+>Variabelen zoals `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`, en `<ORGID>`met werkelijke waarden.

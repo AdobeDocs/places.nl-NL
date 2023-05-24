@@ -1,14 +1,13 @@
 ---
 title: Bibliotheken beheren in de gebruikersinterface van de Plaatsingsservice
 description: Beheer uw bibliotheken met behulp van de gebruikersinterface van de Plaatsingsservice.
-translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+exl-id: 2fb999b4-854a-430f-bb89-4c786d1a89cc
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 23%
 
 ---
-
 
 # Bibliotheken beheren {#manage-libraries-places-ui}
 
@@ -27,7 +26,7 @@ Bibliotheken worden als volgt gedefinieerd:
 ## Een bibliotheek maken
 
 1. Meld u aan bij Plaatsen met uw Adobe ID.
-1. Klik in de rechterbovenhoek op **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**.
 1. Klik op **[!UICONTROL New]**.
 1. Typ de naam.
 1. Klik op **[!UICONTROL Confirm]**.
@@ -35,7 +34,7 @@ Bibliotheken worden als volgt gedefinieerd:
 ## De positie van een bibliotheek wijzigen in de gebruikersinterface Plaatsen
 
 1. Meld u aan bij Plaatsen met uw Adobe ID.
-1. Klik in de rechterbovenhoek op **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
+1. Klik in de rechterbovenhoek op **[!UICONTROL ...]**  > **[!UICONTROL Manage Libraries]**.
 1. Klik op het pictogram links van de bibliotheeknaam en sleep de bibliotheek naar de nieuwe rang.
 
 ## De naam van een bibliotheek wijzigen
@@ -44,7 +43,7 @@ Bibliotheken worden als volgt gedefinieerd:
 1. Klik in de rechterbovenhoek op **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 1. Zoek de bibliotheek die u wilt verwijderen.
 1. Klik op **[!UICONTROL ...]** en selecteer **[!UICONTROL Rename]**.
-1. Werk de naam bij en klik **[!UICONTROL Save]**.
+1. Werk de naam bij en klik op **[!UICONTROL Save]**.
 
 ## Een bibliotheek verwijderen
 
@@ -52,4 +51,3 @@ Bibliotheken worden als volgt gedefinieerd:
 1. Klik in de rechterbovenhoek op **[!UICONTROL ...]** > **[!UICONTROL Manage Libraries]**.
 1. Zoek de bibliotheek die u wilt verwijderen.
 1. Klik op **[!UICONTROL ...]** en selecteer **[!UICONTROL Delete]**.
-

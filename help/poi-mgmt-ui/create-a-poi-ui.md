@@ -1,14 +1,13 @@
 ---
 title: Een POI maken
 description: Creeer POI gebruikend de Dienst UI van Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 16df61e3-5a18-4de4-a284-a5d394dc73af
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 1%
 
 ---
-
 
 # Een POI maken {#create-a-poi}
 
@@ -39,9 +38,9 @@ Een interessant punt (POI) is een locatie of een punt op een kaart die van belan
    1. Selecteer of voer een breedte- of lengtegraad in (vereist).
    1. Klik op **[!UICONTROL Drop Pin on Map]**.
 
-   Als u de exacte breedte en lengte niet weet, is het nuttig een punt neer te zetten.
+   Als u de exacte breedte en lengte niet weet, is het nuttig een punt weg te laten.
 
-1. Vouw de **[!UICONTROL Metadata]** sectie uit en klik op **[!UICONTROL Add Metadata]**.
+1. Breid uit **[!UICONTROL Metadata]** en klik op **[!UICONTROL Add Metadata]**.
 
    Metagegevens kunnen u helpen een plaats verder te bepalen en kunnen in andere werkschema&#39;s van de oplossing van Adobe worden gebruikt om uw publiek verder te verfijnen.
 

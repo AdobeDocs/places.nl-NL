@@ -1,14 +1,13 @@
 ---
 title: Alle bibliotheken in uw organisatie lezen
 description: Lees alle bibliotheken in uw organisatie met de REST-API van Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 3384e1f2-9626-498d-85f7-84569d869c2c
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%
 
 ---
-
 
 # Alle bibliotheken in uw organisatie lezen {#read-all-lib-in-org}
 
@@ -42,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-ap
 
 >[!IMPORTANT]
 >
->Vervang variabelen zoals `<API KEY>`, `<TOKEN>,` en `<ORGID>` met werkelijke waarden.
+>Variabelen zoals `<API KEY>`, `<TOKEN>,` en `<ORGID>` met werkelijke waarden.

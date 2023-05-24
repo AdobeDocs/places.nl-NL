@@ -1,14 +1,13 @@
 ---
 title: Een rang op uw bibliotheken instellen
 description: Stel een positie in op uw bibliotheken met de REST-API voor Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
 
 ---
-
 
 # Een rang op uw bibliotheken instellen {#set-rank-on-libraries}
 
@@ -48,5 +47,4 @@ curl -X PUT `'https://api-places.adobe.io/places/placesapi/v1/libraries/rank'` -
 
 >[!IMPORTANT]
 >
->Vervang variabelen zoals `<API KEY>`, `<TOKEN>`en `<ORGID>` met werkelijke waarden.
-
+>Variabelen zoals `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.

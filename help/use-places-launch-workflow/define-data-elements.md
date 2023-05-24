@@ -1,14 +1,13 @@
 ---
 title: Gegevenselementen definiëren
 description: Deze sectie biedt informatie over het maken, gebruiken en publiceren van gegevenselementen in Experience Platform Launch voor Plaatsen.
-translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+exl-id: 57e88a37-0b0b-4064-ab72-382a36a0d01d
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 1%
 
 ---
-
 
 # Een gegevenselement definiëren {#define-data-elements}
 
@@ -43,13 +42,13 @@ Elke POI bevat de volgende gegevensverwijzingen:
 
 ### Een data-element maken
 
-1. Klik op het **[!UICONTROL Data Elements]** tabblad op de pagina Eigenschappen voor uw app.
+1. Klik op de pagina Eigenschappen voor uw app op de knop **[!UICONTROL Data Elements]** tab.
 
 1. Klik op **[!UICONTROL Create New Data Element]**.
 
 1. Zoek in de lijst met geïnstalleerde extensies naar **[!UICONTROL Places]**.
 
-1. Selecteer in de **[!UICONTROL Data Element Type]** vervolgkeuzelijst een gegevensverwijzing voor dit gegevenselement.
+1. In de **[!UICONTROL Data Element Type]** Selecteer een gegevensverwijzing voor dit gegevenselement in de vervolgkeuzelijst.
 
 1. Selecteer een POI-doel.
 
@@ -66,8 +65,8 @@ Nadat een gegevenselement wordt gecreeerd, als een plukker van het gegevenseleme
 
 ![Het gegevenselement gebruiken](/help/assets/use-de-v2.png)
 
-Als een plukker van gegevenselement niet in de regelcomponent aanwezig is, kunt u het gegevenselement gebruiken door de naam van het gegevenselement met de **[!UICONTROL %%]** tokens te verpakken.
-Als de naam van het gegevenselement bijvoorbeeld **[!UICONTROL Last POI City]** is, kunt u **[!UICONTROL LAST POI City]** aan een tekstinvoer toevoegen.
+Als een plukker van gegevenselement niet in de regelcomponent aanwezig is, kunt u het gegevenselement gebruiken door de naam van het gegevenselement met te verpakken **[!UICONTROL %%]** tokens.
+Als de naam van het gegevenselement bijvoorbeeld **[!UICONTROL Last POI City]** kunt u toevoegen **[!UICONTROL LAST POI City]** naar een tekstinvoer.
 
 
 ## Gegevenselementen publiceren

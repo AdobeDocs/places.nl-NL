@@ -1,14 +1,13 @@
 ---
 title: Bestaande POI's beheren
 description: In de UI van de Dienst van Plaatsen, kunt u bestaande POIs uitgeven, schrappen of filtreren.
-translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+exl-id: a4cf28ae-1e3c-4724-bca3-ac1d0cd6da09
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 6%
 
 ---
-
 
 # Bestaande POI&#39;s beheren {#managing-existing-pois}
 
@@ -45,11 +44,11 @@ Met behulp van de interface Plaatsen worden POI&#39;s en bibliotheken gemaakt en
 
    * Op eigenschap:
 
-      a. Selecteer **[!UICONTROL Country]**, **[!UICONTROL State]** of **[!UICONTROL City]** in de vervolgkeuzelijst Eigenschap.
+      a. Selecteer in de vervolgkeuzelijst Eigenschap de optie **[!UICONTROL Country]**, **[!UICONTROL State]**, of **[!UICONTROL City]**.
 
       b. Voer in de volgende regel een waarde in.
 
-      U kunt bijvoorbeeld selecteren **[!UICONTROL State]** en typen **[!UICONTROL California]**.
+      U kunt bijvoorbeeld **[!UICONTROL State]** en type **[!UICONTROL California]**.
 
    * Met metagegevens:
 

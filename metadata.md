@@ -13,17 +13,17 @@ git-repo: https://github.com/AdobeDocs/places.nl-NL
 index: true
 source-git-commit: 832888ab4b45aa054069a69eaf4c8b9cc059d9a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 78%
 
 ---
 
 
 <!-- We need better links for Getting Started and Tutorials. We can do this after we hit stage -->
 
-# Metagegevens voor intern gebruik
+# Metadata voor intern gebruik
 
-Het bestand metadata.md bevat metagegevens op niveau van de repository die worden doorgegeven aan TOC.md-bestanden van de gebruikershandleiding in de repository. Als u de content van metadata.md voor om het even welke gebruikershandleiding wilt veranderen, doet u dit in om het even welk TOC.md-bestand.
+Het bestand metadata.md bevat metadata op repo-niveau die worden doorgegeven aan de handleiding voor TOC.md-bestanden in de repo. Als u de inhoud van metadata.md voor een handleiding wilt wijzigen, doe dit dan in een TOC.md-bestand.
 
 | metadata | wat het doet |
 |--- |--- |
@@ -40,7 +40,7 @@ Het bestand metadata.md bevat metagegevens op niveau van de repository die worde
 
 In TOC.md-bestand
 
-| metagegevens | wat het doet |
+| metadata | wat het doet |
 |--- |--- |
 | user-guide-title | Gebruikt in artikelkoptekst als koppeling |
 | user-guide-url | Opent helpx-hubpagina |

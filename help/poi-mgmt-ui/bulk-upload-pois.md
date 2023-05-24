@@ -1,18 +1,17 @@
 ---
 title: POI's voor uploaden in bulk
 description: Deze sectie verstrekt informatie over hoe te om uw POIs in bulk te uploaden.
-translation-type: tm+mt
-source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
+exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
-
 # Bulkupload van POI&#39;s {#bulk-upload-pois}
 
-De knoop van POIs van de **Invoer** in de Dienst van Plaatsen kan worden gebruikt om nieuwe POIs in bulk te uploaden gebruikend een Csv- dossier. Er is een voorbeeldspreadsheetsjabloon beschikbaar waarmee u kunt zien welke gegevenskolommen vereist zijn en hoe u optionele aangepaste metagegevens kunt toevoegen.
+De **POI&#39;s importeren** in de Plaatsingsservice kan worden gebruikt om nieuwe POI&#39;s in bulk te uploaden met behulp van een CSV-bestand. Er is een voorbeeldspreadsheetsjabloon beschikbaar waarmee u kunt zien welke gegevenskolommen vereist zijn en hoe u optionele aangepaste metagegevens kunt toevoegen.
 
 ![Scherm voor bulkimport](/help/assets/Bulk-import.png)
 
@@ -24,19 +23,19 @@ In deze video ziet u het proces voor bulkimport en bulkbewerking:
 
 ## Python API-scripts
 
-Een reeks manuscripten Python zijn gecreeerd om de partijinvoer van POIs van een .csv dossier in een POI gegevensbestand te vereenvoudigen door de Dienst APIs van het Web te gebruiken. Deze scripts kunnen worden gedownload van dit open-source [git-rapport](https://github.com/adobe/places-scripts).
+Een reeks manuscripten Python zijn gecreeerd om de partijinvoer van POIs van een .csv dossier in een POI gegevensbestand te vereenvoudigen door de Dienst APIs van het Web te gebruiken. Deze scripts kunnen worden gedownload van deze opensource [git repo](https://github.com/adobe/places-scripts).
 
-Alvorens u deze manuscripten in werking stelt, om tot de dienst APIs van het Web toegang te hebben, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
+Voordat u deze scripts uitvoert, raadpleegt u *Vereisten voor gebruikerstoegang* in [Overzicht van integratie en voorwaarden](/help/web-service-api/adobe-i-o-integration.md).
 
 Hier volgt wat informatie over de scripts:
 
 >[!TIP]
 >
->Deze informatie is ook opgenomen in een leesmij-bestand in het [git-repo](https://github.com/adobe/places-scripts).
+>Deze informatie is ook opgenomen in een leesmij-bestand in het dialoogvenster [git repo](https://github.com/adobe/places-scripts).
 
 ## CSV-bestand
 
-Een voorbeeld-CSV-bestand maakt `places_sample.csv`deel uit van dit pakket en bevat de vereiste kopteksten en een rij voorbeeldgegevens. Deze koppen zijn allemaal kleine letters en komen overeen met de gereserveerde metagegevenstoetsen die worden gebruikt in de database Plaatsen. Kolommen die u aan het .csv- dossier toevoegt zullen aan het POI- gegevensbestand in een afzonderlijke meta-gegevenssectie voor elke POI als sleutel/waardeparen worden toegevoegd, en de kopbalwaarde wordt gebruikt als sleutel.
+Een voorbeeld-CSV-bestand, `places_sample.csv`, maakt deel uit van dit pakket en bevat de vereiste kopteksten en een rij met voorbeeldgegevens. Deze koppen zijn allemaal kleine letters en komen overeen met de gereserveerde metagegevenstoetsen die worden gebruikt in de database Plaatsen. Kolommen die u aan het .csv- dossier toevoegt zullen aan het POI- gegevensbestand in een afzonderlijke meta-gegevenssectie voor elke POI als sleutel/waardeparen worden toegevoegd, en de kopbalwaarde wordt gebruikt als sleutel.
 
 Hier volgt een lijst met de kolommen en de waarden die u moet gebruiken:
 
@@ -84,30 +83,30 @@ De waarden van de volgende kolommen worden gebruikt in de Dienst UI van Plaatsen
 
 ## Het script uitvoeren
 
-1. Download bestanden uit het [git-rapport](https://github.com/adobe/places-scripts) naar uw lokale map.
-1. Open het `config.py` bestand in een teksteditor en voer de volgende taken uit:
+1. Bestanden downloaden van de [git repo](https://github.com/adobe/places-scripts) naar uw lokale map.
+1. Open in een teksteditor de `config.py` en voltooi de volgende taken:
 
    a. Bewerk de volgende variabelewaarden als tekenreeksen:
 
    * `csv_file_path`
 
-      Dit is het pad naar uw `.csv` bestand.
+      Dit is het pad naar uw `.csv`  bestand.
 
    * `access_code`
 
-      Dit is uw toegangscode die uit de vraag aan Adobe IMS werd verkregen. Voor informatie over hoe te om deze toegangscode te verkrijgen, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
+      Dit is uw toegangscode die uit de vraag aan Adobe IMS werd verkregen. Voor informatie over hoe te om deze toegangscode te verkrijgen, zie *Vereisten voor gebruikerstoegang* in [Overzicht van integratie en voorwaarden](/help/web-service-api/adobe-i-o-integration.md).
 
    * `org_id`
 
-      De Experience Cloud orgID waarin de POI&#39;s moeten worden geïmporteerd. Voor informatie over hoe te om org identiteitskaart te verkrijgen, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
+      De Experience Cloud orgID waarin de POI&#39;s moeten worden geïmporteerd. Voor informatie over het verkrijgen van de org-id raadpleegt u *Vereisten voor gebruikerstoegang* in [Overzicht van integratie en voorwaarden](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-      Dit is de REST API-sleutel van uw Plaatsen die is verkregen via de Adobe I/O Places Integration. Voor informatie over hoe te om de API sleutel te verkrijgen, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
+      Dit is de REST API-sleutel van uw Plaatsen die is verkregen via de Adobe I/O Places Integration. Ga voor informatie over het verkrijgen van de API-sleutel naar *Vereisten voor gebruikerstoegang* in [Overzicht van integratie en voorwaarden](/help/web-service-api/adobe-i-o-integration.md).
    b. Sla uw wijzigingen op.
 
-1. Navigeer in een terminalvenster naar de `…/places-scripts/import/` map.
-1. Voer de toets `python ./places_import.py` ( **[!UICONTROL enter]** ) in **[!UICONTROL return]** en druk op.
+1. Navigeer in een terminalvenster naar de `…/places-scripts/import/` directory.
+1. Enter `python ./places_import.py` en druk op **[!UICONTROL enter]** (**[!UICONTROL return]**).
 
 
 ## CSV-controles vooraf importeren
@@ -130,4 +129,4 @@ Als er fouten worden gevonden, worden de fouten afgedrukt en wordt het script af
 
 ## Eenheidstests
 
-De tests van de eenheid zijn in het `tests.py` dossier, zouden vóór elk trekkingsverzoek moeten worden in werking gesteld, en zouden allen moeten overgaan. Aanvullende tests moeten met nieuwe code worden toegevoegd. Om de tests in werking te stellen, navigeer aan de `…/places-scripts/import/` folder, en ga `python ./places_import.py` in terminal in.
+Eenheidstests staan in de `tests.py` bestand, moet worden uitgevoerd vóór elke pull-aanvraag en moet alle worden doorgegeven. Aanvullende tests moeten met nieuwe code worden toegevoegd. Als u de tests wilt uitvoeren, navigeert u naar de `…/places-scripts/import/` map en voer deze in `python ./places_import.py` in de terminal.

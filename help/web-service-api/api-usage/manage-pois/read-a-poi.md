@@ -1,14 +1,13 @@
 ---
 title: Een POI lezen
 description: Lees een POI door de REST API's van Plaatsen te gebruiken.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 19eb73c4-5101-47a9-8c79-bc4790ecf472
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # Een POI lezen {#read-a-poi}
 
@@ -70,5 +69,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Vervang `<POIID>`, `<API KEY>`, `<TOKEN>`en `<ORIGIN>` met werkelijke waarden.
-
+>Vervangen `<POIID>`, `<API KEY>`, `<TOKEN>`, en `<ORIGIN>` met werkelijke waarden.

@@ -1,14 +1,13 @@
 ---
 title: De rang van een bibliotheek ophalen
 description: U krijgt de rang van een bibliotheek met de REST-API van Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 0%
 
 ---
-
 
 # De rang van een bibliotheek ophalen {#get-library-rank}
 
@@ -42,5 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H
 
 >[!IMPORTANT]
 >
->Vervang variabelen zoals `<API KEY>`, `<TOKEN>`en `<ORGID>` met werkelijke waarden.
-
+>Variabelen zoals `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.

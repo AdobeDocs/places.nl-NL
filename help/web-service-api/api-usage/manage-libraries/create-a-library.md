@@ -1,14 +1,13 @@
 ---
 title: Een bibliotheek maken
 description: Maak een bibliotheek met de REST-API van Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 155cc6e6-9254-4389-bb02-e526d15908f4
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
 
 ---
-
 
 # Een bibliotheek maken {#create-a-library}
 
@@ -48,5 +47,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-a
 
 >[!IMPORTANT]
 >
->Vervang variabelen zoals `<API KEY>`, `<TOKEN>`en `<ORGID>` met werkelijke waarden.
-
+>Variabelen zoals `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.

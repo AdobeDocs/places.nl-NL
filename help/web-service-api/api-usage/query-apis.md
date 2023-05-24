@@ -1,15 +1,13 @@
 ---
 title: Overzicht
 description: Inzicht in en gebruik van Query API's.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
-
-
 
 # Query-API&#39;s
 
@@ -38,7 +36,7 @@ Argumenten worden opgegeven als de volgende queryparameters:
 
    De lengtegraad van de aanroeper, die tussen -180 en 180 moet zijn.
 
-* (**Optional**) `limit`
+* (**Optioneel**) `limit`
 
    Het maximumaantal te retourneren POI&#39;s.
 
@@ -109,7 +107,7 @@ Hier volgt een voorbeeld van de JSON-indeling die met succes is geretourneerd:
 }
 ```
 
-De POIs onder `places.pois` worden gesorteerd door afstand van bezoeker aan de rand van POIs. POIs onder `places.userWithin` bevat de bezoeker, en deze POIs worden bevolen door rang en dan door straal te verhogen.
+POI&#39;s onder `places.pois` worden gesorteerd door afstand van bezoeker aan de rand van POIs. POI&#39;s onder `places.userWithin` bevat de bezoeker, en deze POIs worden bevolen door rang en dan door straal te verhogen.
 
 ## Voorbeeld
 

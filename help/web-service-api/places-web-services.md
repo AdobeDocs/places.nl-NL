@@ -1,14 +1,13 @@
 ---
-title: 'Overzicht van de webservices-API '
+title: Overzicht van de webservices-API
 description: De Dienst van Plaatsen is de reeks diensten die het voor Adobe klanten gemakkelijker maakt om de oplossingen van Adobe Experience Cloud en Adobe Experience Platform met plaatsgegevens en de juiste ervaring aan de juiste persoon op de juiste tijd en op de juiste plaats te drijven.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+exl-id: 9e7358d1-3ba0-4304-aeb2-fed7162afb57
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 1%
 
 ---
-
 
 # Overzicht van de webservices-API {#places-web-services-api}
 
@@ -30,13 +29,13 @@ Voordat u de API voor webservices kunt gebruiken, moet u controleren of aan de v
 
 * De Dienst van Plaatsen wordt provisioned in uw organisatie, en u hebt aangewezen toegang als gebruiker.
 
-   Voor meer informatie, zie *Vereisten voor gebruikerstoegang* in het overzicht van de [Integratie en eerste vereisten](/help/web-service-api/adobe-i-o-integration.md).
+   Zie voor meer informatie *Vereisten voor gebruikerstoegang* in [Overzicht van integratie en voorwaarden](/help/web-service-api/adobe-i-o-integration.md).
 
 * Nadat de Dienst van Plaatsen wordt voorzien in uw organisatie, en u hebt toegang, creeer een Adobe integratie voor de Dienst van Plaatsen.
 
-   Voor meer informatie, zie het *Creëren van de integratie* van de Dienst van Plaatsen in het overzicht en de eerste vereisten [van de](/help/web-service-api/adobe-i-o-integration.md)Integratie.
+   Zie voor meer informatie *De integratie van de Plaatsingsservice maken* in [Overzicht van integratie en voorwaarden](/help/web-service-api/adobe-i-o-integration.md).
 
-Extra informatie:
+Aanvullende informatie:
 
-* Zie [Bibliotheken](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) beheren en Inkooporderbedrijven [beheren voor meer informatie over de beschikbare API&#39;s en het gebruik ervan](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
-* Zie [Kopteksten en parameters](/help/web-service-api/api-usage/headers-and-parameters.md)voor meer informatie over de kopteksten en parameters in deze API&#39;s.
+* Zie voor meer informatie over de beschikbare API&#39;s en hoe u deze kunt gebruiken [Bibliotheken beheren](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) en [POI&#39;s beheren](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+* Zie voor meer informatie over de headers en parameters in deze API&#39;s [Kopteksten en parameters](/help/web-service-api/api-usage/headers-and-parameters.md).

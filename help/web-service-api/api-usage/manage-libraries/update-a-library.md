@@ -1,14 +1,13 @@
 ---
 title: Een bibliotheek bijwerken
 description: Werk een bibliotheek bij met de REST-API van Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 37ca2be2-39e1-4f8e-87c2-ef4cb366db0d
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
 
 ---
-
 
 # Een bibliotheek bijwerken {#update-a-library}
 
@@ -48,5 +47,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Vervang variabelen zoals `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`en `<ORGID>` met werkelijke waarden.
-
+>Variabelen zoals `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.

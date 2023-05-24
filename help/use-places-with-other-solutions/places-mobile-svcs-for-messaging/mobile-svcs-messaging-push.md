@@ -1,14 +1,13 @@
 ---
 title: Pushmeldingen
 description: In deze sectie ziet u hoe u de service Plaatsen gebruikt voor pushberichten.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
 
 ---
-
 
 # Pushmeldingen
 
@@ -22,18 +21,18 @@ Controleer voordat u begint of u de volgende taken hebt uitgevoerd:
 
 * Het pushmeldingskanaal in Mobile Services is ingesteld.
 
-   Zie [Een pushbericht](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/prerequisites-push-messaging.html)maken voor meer informatie.
+   Zie voor meer informatie [Een pushbericht maken](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/prerequisites-push-messaging.html).
 
 * Begrijp hoe te om een dupmelding naar een segment van Analytics in de Mobiele Diensten te verzenden.
 
-   Zie [Een pushbericht](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/push-messages/t-create-push-message.html)maken voor meer informatie.
+   Zie voor meer informatie [Een pushbericht maken](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/push-messages/t-create-push-message.html).
 
 ## Een melding verzenden
 
-Op het **[!UICONTROL Audience]** tabblad van de workflow *Pushmeldingen* maken kunt u het publiek voor dit bericht op een van de volgende manieren maken:
+Op de **[!UICONTROL Audience]** tabblad van het dialoogvenster *Pushmelding maken* kunt u het publiek voor dit bericht op een van de volgende manieren maken:
 
-* Selecteer in de **[!UICONTROL Analytics Segments]** vervolgkeuzelijst een eerder gemaakt Adobe Analytics-segment.
+* In de **[!UICONTROL Analytics Segments]** Selecteer een eerder gemaakt Adobe Analytics-segment in de vervolgkeuzelijst.
 
-* In de **[!UICONTROL Custom Segment]** sectie, bouw een publiek door de beschikbare parameters van het douanesegment te gebruiken.
+* In de **[!UICONTROL Custom Segment]** een publiek bouwen door de beschikbare parameters van het douanesegment te gebruiken.
 
 ![instellen van een pushbericht](/help/assets/push-set-up.png)

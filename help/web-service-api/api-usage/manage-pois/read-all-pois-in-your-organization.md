@@ -1,14 +1,13 @@
 ---
 title: Alle POI's in uw organisatie lezen
 description: Lees alle POI's in uw organisatie met de REST-API's van Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 8068a2bc-ce1c-4f3b-8a0c-c38998c1c2e2
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # Alle POI&#39;s in uw organisatie lezen {#read-all-pois-org}
 
@@ -42,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-key
 
 >[!IMPORTANT]
 >
->Vervangen `<API KEY>`, `<TOKEN>`en `<ORGID>` met werkelijke waarden.
+>Vervangen `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.

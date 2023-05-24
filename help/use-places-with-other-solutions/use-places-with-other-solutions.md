@@ -1,7 +1,6 @@
 ---
 title: De Dienst van Plaatsen gebruiken met andere oplossingen van Adobe
 description: Deze sectie toont u hoe te om de Dienst van Plaatsen met andere oplossingen van Adobe te gebruiken.
-translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 workflow-type: tm+mt
 source-wordcount: '103'

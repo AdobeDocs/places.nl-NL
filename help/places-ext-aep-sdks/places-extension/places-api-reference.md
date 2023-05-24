@@ -1,14 +1,13 @@
 ---
 title: Plaatst API-referentie
 description: Informatie over de API-referenties in Plaatsen.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 31%
 
 ---
-
 
 # Plaatst API-referentie {#places-api-reference}
 
@@ -20,9 +19,9 @@ Wanneer een apparaat een van de vooraf gedefinieerde grenzen van de Plaatsingsse
 
 ### ProcessGeofence (Android)
 
-Verwerk een `Geofence` regiogebeurtenis voor de opgegeven toepassing `transitionType`.
+Verwerk een `Geofence` regionale gebeurtenis voor de opgegeven `transitionType`.
 
-Geef het `transitionType` door van `GeofencingEvent.getGeofenceTransition()`. Momenteel `Geofence.GEOFENCE_TRANSITION_ENTER` en `Geofence.GEOFENCE_TRANSITION_EXIT` worden ondersteund.
+Geef de `transitionType` van `GeofencingEvent.getGeofenceTransition()`. Momenteel `Geofence.GEOFENCE_TRANSITION_ENTER` en `Geofence.GEOFENCE_TRANSITION_EXIT` worden ondersteund.
 
 **Syntaxis**
 
@@ -34,7 +33,7 @@ public static void processGeofence(final Geofence geofence, final int transition
 
 **Voorbeeld**
 
-Roep deze methode aan in uw `IntentService` account die is geregistreerd voor het ontvangen van geofence-gebeurtenissen van Android.
+Roep deze methode in uw `IntentService` die is geregistreerd voor het ontvangen van geofence-gebeurtenissen voor Android.
 
 Hier volgt een codevoorbeeld voor deze methode:
 
@@ -60,7 +59,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent (iOS)
 
-Deze methode zou in de `CLLocationManager` afgevaardigde moeten worden geroepen, die vertelt of de gebruiker een specifiek gebied is ingegaan of vertrokken.
+Deze methode moet worden aangeroepen in het dialoogvenster `CLLocationManager` afgevaardigde, die vertelt of is de gebruiker ingegaan of een specifiek gebied verlaten.
 
 **Syntaxis**
 
@@ -87,7 +86,7 @@ Hier volgt het codevoorbeeld voor deze methode:
 
 ### ProcessGeofencingEvent (Android)
 
-Proces allemaal `Geofences` tegelijk `GeofencingEvent` .
+Alles verwerken `Geofences` in de `GeofencingEvent` tegelijkertijd.
 
 **Syntaxis**
 
@@ -97,7 +96,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **Voorbeeld**
 
-Roep deze methode aan in uw `IntentService` systeem dat is geregistreerd voor het ontvangen van geofence-gebeurtenissen van Android
+Roep deze methode in uw `IntentService` die is geregistreerd voor het ontvangen van geofence-gebeurtenissen voor Android
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
@@ -259,7 +258,7 @@ Verzoekt de locatie van het apparaat, zoals eerder bekend, door de extensie Plaa
 
 >[!TIP]
 >
->De extensie Plaatsen kent alleen locaties die via aanroepen naar aan zijn verschaft. `GetNearbyPointsOfInterest`
+>De extensie Plaatsen kent alleen locaties die aan de extensie zijn toegewezen via oproepen naar `GetNearbyPointsOfInterest`.
 
 
 ### GetLastKnownLocation (Android)
@@ -386,7 +385,7 @@ Hiermee stelt u de machtigingsstatus in de extensie Plaatsen in.
 De opgegeven status wordt opgeslagen in de gedeelde status Plaatsen en is alleen ter referentie.
 Het aanroepen van deze methode heeft geen invloed op de eigenlijke status van de locatietoestemming voor dit apparaat.
 
-Wanneer de status van de apparaatautorisatie verandert, wordt de `locationManager:didChangeAuthorizationStatus:` methode van de autorisatie `CLLocationManagerDelegate` aangeroepen. Vanuit deze methode moet u de nieuwe `CLAuthorizationStatus` waarde doorgeven aan de ACPPlaces- `setAuthorizationStatus:` API.
+Wanneer de autorisatiestatus van het apparaat verandert, wordt `locationManager:didChangeAuthorizationStatus:` van uw `CLLocationManagerDelegate` wordt aangeroepen. Vanuit deze methode moet u de nieuwe `CLAuthorizationStatus` waarde voor ACPPlaces `setAuthorizationStatus:` API.
 
 **Syntaxis**
 

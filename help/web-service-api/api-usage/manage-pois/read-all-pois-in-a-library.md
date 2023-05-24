@@ -1,14 +1,13 @@
 ---
 title: Alle POI's in een bibliotheek lezen
 description: Alle POI's in een bibliotheek lezen met de REST-API's van Plaatsen.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+exl-id: 08544909-661c-4a14-84e0-bacd0241a844
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%
 
 ---
-
 
 # Alle POI&#39;s in een bibliotheek lezen {#read-all-pois-library}
 
@@ -168,5 +167,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Vervang &#39;&#39;, `<API KEY>`, `<TOKEN>`en `<ORGID>` door werkelijke waarden.
-
+>Vervangen &#39;&#39;, `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.

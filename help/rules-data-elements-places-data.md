@@ -1,7 +1,6 @@
 ---
 title: De regels en gegevenselementen van het Experience Platform Launch gebruiken met de gegevens van Plaatsen.
 description: Informatie over regels en gegevenselementen en Plaatsgegevens.
-translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 workflow-type: tm+mt
 source-wordcount: '267'

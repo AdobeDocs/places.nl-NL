@@ -2,7 +2,6 @@
 title: Objecten Aangepaste locaties
 description: Informatie over aangepaste native klassen die worden gebruikt met de Plaatsen-API's.
 exl-id: deb16ba3-bd59-42b1-85ec-0f7de17f91f8
-translation-type: tm+mt
 source-git-commit: 2f666081fa01c11e832b94c83f2fe2c66eb51766
 workflow-type: tm+mt
 source-wordcount: '38'
@@ -10,7 +9,7 @@ ht-degree: 5%
 
 ---
 
-# Objecten {#places-objects} aangepaste plaatsen
+# Objecten Aangepaste locaties {#places-objects}
 
 Hier volgen de aangepaste native klassen die worden gebruikt met de Plaatsen-API&#39;s:
 
