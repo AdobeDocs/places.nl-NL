@@ -2,9 +2,9 @@
 title: Uitbreiding Places
 description: Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken.
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
-source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '691'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken
 
 1. Voltooi het publicatieproces om de SDK-configuratie bij te werken.
 
-   Ga voor meer informatie over publiceren in Experience Platform Launch naar [Publiceren](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+   Ga voor meer informatie over publiceren in Experience Platform Launch naar [Publiceren](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### De extensie Plaatsen configureren {#configure-places-extension}
 
@@ -150,7 +150,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 Locatiegegevens kunnen snel verouderd raken, vooral als het apparaat geen updates voor de achtergrondlocatie ontvangt.
 
-U kunt de time-to-live-gegevens voor Plaatsen-lidmaatschapsgegevens op het apparaat bepalen door de instelling `places.membershipttl` configuratie-instelling. De waarde die wordt doorgegeven, vertegenwoordigt het aantal seconden dat de status Plaatsen geldig blijft voor het apparaat.
+U kunt de time-to-live-gegevens voor Plaatsen-lidmaatschapsgegevens op het apparaat bepalen door het dialoogvenster `places.membershipttl` configuratie-instelling. De waarde die wordt doorgegeven, vertegenwoordigt het aantal seconden dat de status Plaatsen geldig blijft voor het apparaat.
 
 #### Android
 

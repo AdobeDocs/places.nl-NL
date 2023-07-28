@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Opmerkingen bij de release voor Plaatsen Service.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-source-git-commit: 2b5c53887c9ed0f2a672c377121a39537ee58f01
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1490'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
    * Extensies voor monitoren plaatsen en plaatsen zijn toegevoegd voor [Native toepassingen Reageren](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * Extensies voor monitoren plaatsen en plaatsen zijn toegevoegd voor [Cordova-toepassingen](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Zie voor meer informatie: [Extensie Plaatsen gebruiken](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * Zie voor meer informatie: [Extensie Plaatsen gebruiken](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## 12 mei 2020
@@ -25,7 +25,7 @@ ht-degree: 3%
 * **Places Service**
 
    * Ongelimiteerde POI&#39;s voor importeren uit een CSV-bestand met de knop POI&#39;s importeren
-   * Meerdere POI&#39;s selecteren en waarden voor metagegevens bulksgewijs bewerken of toevoegen
+   * Meerdere invoegtoepassingen selecteren en waarden voor metagegevens bulksgewijs bewerken of toevoegen
 
 ## 6 mei 2020
 
@@ -114,12 +114,12 @@ ht-degree: 3%
    * **iOS**
 
       * Een nieuwe API toegevoegd, `setRequestAuthorizationLevel`, om het type locatieautorisatieverzoek in te stellen waarvoor de gebruiker wordt gevraagd.
+
+
    * **Android**
 
       * Een nieuwe API toegevoegd, `setLocationPermission`om het type locatietoestemming in te stellen waarvoor de gebruiker wordt gevraagd.
       * De monitor Plaatsen ondersteunt nu Android 10.
-
-
 
 ## 8 aug. 2019
 
@@ -142,7 +142,7 @@ Hier volgt een lijst met updates van de interface Plaatsen:
 * Een nieuw deelvenster met zoekopdrachten toegevoegd boven aan de gebruikersinterface.
 * Als er slechts één bibliotheek aanwezig is, wordt deze bibliotheek automatisch geselecteerd wanneer u een POI maakt.
 * Bibliotheekbeheer is verplaatst naar een pop-upvenster.
-* Er is een POI-telling toegevoegd naast de filters.
+* Een POI-telling toegevoegd naast de filters.
 
 ## 6 aug. 2019
 
@@ -162,9 +162,9 @@ De volgende updates zijn aangebracht in deze release:
 * De behandeling van callback, die uit een verzoek van de plaatstoestemming voortkwam vereist niet meer u om PlacesActivity uit te breiden.
 * Een bestaande API is gewijzigd, zodat ontwikkelaars alle Plaatsgegevens van het apparaat kunnen wissen:
 
-   Oude API: `public static void stop();`
+  Oude API: `public static void stop();`
 
-   Nieuwe API: `public static void stop (final boolean clearData);`
+  Nieuwe API: `public static void stop (final boolean clearData);`
 
 * Het gebruik van de `getNearbyPointsOfInterest` API om foutscenario&#39;s effectiever af te handelen.
 
@@ -176,7 +176,7 @@ De volgende updates zijn aangebracht in deze release:
 
 * Om alle gegevens van Plaatsen van het apparaat te ontruimen,
 
-   in ACPPlacesMonitor een bestaande API vervangen `+ (void) stop;` with`+ (void) stop: (BOOL) clearData;`.
+  in ACPPlacesMonitor een bestaande API vervangen `+ (void) stop;` with`+ (void) stop: (BOOL) clearData;`.
 
 * Het gebruik van ACPPlaces is bijgewerkt `getNearbyPointsOfInterest` API om foutscenario&#39;s effectiever af te handelen.
 
@@ -188,7 +188,7 @@ De volgende updates zijn aangebracht in deze release:
 
 * Er is een nieuwe API toegevoegd die alle Plaatsgerelateerde gegevens van de gedeelde status, het geheugen in de app en de gedeelde voorkeur wist.
 * Probleem verholpen waarbij de gedeelde status niet werd bijgewerkt tijdens het starten van de toepassing.
-* Probleem verholpen waarbij `getNearbyPointsOfInterest` callback heeft foutcode geretourneerd `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` op internet.
+* Het probleem waarbij `getNearbyPointsOfInterest` callback heeft foutcode geretourneerd `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` op internet.
 * `getNearbyPointsOfInterest` API (zonder errorCallback) heeft de `successCallback` opgeroepen met een lege poilijst, als er een fout optreedt bij het ophalen van de nabijgelegen aandachtspunten.
 
 ## 19 juli 2019
@@ -257,7 +257,7 @@ Voor meer informatie over de Monitor van Plaatsen, klik hier.
 * Introduceerde een nieuwe API voor getNearByPlaces, die een errorCallback heeft en met een errorCode wordt geroepen die op de reden voor de fout wijst.
 * Met de extensie Plaatsen worden de gebeurtenissen nu in de wachtrij geplaatst totdat een configuratie wordt verkregen.
 * Toegevoegde ondersteuning voor configuraties met behoud van de omgeving.
-* Bug Fix: De toetsen voor de entry/exit-gebeurtenissen van het gebied zijn gecorrigeerd
+* Bug Fix: corrigeer de toetsen voor de entry/exit-gebeurtenissen van het gebied
 * De opslag van de laatst bekende locatie respecteert nu de privacystatus van de gebruiker
 
 
@@ -289,12 +289,12 @@ Dit is de eerste versie van de Dienst van Plaatsen, een reeks hulpmiddelen die k
 
 Hier volgen de belangrijkste functies van deze release:
 
-#### Gebruikersinterface Plaatsingsservice
+#### Gebruikersinterface voor Plaatsingsservice
 
 We hebben een beheerinterface beschikbaar gemaakt waarin u uw belangenbehartigingen (POI&#39;s) kunt weergeven en beheren. U kunt ook uw POI&#39;s ordenen in bibliotheken. Naast standaardmetagegevens zoals plaats, staat en categorie, ondersteunen we ook de mogelijkheid om aangepaste metagegevens toe te voegen aan uw persoonlijke expressies.
 
 * Ga naar [https://places.adobe.com](https://places.adobe.com).
-* Ga als volgt te werk om aan de slag te gaan met de gebruikersinterface: [Aan de slag](/help/getting-started.md).
+* Ga als volgt te werk om aan de slag te gaan met de interface: [Aan de slag](/help/getting-started.md).
 
 #### Extensie plaatsen
 
@@ -306,7 +306,7 @@ In de extensie Plaatsen:
 * Gebeurtenissen van de regel die op POI ingang of uitgang teweegbrengen.
 * Creeer gegevenselementen die aan huidige POI van de gebruiker richten.
 
-Voor meer informatie over de extensie Plaatsen raadpleegt u [Extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Zie voor meer informatie over de extensie Plaatsen [Extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### Plaatst API&#39;s
 
@@ -316,7 +316,7 @@ U kunt de Plaatsen APIs gebruiken om het volgende te doen:
 * Bouw uw eigen UI of integreer met een bestaand POI gegevensbestand.
 * Met de batch-eindpunten van de API Plaatsen kunt u een grote hoeveelheid POI&#39;s importeren.
 
-   U kunt het meegeleverde Python-hulpprogramma gebruiken om de bulkimport te voltooien.
+  U kunt het meegeleverde Python-hulpprogramma gebruiken om de bulkimport te voltooien.
 
 Voor meer informatie over de Plaatsen APIs, zie [Webservice-API](/help/web-service-api/places-web-services.md).
 

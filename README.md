@@ -1,8 +1,8 @@
 ---
-source-git-commit: c79135bed83932095df42869017ed2cc20be6e22
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 72%
+source-wordcount: '430'
+ht-degree: 71%
 
 ---
 # Bijdragen aan een artikel
@@ -15,7 +15,7 @@ Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of
 
 ## Over uw bijdragen aan Adobe-content
 
-Zie de [Adobe Docs Contributor Guide](https://docs.adobe.com/help/nl-NL/contributor/contributor-guide/introduction.html).
+Zie de [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl).
 
 Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen dat u wilt bijdragen:
 
@@ -23,7 +23,7 @@ Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen 
 
 Als u een aanvraag wilt verzenden, klikt u op de knop **Een probleem aanmelden** verbinding in een artikel, dat een kwestie in GitHub opent. Geef een titel en beschrijving op en klik vervolgens op **Nieuwe uitgave verzenden**.
 
-Als u kleine updates wilt aanvragen, klikt u op de knop **Deze pagina bewerken** verbinding in een artikel, dat het bronartikel in GitHub opent. Gebruik GitHub UI om uw updates te maken. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://docs.adobe.com/help/nl-NL/contributor/contributor-guide/introduction.html) voor meer informatie.
+Klik op de knop **Deze pagina bewerken** verbinding in een artikel, dat het bronartikel in GitHub opent. Gebruik GitHub UI om uw updates te maken. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u verzendt voor documentatie en codevoorbeelden in deze repository, worden gedekt door de gebruiksvoorwaarden van Adobe.
 
@@ -45,7 +45,7 @@ Als u een technisch schrijver, programmamanager of ontwikkelaar van het productt
 
 Community-contributors kunnen de GitHub-interface gebruiken voor eenvoudige bewerkingen of kunnen de repository als beginpunt gebruiken voor belangrijke bijdragen.
 
-Zie de handleiding [Adobe Docs Contributor](https://docs.adobe.com/help/nl-NL/contributor/contributor-guide/introduction.html) voor meer informatie.
+Zie de handleiding [Adobe Docs Contributor](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl) voor meer informatie.
 
 ## Markdown gebruiken voor de opmaak van uw onderwerp
 

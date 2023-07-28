@@ -2,9 +2,9 @@
 title: Pushmeldingen
 description: In deze sectie ziet u hoe u de service Plaatsen gebruikt voor pushberichten.
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '220'
 ht-degree: 1%
 
 ---
@@ -17,21 +17,21 @@ Controleer voordat u begint of u de volgende taken hebt uitgevoerd:
 
 * Plaatsingsservicegegevens zijn door Adobe Analytics verwerkt.
 
-   Dit betekent dat uw mobiele app met succes de gegevens van de Dienst van Plaatsen naar een Reeks van het Rapport heeft verzonden en dat de gegevens voor segmentatie beschikbaar zijn.
+  Dit betekent dat uw mobiele app met succes de gegevens van de Dienst van Plaatsen naar een Reeks van het Rapport heeft verzonden en dat de gegevens voor segmentatie beschikbaar zijn.
 
 * Het pushmeldingskanaal in Mobile Services is ingesteld.
 
-   Zie voor meer informatie [Een pushbericht maken](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/prerequisites-push-messaging.html).
+  Zie voor meer informatie [Een pushbericht maken](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 * Begrijp hoe te om een dupmelding naar een segment van Analytics in de Mobiele Diensten te verzenden.
 
-   Zie voor meer informatie [Een pushbericht maken](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/push-messages/t-create-push-message.html).
+  Zie voor meer informatie [Een pushbericht maken](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 ## Een melding verzenden
 
-Op de **[!UICONTROL Audience]** tabblad van het dialoogvenster *Pushmelding maken* kunt u het publiek voor dit bericht op een van de volgende manieren maken:
+Op de **[!UICONTROL Audience]** tabblad van het *Pushmelding maken* kunt u het publiek voor dit bericht op een van de volgende manieren maken:
 
-* In de **[!UICONTROL Analytics Segments]** Selecteer een eerder gemaakt Adobe Analytics-segment in de vervolgkeuzelijst.
+* In de **[!UICONTROL Analytics Segments]** selecteert u een eerder gemaakt Adobe Analytics-segment.
 
 * In de **[!UICONTROL Custom Segment]** een publiek bouwen door de beschikbare parameters van het douanesegment te gebruiken.
 
