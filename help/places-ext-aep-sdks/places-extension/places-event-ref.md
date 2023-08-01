@@ -1,8 +1,9 @@
 ---
 title: Referentie van gebeurtenis Plaatsen
-description: Een lijst met de gebeurtenissen die door de extensie Plaatsen worden afgehandeld.
+description: Een lijst met de gebeurtenissen die worden afgehandeld door de extensie Plaatsen.
+feature: Mobile SDK
 exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 7%
@@ -27,7 +28,7 @@ Deze gebeurtenis is een verzoek om POIs terug te winnen waarin het apparaat mome
 
 **Gegevenstaakdefinitie**
 
-n.v.t.
+nvt
 
 ## GetNearbyPointsOfInterest
 
@@ -45,10 +46,10 @@ Deze gebeurtenis is een verzoek om de nabijgelegen POIs te krijgen door rekening
 
 | Sleutel | Type waarde | Vereist | Standaardwaarde | Beschrijving |
 | :--- | :--- | :--- | :--- | :--- |
-| breedtegraad | double | true | n.v.t. | Houdt de breedtewaarde voor het centrum van het onderzoek naar nabijgelegen POIs. |
-| lengtegraad | double | true | n.v.t. | Houdt de lengtewaarde voor het centrum van het onderzoek naar nabijgelegen POIs. |
-| radius | integer | false | n.v.t. | Straal, in meters, gebruikt bij het zoeken naar nabijgelegen POI&#39;s. |
-| count | integer | false | 10 | Maximum aantal POI&#39;s dat moet worden geretourneerd in resulterende responsgebeurtenis. |
+| breedtegraad | double | true | nvt | Houdt de breedtewaarde voor het centrum van het onderzoek naar nabijgelegen POIs. |
+| lengtegraad | double | true | nvt | Houdt de lengtewaarde voor het centrum van het onderzoek naar nabijgelegen POIs. |
+| radius | integer | false | nvt | Straal, in meters, gebruikt bij het zoeken naar nabijgelegen POI&#39;s. |
+| count | integer | false | 10 | Maximum aantal POIs in resulterende reactiegebeurtenis terug te keren. |
 
 ## ProcessRegionEvent
 

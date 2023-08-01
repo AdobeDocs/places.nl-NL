@@ -1,8 +1,9 @@
 ---
 title: Plaatst API-referentie
 description: Informatie over de API-referenties in Plaatsen.
+feature: Mobile SDK
 exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 31%
@@ -33,7 +34,7 @@ public static void processGeofence(final Geofence geofence, final int transition
 
 **Voorbeeld**
 
-Roep deze methode in uw `IntentService` die is geregistreerd voor het ontvangen van geofence-gebeurtenissen voor Android.
+Deze methode in uw `IntentService` die is geregistreerd voor het ontvangen van geofence-gebeurtenissen voor Android.
 
 Hier volgt een codevoorbeeld voor deze methode:
 
@@ -96,7 +97,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **Voorbeeld**
 
-Roep deze methode in uw `IntentService` die is geregistreerd voor het ontvangen van geofence-gebeurtenissen voor Android
+Deze methode in uw `IntentService` die is geregistreerd voor het ontvangen van geofence-gebeurtenissen voor Android
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
