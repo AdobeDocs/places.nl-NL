@@ -2,7 +2,8 @@
 audience: end-user
 user-guide-title: Gids voor Places Service
 user-guide-description: Places Service is een geolocatieservice waarmee mobiele apps met locatie-inzicht de context van de locatie kunnen begrijpen.
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+feature: Places
+source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 17%
@@ -16,7 +17,7 @@ ht-degree: 17%
 + [Aanvullende informatie](release-notes.md)
 + [Aan de slag](getting-started.md)
 + [Toegang tot de Places-service](places-gain-access.md)
-+ Gebruikersinterface Plaatsingsservice {#poi-mgmt-ui}
++ Gebruikersinterface voor Plaatsingsservice {#poi-mgmt-ui}
    + [Overzicht van de gebruikersinterface van de service Plaatsen](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Een POI maken](poi-mgmt-ui/create-a-poi-ui.md)
    + [Eerder gemaakte OI&#39;s beheren](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
