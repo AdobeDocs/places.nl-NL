@@ -3,9 +3,9 @@ audience: end-user
 user-guide-title: Gids voor Places Service
 user-guide-description: Places Service is een geolocatieservice waarmee mobiele apps met locatie-inzicht de context van de locatie kunnen begrijpen.
 feature: Places
-source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
+source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '290'
 ht-degree: 17%
 
 ---
@@ -54,18 +54,14 @@ ht-degree: 17%
             + [Meerdere POI&#39;s verwijderen](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
       + [Query-API&#39;s](web-service-api/api-usage/query-apis.md)
 + Extensies voor de mobiele SDK&#39;s {#places-ext-aep-sdks}
-   + Uitbreiding Places {#places-extension}
-      + [Uitbreiding Places](places-ext-aep-sdks/places-extension/places-extension.md)
-      + [Plaatst API-referentie](places-ext-aep-sdks/places-extension/places-api-reference.md)
-      + [Referentie van gebeurtenis Plaatsen](places-ext-aep-sdks/places-extension/places-event-ref.md)
-      + [Objecten Aangepaste locaties](places-ext-aep-sdks/places-extension/cust-places-objects.md)
+   + [Uitbreiding Places](places-ext-aep-sdks/places-extension/places-extension.md)
 + [De Dienst van Plaatsen van het gebruik met uw eigen monitoroplossing](using-your-own-monitor.md)
 + [De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole](use-places-without-active-monitoring.md)
 + De Dienst van Plaatsen van het gebruik als deel van het Experience Platform Launch werkschema {#use-places-launch-workflow}
    + [De Dienst van Plaatsen van het gebruik als deel van het Experience Platform Launch werkschema](use-places-launch-workflow/places-launch-workflow.md)
    + [Gegevenselementen definiëren](use-places-launch-workflow/define-data-elements.md)
    + [In- en uitreisregels maken](use-places-launch-workflow/create-rule-places-property.md)
-+ De Dienst van Plaatsen van het gebruik met andere Oplossingen van Adobe {#use-places-with-other-solutions}
++ De Dienst van Plaatsen van het gebruik met andere Oplossingen van de Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Plaatsingsservice gebruiken voor Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [POI-invoer- en afsluitgegevens naar Analytics verzenden](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)

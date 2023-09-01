@@ -3,107 +3,111 @@ title: Uitbreiding Places
 description: Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken.
 feature: Mobile SDK
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
-source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
+source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 3%
+source-wordcount: '37'
+ht-degree: 10%
 
 ---
 
 # Uitbreiding Places {#places-extension}
 
-Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken. Deze extensie is de interface naar de API&#39;s van de Places Query Service. Door te luisteren naar gebeurtenissen die GPS-coördinaten en geofence region-gebeurtenissen bevatten, verzendt deze extensie nieuwe gebeurtenissen die worden verwerkt door de Rules Engine. De extensie Plaatsen haalt ook een lijst op met de dichtstbijzijnde POI voor de toepassingsgegevens die van de API&#39;s worden opgehaald en levert. De gebieden die door de API&#39;s worden geretourneerd, worden opgeslagen in cache en persistentie, waardoor een beperkte offlineverwerking mogelijk is.
+Navigeer naar de portal voor ontwikkelaars van Adoben om documentatie voor de [Hiermee worden SDK-extensies geplaatst](https://developer.adobe.com/client-sdks/documentation/places/).
 
-## De extensie Plaatsen installeren in Adobe Experience Platform Launch
+<!-- 
 
-1. Klik in Experience Platform Launch op het tabblad **[!UICONTROL Extensions]**.
-1. Op de **[!UICONTROL Catalog]** tabblad, zoekt u de **[!UICONTROL Places]** en klik op **[!UICONTROL Install]**.
-1. Selecteer de bibliotheken Plaatsen die u in deze eigenschap wilt gebruiken. Dit zijn de bibliotheken die in uw app toegankelijk zijn.
-1. Klik op **[!UICONTROL Save]**.
+The Places extension allows you to act based on the location of your users. This extension is the interface to the Places Query Service APIs. By listening for events that contain GPS coordinates and geofence region events, this extension dispatches new events that are processed by the Rules Engine. The Places extension also retrieves and delivers a list of the nearest POI for the app data that retrieves from the APIs. The regions returned by the APIs are stored in cache and persistence, which allows limited offline processing.
 
-   Wanneer u op **[!UICONTROL Save]**, zoekt het Experience Platform SDK de Diensten van Plaatsen naar POIs in de bibliotheken die u selecteerde. De POI-gegevens worden niet opgenomen in de download van de bibliotheek wanneer u de app maakt, maar een op locatie gebaseerde subset van POI&#39;s wordt tijdens runtime gedownload naar het apparaat van de eindgebruiker en is gebaseerd op de GPS-coördinaten van de gebruiker.
+## Install the Places extension in Adobe Experience Platform Launch
 
-1. Voltooi het publicatieproces om de SDK-configuratie bij te werken.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. On the **[!UICONTROL Catalog]** tab, locate the **[!UICONTROL Places]** extension, and click **[!UICONTROL Install]**.
+1. Select the Places libraries you want to use in this property. These are the libraries that will be accessible in your app.
+1. Click **[!UICONTROL Save]**.
 
-   Ga voor meer informatie over publiceren in Experience Platform Launch naar [Publiceren](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+    When you click **[!UICONTROL Save]**, the Experience Platform SDK searches the Places Services for POIs in the libraries that you selected. The POI data is not included in the download of the library when you build the app, but a location-based subset of POIs is downloaded to the end user's device at runtime and is based on the user's GPS coordinates.
 
-### De extensie Plaatsen configureren {#configure-places-extension}
+1. Complete the publishing process to update the SDK configuration.
 
-![](/help/assets/places-extension.png)
+   For more information about publishing in Experience Platform Launch, see [Publishing](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
-## De extensie Plaatsen toevoegen aan uw app {#add-places-to-app}
+### Configure the Places extension {#configure-places-extension}
 
-U kunt de extensie Plaatsen toevoegen aan uw Android- en iOS-toepassingen. U vindt hieronder de stappen voor het toevoegen van Plaatsen aan uw iOS- of Android-toepassing. De uitbreidingen van Plaatsen zijn ook beschikbaar voor de volgende hieronder platforms. Zie de bijbehorende koppelingen voor informatie over het toevoegen van Plaatsen aan uw toepassing wanneer u ontwikkelt met een van deze platforms:
+  ![](/help/assets/places-extension.png)
 
-**[Plug-in Cordova Places](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
+## Add the Places extension to your app {#add-places-to-app}
 
-**[Insteekmodule Native plaatsen reageren](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+You can add the Places extension to your Android and iOS apps. The steps to add Places to your iOS or Android application can be seen below. Places extensions are also available for the following platforms below. For adding Places to your application when developing with one of these platforms see the accompanying links:
 
-**[Plug-in voor plaatsen voor tekst](https://github.com/adobe/flutter-acpplaces_monitor)**
+**[Cordova Places Plugin](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)** 
 
-**[Plug-in Xamarin Places](https://github.com/adobe/xamarin-acpcore)**
+**[React Native Places Plugin](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)** 
+
+**[Flutter Places Plugin](https://github.com/adobe/flutter-acpplaces_monitor)**
+
+**[Xamarin Places Plugin](https://github.com/adobe/xamarin-acpcore)**
 
 
 ### Android
 
-U kunt als volgt de extensie Plaatsen met Java toevoegen aan uw app:
+To add the Places extension to your app by using Java:
 
-1. Voeg de extensie Plaatsen toe aan uw project met behulp van het grijze bestand van uw app.
+1. Add the Places extension to your project using your app's gradle file.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-1. Importeer de extensie Plaatsen in de hoofdactiviteit van de toepassing.
+1. Import the Places extension in your application's main activity.
 
-   ```java
-   import com.adobe.marketing.mobile.Places;
-   ```
+    ```java
+    import com.adobe.marketing.mobile.Places;
+    ```
 
 
 ### iOS
 
-Als u de extensie Plaatsen wilt toevoegen aan uw app met Objectief-C of Swift:
+To add Places extension to your app by using Objective-C or Swift:
 
-1. Voeg de plaatsen toe en [Mobiele kern](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) aan uw project. U moet de volgende pods toevoegen aan uw `Podfile`:
+1. Add the Places and [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) libraries to your project. You will need to add the following pods to your `Podfile`:
 
    ```objective-c
    pod 'ACPPlaces', '~> 1.0'
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   Als u geen Cococoapods gebruikt, kunt u de Mobile Core en de Places bibliotheken van onze [releasepagina](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) op Github.
+   Alternatively, if you are not using Cocoapods, you can manually include the Mobile Core and the Places libraries from our [releases page](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) on Github.
 
-1. Cocoapods bijwerken:
+1. Update your Cocoapods:
 
    ```objective-c
    pod update
    ```
 
-1. Open Xcode, en in uw klasse AppDelegate, voer de Kern en de kopballen van Plaatsen in:
+1. Open Xcode, and in your AppDelegate class, import the Core and the Places headers:
 
-   **Doelstelling-C**
+    **Objective-C**
 
-   ```objective-c
-   #import "ACPCore.h"
-   #import "ACPPlaces.h"
-   ```
+    ```objective-c
+    #import "ACPCore.h"
+    #import "ACPPlaces.h"
+    ```
 
-   **Swift**
+    **Swift**
 
-   ```swift
-   import ACPCore
-   import ACPPlaces
-   ```
+    ```swift
+    import ACPCore
+    import ACPPlaces
+    ```
 
-### De extensie Plaatsen registreren met Mobile Core {#register-places-mobile-core}
+### Register the Places extension with Mobile Core {#register-places-mobile-core}
 
-U moet de extensie Plaatsen registreren met Mobile Core in Android en iOS.
+You need to register the Places extension with Mobile Core in Android and iOS.
 
 #### Android
 
-In de app `OnCreate` De methode registreert de uitbreidingen van Plaatsen:
+In your App's `OnCreate` method register the Places extensions:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -125,9 +129,9 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-In de app `application:didFinishLaunchingWithOptions:` registreert u de extensie Plaatsen bij uw andere SDK-registratieaanroepen:
+In your App's `application:didFinishLaunchingWithOptions:` method, register the Places extension with your other SDK registration calls:
 
-**Doelstelling-C**
+**Objective-C**
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -147,15 +151,15 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-### De tijd-om-live voor het lidmaatschap van Plaatsen wijzigen {#places-ttl}
+### Modifying Places membership time-to-live {#places-ttl}
 
-Locatiegegevens kunnen snel verouderd raken, vooral als het apparaat geen updates voor de achtergrondlocatie ontvangt.
+Location data can quickly become stale, especially if the device is not receiving background location updates.
 
-U kunt de time-to-live-gegevens voor Plaatsen-lidmaatschapsgegevens op het apparaat bepalen door het dialoogvenster `places.membershipttl` configuratie-instelling. De waarde die wordt doorgegeven, vertegenwoordigt het aantal seconden dat de status Plaatsen geldig blijft voor het apparaat.
+Control the time-to-live for Places membership data on the device by setting the `places.membershipttl` configuration setting. The value passed in represents the number of seconds that the Places state will remain valid for the device.
 
 #### Android
 
-Binnen de callback van `MobileCore.start()` werk de configuratie met de noodzakelijke veranderingen vóór het roepen bij `lifecycleStart`:
+Inside the callback of `MobileCore.start()` update the configuration with the necessary changes prior to calling `lifecycleStart`:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -189,9 +193,9 @@ public class PlacesTestApp extends Application {
 
 #### iOS
 
-Op de eerste regel in de callback van `ACPCore`s `start:` methode, aanroepen `updateConfiguration:`
+On the first line in the callback of `ACPCore`'s `start:` method, call `updateConfiguration:`
 
-**Doelstelling-C**
+**Objective-C**
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -229,12 +233,14 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-## Configuratiesleutels
+## Configuration keys
 
-Om de configuratie SDK programmatically bij te werken bij runtime, gebruik de volgende informatie om uw waarden van de de uitbreidingsconfiguratie van Plaatsen te veranderen. Zie voor meer informatie [Configuratie-API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
+To update the SDK configuration programmatically at runtime, use the following information to change your Places extension configuration values. For more information, see [Configuration API Reference](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference).
 
-| Sleutel | Vereist | Beschrijving |
+| Key | Required | Description |
 | :--- | :--- | :--- |
-| `places.libraries` | Ja | De extensiebibliotheken Plaatsen voor de mobiele app. Hier worden de bibliotheek-id en de naam van de bibliotheek opgegeven die door de mobiele app worden ondersteund. |
-| `places.endpoint` | Ja | Het standaardeindpunt van de Dienst van de Vraag van Plaatsen, dat wordt gebruikt om informatie over bibliotheken en POIs te krijgen. |
-| `places.membershipttl` | Nee | Standaardwaarde van 3600 (seconden in een uur). Geeft aan hoe lang, in seconden, de lidmaatschapsgegevens van Plaatsen voor het apparaat geldig blijven. |
+| `places.libraries` | Yes | The Places extension libraries for the mobile app. It specifies the library ID and the name of the library that the mobile app supports. |
+| `places.endpoint` | Yes | The default Places Query Service endpoint, which is used to get information about libraries and POIs. |
+| `places.membershipttl` | No | Default value of 3600 (seconds in an hour). Indicates how long, in seconds, Places membership information for the device will remain valid. |
+
+-->

@@ -2,9 +2,9 @@
 title: De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole
 description: Deze sectie verstrekt informatie over hoe de Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -19,20 +19,20 @@ De ontwikkelaar verzamelt de locatie van het apparaat met behulp van de API&#39;
 
 >[!TIP]
 >
->Als de gebruiksgevallen van uw app actieve gebiedscontrole vereisen, raadpleegt u [De Dienst van Plaatsen van het gebruik met uw eigen monitoroplossing](/help/using-your-own-monitor.md).
+>Als de gebruiksgevallen van uw app actieve gebiedscontrole vereisen, zie [De Dienst van Plaatsen van het gebruik met uw eigen monitoroplossing](/help/using-your-own-monitor.md).
 
 De service Plaatsen gebruiken zonder controle van het actieve gebied:
 
-## 1. De locatie van de gebruiker verzamelen
+## 1. Verzamel de locatie van de gebruiker
 
-De ontwikkelaar van de app moet de huidige locatie van het apparaat verzamelen met behulp van de `CoreLocation.framework` (iOS) of de `Location` API&#39;s van Google Play Services (Android).
+De ontwikkelaar van de app moet de huidige locatie van het apparaat verzamelen met behulp van de `CoreLocation.framework` (iOS) of `Location` API&#39;s van Google Play Services (Android).
 
 Raadpleeg de volgende documentatie voor meer informatie:
 
 - [CoreLocation](https://developer.apple.com/documentation/corelocation) (Apple)
 - [Locatie-API&#39;s in Google Play Services](https://developer.android.com/training/location) (Google)
 
-## 2. Nearby points of interest ophalen van de SDK
+## 2. Aangrenzende aandachtspunten van de SDK ophalen
 
 Nadat u de plaats van de gebruiker verkrijgt, kunt u het tot SDK overgaan om een lijst van nabijgelegen POIs terug te krijgen.
 
@@ -114,7 +114,7 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3. Gegevens van Plaatsen koppelen aan uw analyseverzoeken
+## 3. Voeg gegevens van Plaatsen aan uw verzoeken Analytics toe
 
 Door de `getNearbyPointsOfInterest` API, maakt de SDK van Plaatsen alle POI-gegevens relevant voor het apparaat beschikbaar via gegevenselementen in Launch. Door een [Gegevens bijvoegen](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) In de regel, kunnen de gegevens van Plaatsen automatisch aan toekomstige verzoeken aan Analytics worden toegevoegd. Dit elimineert de behoefte aan een eenmalig vraag aan Analytics op het tijdstip dat de plaats van het apparaat wordt verzameld.
 
@@ -126,9 +126,9 @@ Zie [Locatiecontext toevoegen aan analyseverzoeken](use-places-with-other-soluti
 >
 >De aanbevolen manier om Plaatsen-gegevens vast te leggen is door [Gegevens van Plaatsen koppelen aan uw analyseverzoeken](#attach-places-data-to-your-analytics-requests).
 >
->Als voor het gebruik een [region entry, gebeurtenis](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) om door de SDK in werking te worden gesteld, moet dit handmatig gebeuren zoals hieronder beschreven.
+>Als voor het gebruik een [region entry, gebeurtenis](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) om door de SDK in werking te worden gesteld, moet dit handmatig gebeuren, zoals hieronder beschreven.
 
-De lijst die door de `getNearbyPointsOfInterest` API bevat [aangepaste objecten](places-ext-aep-sdks/places-extension/cust-places-objects.md) die aangeven of de gebruiker zich momenteel binnen een POI bevindt. Als de gebruiker zich in een POI bevindt, kunt u de SDK een ingangsgebeurtenis voor dat gebied laten activeren.
+De lijst die door de `getNearbyPointsOfInterest` API bevat [aangepaste objecten](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) die aangeven of de gebruiker zich momenteel binnen een POI bevindt. Als de gebruiker zich in een POI bevindt, kunt u de SDK een ingangsgebeurtenis voor dat gebied laten activeren.
 
 >[!IMPORTANT]
 >
@@ -412,4 +412,4 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 Naast het activeren van Places Service-entry-gebeurtenissen in de SDK, kunnen vanwege de activerende entry-gebeurtenissen alle gegevens die uw POI&#39;s definiëren, door de rest van de SDK worden gebruikt via `data elements` in Experience Platform Launch. Met Experience Platform Launch `rules`, kunt u de gegevens van de Dienst van Plaatsen aan inkomende gebeurtenissen dynamisch vastmaken die door SDK worden verwerkt. Bijvoorbeeld, kunt u de meta- gegevens van POI vastmaken waarin de gebruiker wordt gevestigd en de gegevens verzenden naar Analytics als contextgegevens.
 
-Zie voor meer informatie [De Dienst van Plaatsen gebruiken met andere oplossingen van Adobe](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).
+Zie voor meer informatie [De Dienst van Plaatsen met andere oplossingen van de Adobe gebruiken](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).
