@@ -12,10 +12,10 @@ tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.nl-NL
 index: true
-source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
+source-git-commit: b63808d2a3fc8d25a6a3db3048c2bf059ea0bdaa
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 78%
+source-wordcount: '142'
+ht-degree: 82%
 
 ---
 
@@ -31,9 +31,9 @@ Het bestand metadata.md bevat metadata op repo-niveau die worden doorgegeven aan
 | solution-title | Gebruikt in artikelkoptekst als koppeling |
 | solution-hub-url | Opent helpx-hubpagina |
 | solution-icon | Hiermee wordt het oplossingspictogram weergegeven naast de titel van de oplossing. Nog niet geïmplementeerd |
-| aan de slag-titel | Zelden gebruikt wanneer Tutorials niet geschikt is |
+| aan de slag-titel | Zelden gebruikt wanneer Tutorials niet geschikt zijn |
 | getting-started-url | Koppeling naar pagina om aan de slag te gaan met helpx |
-| zelfstudies, titel | Zelden gebruikt wanneer Tutorials niet geschikt is |
+| zelfstudies, titel | Zelden gebruikt wanneer Tutorials niet geschikt zijn |
 | tutorials-url | Koppeling naar videotutorials: helpx-tutorials of KT-tutorials |
 | mini-toc-levels | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrail. standaard is dit 2 |
 | git-repo | https://github.com/AdobeDocs/places.en |
