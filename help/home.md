@@ -2,10 +2,10 @@
 title: Places Service
 description: Plaatsingsservice is een belangrijke context voor het begrijpen van de betrokkenheid van mobiele gebruikers. Met deze context kunnen ontwikkelaars van mobiele apps het toepassingsontwerp verbeteren en deze een meer persoonlijke en boeiende ervaring maken.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+source-git-commit: e78e3c5ee6623d6cdf2a33c0582667a70283fdc6
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 8%
+source-wordcount: '663'
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,7 @@ De Dienst van Plaatsen omvat de volgende componenten:
 
   U kunt POI&#39;s visualiseren op een kaart om de ruimtelijke context te begrijpen en om POI&#39;s en hun aangepaste metagegevens toe te voegen/te bewerken.
 
-* **Uitbreiding Places**
+* **Extensie Plaatsen**
 
   De mobiele API-interface voor meerdere platforms om de locatiecontext in uw mobiele apps te integreren. Zie voor meer informatie over de SDK&#39;s [Extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
@@ -82,6 +82,7 @@ Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
   Zie voor meer informatie [Uw orgID zoeken](https://forums.adobe.com/thread/2339895).
 
-* De **Experience Cloud-id** biedt een universele, permanente id die uw bezoekers identificeert voor alle oplossingen in de Experience Cloud.
+* De **Experience Cloud-id** biedt een universele, permanente id die uw bezoekers identificeert voor alle oplossingen in het Experience Cloud.
 
   Zie voor meer informatie [Overzicht](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+
