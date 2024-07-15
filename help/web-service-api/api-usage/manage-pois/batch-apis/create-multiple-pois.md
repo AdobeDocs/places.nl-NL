@@ -47,11 +47,11 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchCreate' 
 
 >[!IMPORTANT]
 >
->Vervangen `<API KEY>`, `<TOKEN>`, `<ORGID>`, en `<PATHTOBATCHCREATEJSONFILE>` met echte waarden.
+>Vervang `<API KEY>` , `<TOKEN>` , `<ORGID>` en `<PATHTOBATCHCREATEJSONFILE>` door echte waarden.
 
 ## Voorbeeld-JSON-bestand
 
-Hier volgt het JSON-voorbeeldbestand voor het `batchCreate` API:
+Hier volgt het voorbeeld van het JSON-bestand voor de `batchCreate` API:
 
 ```text
 {    "createPOIRequests": [{            "name": "Sample POI 1",            "description": "1",            "location": {                "type": "Point",                "coordinates": [0.0, 0.0]            },            "radius": 25,            "country": "Ghana",            "state": "Ghana",            "city": "Accra",            "street": "",            "category": "cafe",            "icon": "nice",            "color": "red",            "metadata": {                "region": "Equator"            },            "lib_id" : "42b4d03c-672c-4deb-83e0-134ef070c2af"        },        {            "name": "Sample POI 2",            "description": "2",            "location": {                "type": "Point",                "coordinates": [0.025, 0.025]            },            "radius": 50,            "country": "Ghana",            "state": "Ghana",            "city": "Accra",            "street": "",            "category": "cafe",            "icon": "nice",            "color": "blue",            "metadata": {                "region": "Equator"            },            "lib_id" : "42b4d03c-672c-4deb-83e0-134ef070c2af"        },        {            "name": "Sample POI 3",            "description": "3",            "location": {                "type": "Point",                "coordinates": [0.05, 0.05]            },            "radius": 100,            "country": "Ghana",            "state": "Ghana",            "city": "Accra",            "street": "",            "category": "cafe",            "icon": "nice",            "color": "green",            "metadata": {                "region": "Equator"            },            "lib_id" : "42b4d03c-672c-4deb-83e0-134ef070c2af"        }    ]}

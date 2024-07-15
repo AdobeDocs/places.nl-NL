@@ -11,5 +11,5 @@ ht-degree: 0%
 
 # De Dienst van Plaatsen van het gebruik als deel van het Experience Platform Launch werkschema {#loc-service-launch-workflow}
 
-* Voor het definiëren van gegevenselementen raadpleegt u [Gegevenselementen definiëren](/help/use-places-launch-workflow/define-data-elements.md).
-* Ga naar [In- en uitreisregels maken](/help/use-places-launch-workflow/create-rule-places-property.md).
+* Om gegevenselementen te bepalen, zie [ gegevenselementen ](/help/use-places-launch-workflow/define-data-elements.md) bepalen.
+* Om ingang en uitgangsregels tot stand te brengen, zie [ ingang en uitgangsregels ](/help/use-places-launch-workflow/create-rule-places-property.md) creëren.

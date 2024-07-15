@@ -90,4 +90,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Vervangen `<LIBRARYID>`, `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.
+>Vervang `<LIBRARYID>` , `<API KEY>` , `<TOKEN>` en `<ORGID>` door werkelijke waarden.

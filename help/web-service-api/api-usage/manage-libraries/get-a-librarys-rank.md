@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # De rang van een bibliotheek ophalen {#get-library-rank}
 
-Een methode van de GET die u toestaat om bibliotheken te rangschikken.
+Een methode van GET waarmee u bibliotheken kunt rangschikken.
 
 ## Verzoek
 
@@ -41,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H
 
 >[!IMPORTANT]
 >
->Variabelen zoals `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.
+>Vervang variabelen zoals `<API KEY>` , `<TOKEN>` en `<ORGID>` door werkelijke waarden.

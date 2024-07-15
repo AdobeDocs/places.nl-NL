@@ -4,8 +4,8 @@ description: In deze sectie ziet u hoe u de service Plaatsen gebruikt voor pushb
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '211'
+ht-degree: 2%
 
 ---
 
@@ -21,18 +21,18 @@ Controleer voordat u begint of u de volgende taken hebt uitgevoerd:
 
 * Het pushmeldingskanaal in Mobile Services is ingesteld.
 
-  Zie voor meer informatie [Een pushbericht maken](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Voor meer informatie, zie [ een duwbericht ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl) creëren.
 
 * Begrijp hoe te om een dupmelding naar een segment van Analytics in de Mobiele Diensten te verzenden.
 
-  Zie voor meer informatie [Een pushbericht maken](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Voor meer informatie, zie [ een duwbericht ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl) creëren.
 
 ## Een melding verzenden
 
-Op de **[!UICONTROL Audience]** tabblad van het *Pushmelding maken* kunt u het publiek voor dit bericht op een van de volgende manieren maken:
+Op het **[!UICONTROL Audience]** lusje van *creeer duw bericht* werkschema, kunt u het publiek voor dit bericht op één van de volgende manieren tot stand brengen:
 
-* In de **[!UICONTROL Analytics Segments]** selecteert u een eerder gemaakt Adobe Analytics-segment.
+* Selecteer in de vervolgkeuzelijst **[!UICONTROL Analytics Segments]** een eerder gemaakt Adobe Analytics-segment.
 
-* In de **[!UICONTROL Custom Segment]** een publiek bouwen door de beschikbare parameters van het douanesegment te gebruiken.
+* In de **[!UICONTROL Custom Segment]** sectie, bouw een publiek door de beschikbare parameters van het douanesegment te gebruiken.
 
-![instellen van een pushbericht](/help/assets/push-set-up.png)
+![ vestiging een duw bericht ](/help/assets/push-set-up.png)

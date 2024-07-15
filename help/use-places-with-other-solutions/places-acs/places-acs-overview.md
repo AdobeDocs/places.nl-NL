@@ -1,6 +1,6 @@
 ---
 title: Plaatsingsservice gebruiken voor Adobe Campaign Standard
-description: Deze sectie is een overzicht van hoe te om de Dienst van Plaatsen met Campaign Standard te gebruiken.
+description: Dit gedeelte geeft een overzicht van het gebruik van de Places Service met Campaign Standard.
 exl-id: e2906ad3-5c78-417b-bc9a-4dd259bbafe9
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt

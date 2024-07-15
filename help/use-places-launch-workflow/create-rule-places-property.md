@@ -4,7 +4,7 @@ description: De Plaatsen SDK houdt spoor van de huidige plaats, controleert gevo
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '849'
 ht-degree: 11%
 
 ---
@@ -25,8 +25,8 @@ U kunt een regel configureren, die bestaat uit een gebeurtenis, een voorwaarde e
 
 De Dienst van Plaatsen biedt de volgende gebeurtenissen aan waarop u een regel kunt in werking stellen:
 
-* **POI invoeren**, die door de Plaatsen SDK wordt teweeggebracht wanneer uw klant POI ingaat die u vormde.
-* **POI afsluiten**, die door de Plaatsen SDK wordt teweeggebracht wanneer uw klant POI weggaat die u vormde.
+* **ga POI** in, die door de Plaatsen SDK wordt teweeggebracht wanneer uw klant POI ingaat die u vormde.
+* **Uitgang POI**, die door de Plaatsen SDK wordt teweeggebracht wanneer uw klant POI weggaat die u vormde.
 
 ### Servicevoorwaarden plaatsen
 
@@ -40,7 +40,7 @@ In de SDK van Plaatsen blijven de volgende statussen behouden:
 
 Elke POI bevat de volgende gegevenselementen:
 
-* Id
+* ID
 * Naam
 * Breedte/lengte
 * Straal
@@ -54,15 +54,15 @@ Handelingen bepalen wat de toepassing moet doen als reactie op de voorwaarde dat
 
 >[!CAUTION]
 >
->In dit voorbeeld wordt ervan uitgegaan dat u een POI-bibliotheek van alle koffiebars in de Verenigde Staten hebt gemaakt. Voor meer informatie over het creëren van POIs en bibliotheken, zie [Een POI maken](/help/poi-mgmt-ui/create-a-poi-ui.md) en *Een bibliotheek maken* in [Meerdere bibliotheken beheren](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>In dit voorbeeld wordt ervan uitgegaan dat u een POI-bibliotheek van alle koffiebars in de Verenigde Staten hebt gemaakt. Voor meer informatie over het creëren van POIs en bibliotheken, zie [ een POI ](/help/poi-mgmt-ui/create-a-poi-ui.md) creëren en *een Bibliotheek* in [ leiden veelvoudige bibliotheken ](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
-De volgende procedure is een voorbeeld van hoe u een regel kunt maken die een post terugstuurt naar Slack wanneer u een koffiewinkel in San Francisco betreedt.
+De volgende procedure is een voorbeeld van hoe u een regel kunt maken die een post terugstuurt naar de Slack wanneer u een koffiewinkel in San Francisco betreedt.
 
 De gebeurtenis, de voorwaarde en de handeling worden op de volgende manieren gedefinieerd:
 
-* **Gebeurtenis**: Plaatst de gebeurtenis entry.
+* **Gebeurtenis**: De ingangsgebeurtenis van Plaatsen.
 * **Voorwaarde**: De stad voor de **Huidige POI** is San Francisco
-* **Handeling**: Stuur een postback naar Slack de naam van de koffiewinkel die uw klant heeft ingevoerd.
+* **Actie**: Verzend een postback naar Slack de naam van de koffiewinkel die uw klant inging.
 
 ### Voorwaarde
 
@@ -70,25 +70,25 @@ Voordat u een regel maakt, moet u een gegevenselement in Adobe Experience Platfo
 
 Een gegevenselement maken in Experience Platform Launch:
 
-1. Klik op de knop **Gegevenselementen** tab.
-1. Klikken **Gegevenselement toevoegen**.
-1. Typ bijvoorbeeld een naam, **Huidige naam van de koffiewinkel**.
-1. In de **Extensie** vervolgkeuzelijst, selecteert u **Plaatsen - bèta**.
-1. In **Gegevenselement**, selecteert u **Plaats**.
-1. Selecteer in het rechterdeelvenster de optie **Huidige POI**.
-1. Klikken **Opslaan**.
+1. Klik de **Elementen van Gegevens** tabel.
+1. Klik **toevoegen het Element van Gegevens**.
+1. Typ een naam, bijvoorbeeld, **Huidige naam van de koffiewinkel**.
+1. In de **drop-down lijst van de Uitbreiding**, uitgezochte **Plaatsen - Beta**.
+1. In **Element van Gegevens**, uitgezochte **Stad**.
+1. In de juiste ruit, uitgezochte **Huidige POI**.
+1. Klik **sparen**.
 
 ### Een regel maken in het Experience Platform Launch voor Plaatsen
 
-![regel maken](/help/assets/placesrule.png)
+![ creërend een regel ](/help/assets/placesrule.png)
 
 1. Klik in Experience Platform Launch op het tabblad **[!UICONTROL Rules]**.
 1. Klik op **[!UICONTROL Add Rule]**.
-1. Typ bijvoorbeeld een naam voor de regel. **[!UICONTROL Track entry for coffee shop in SF]**.
+1. Typ een naam voor de regel, bijvoorbeeld **[!UICONTROL Track entry for coffee shop in SF]** .
 
 ### Een gebeurtenis maken
 
-1. Klik in de sectie Gebeurtenissen op **[!UICONTROL + Add]**. Gebeurtenissen bepalen wanneer de regel moet worden geactiveerd.
+1. Klik in de sectie Gebeurtenissen op **[!UICONTROL + Add]** . Gebeurtenissen bepalen wanneer de regel moet worden geactiveerd.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Places – Beta]**.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Event Type]** de optie **[!UICONTROL Enter POI]**.
 1. Voer in **[!UICONTROL Name]** een naam in voor de gebeurtenis, bijvoorbeeld **[!UICONTROL Entering a coffee shop]**.
@@ -96,38 +96,38 @@ Een gegevenselement maken in Experience Platform Launch:
 
 ### Een voorwaarde maken
 
-1. Klik in de sectie Voorwaarden op **[!UICONTROL +Add]**. De voorwaarden bepalen aan welke criteria moet worden voldaan om de actie te ondernemen.
+1. Klik in de sectie Voorwaarden op **[!UICONTROL +Add]** . De voorwaarden bepalen aan welke criteria moet worden voldaan om de actie te ondernemen.
 1. Selecteer Standaard in **[!UICONTROL Logic Type]**. Hiermee kunnen handelingen worden uitgevoerd als aan de voorwaarde is voldaan.
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Extension]** de optie **[!UICONTROL Places – Beta]**.
 1. In **[!UICONTROL Condition Type]** selecteert u **[!UICONTROL City]**.
-1. Typ bijvoorbeeld de naam van een voorwaarde, **[!UICONTROL Coffee shop in SF]**.
+1. Typ een voorwaardennaam, bijvoorbeeld **[!UICONTROL Coffee shop in SF]** .
 1. Klik in het rechterdeelvenster op **[!UICONTROL Current POI]** en selecteer in de vervolgkeuzelijst **[!UICONTROL San Francisco]** als een van uw steden.
 1. Klik op **[!UICONTROL Keep Changes]**.
 
 ### Een handeling maken
 
-1. In de **[!UICONTROL Actions]** sectie, klikken **[!UICONTROL + Add]**.
-1. In de **[!UICONTROL Extension]** vervolgkeuzelijst, de standaardinstelling behouden **[!UICONTROL Mobile Core]** geselecteerd.
-1. Selecteer bijvoorbeeld een handelingstype **[!UICONTROL Send Postback]**.
+1. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL + Add]** .
+1. Laat in de vervolgkeuzelijst **[!UICONTROL Extension]** de standaardoptie **[!UICONTROL Mobile Core]** geselecteerd.
+1. Selecteer een actietype, bijvoorbeeld **[!UICONTROL Send Postback]** .
 
-   a. in **[!UICONTROL URL]** Typ bijvoorbeeld de postback-URL voor Slack. `https://hooks.slack.com/services/`.
+   a. Typ in **[!UICONTROL URL]** de postback-URL voor de Slack, bijvoorbeeld `https://hooks.slack.com/services/` .
 
-   b. Selecteer de **[!UICONTROL Add Post Body]** selectievakje.
+   b. Schakel het selectievakje **[!UICONTROL Add Post Body]** in als u een berichttekst wilt verzenden.
 
-   c. in **[!UICONTROL Post Body]**, voegt u de tekst toe, bijvoorbeeld: `{ "text": "A customer has entered" }`
+   c. Voeg in **[!UICONTROL Post Body]** de tekst van de post toe, bijvoorbeeld: `{ "text": "A customer has entered" }`
 
-   c. Typ bijvoorbeeld een inhoudstype **[!UICONTROL application/json]**.
+   c. Typ bijvoorbeeld een inhoudstype **[!UICONTROL application/json]** .
 
-   d. Selecteer bijvoorbeeld een time-outwaarde. **[!UICONTROL 5]**.
+   d. Selecteer een time-outwaarde, bijvoorbeeld **[!UICONTROL 5]** .
 
 1. Klik op **[!UICONTROL Keep Changes]**.
 
-### De regel publiceren
+### Publish the rule
 
-1. Als u de regel wilt activeren, moet u deze publiceren. Voor meer informatie over het publiceren van uw regel in Experience Platform Launch, zie [Publiceren](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+1. Als u de regel wilt activeren, moet u deze publiceren. Voor meer informatie over het publiceren van uw regel in Experience Platform Launch, zie [ het Publiceren ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### Buiten entry&#39;s en exit&#39;s denken
 
-Het gebruiken van de diensten van Plaatsen de geo-fence ingangen en de uitgang om regels in Experience Platform Launch teweeg te brengen is ongelooflijk krachtig, maar u kunt plaatsgegevens als voorwaarde voor andere gebeurtenissen ook gebruiken om in brand te steken. U kunt bijvoorbeeld een gebeurtenistrigger voor Mobile Core Track Action hebben die klaar is om te worden geactiveerd op basis van een bepaalde trackAction-aanroepgebeurtenis in uw app. Op basis van deze gebeurtenis kunt u aanvullende locatievoorwaarden aan de gebeurtenis toevoegen voordat een actie wordt uitgevoerd. Open bijvoorbeeld een enquête in de app bij een aankoop `trackAction` gebeurtenis vindt plaats, maar **alleen** als de huidige locatie van de gebruiker specifieke metagegevens van de Places Service bevat.
+Het gebruiken van de diensten van Plaatsen de geo-fence ingangen en de uitgang om regels in Experience Platform Launch teweeg te brengen is ongelooflijk krachtig, maar u kunt plaatsgegevens als voorwaarde voor andere gebeurtenissen ook gebruiken om in brand te steken. U kunt bijvoorbeeld een gebeurtenistrigger voor Mobile Core Track Action hebben die klaar is om te worden geactiveerd op basis van een bepaalde trackAction-aanroepgebeurtenis in uw app. Op basis van deze gebeurtenis kunt u aanvullende locatievoorwaarden aan de gebeurtenis toevoegen voordat een actie wordt uitgevoerd. Bijvoorbeeld, open omhoog een in-app onderzoek wanneer een aankoop `trackAction` gebeurtenis voorkomt, maar **slechts** als de huidige plaats van de gebruiker specifieke meta-gegevens van de Dienst van Plaatsen omvat.
 
-![een voorwaarde maken](/help/assets/places-condition.png)
+![ creeer een voorwaarde ](/help/assets/places-condition.png)

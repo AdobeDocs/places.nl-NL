@@ -47,11 +47,11 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete' 
 
 >[!IMPORTANT]
 >
->Vervangen `<API KEY>`, `<TOKEN>`, `<ORGID>`, en `<PATHTOBATCHDELETEJSONFILE>` met echte waarden.
+>Vervang `<API KEY>` , `<TOKEN>` , `<ORGID>` en `<PATHTOBATCHDELETEJSONFILE>` door echte waarden.
 
 ## Voorbeeld-JSON-bestand
 
-Hier volgt het JSON-voorbeeldbestand voor het `batchDelete` API:
+Hier volgt het voorbeeld van het JSON-bestand voor de `batchDelete` API:
 
 ```text
 {​"ids":["31a49d5c-c6ad-46ae-b88d-a6912a8a6b2f","6a78a729-7973-4373-9199-36da18cc5b8c","74eaa3da-2464-4298-9b6d-5376fa7ea00f"]​}

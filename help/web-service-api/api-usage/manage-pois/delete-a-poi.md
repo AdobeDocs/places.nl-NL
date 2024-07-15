@@ -45,4 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H
 
 >[!IMPORTANT]
 >
->Vervangen `<POIID>`, `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.
+>Vervang `<POIID>` , `<API KEY>` , `<TOKEN>` en `<ORGID>` door werkelijke waarden.

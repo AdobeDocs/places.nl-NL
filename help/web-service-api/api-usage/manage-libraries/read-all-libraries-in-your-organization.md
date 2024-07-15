@@ -41,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-ap
 
 >[!IMPORTANT]
 >
->Variabelen zoals `<API KEY>`, `<TOKEN>,` en `<ORGID>` met werkelijke waarden.
+>Vervang variabelen zoals `<API KEY>` , `<TOKEN>,` en `<ORGID>` door werkelijke waarden.

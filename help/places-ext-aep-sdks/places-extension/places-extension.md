@@ -1,18 +1,18 @@
 ---
-title: Uitbreiding Places
+title: Extensie Plaatsen
 description: Met de extensie Plaatsen kunt u op basis van de locatie van uw gebruikers werken.
 feature: Mobile SDK
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 10%
+source-wordcount: '33'
+ht-degree: 0%
 
 ---
 
-# Uitbreiding Places {#places-extension}
+# Extensie Plaatsen {#places-extension}
 
-Navigeer naar de portal voor ontwikkelaars van Adoben om documentatie voor de [Hiermee worden SDK-extensies geplaatst](https://developer.adobe.com/client-sdks/documentation/places/).
+Navigeer aan het de ontwikkelaarsportaal van de Adobe om documentatie voor de [ uitbreidingen van SDK van Plaatsen ](https://developer.adobe.com/client-sdks/documentation/places/) te bekijken.
 
 <!-- 
 

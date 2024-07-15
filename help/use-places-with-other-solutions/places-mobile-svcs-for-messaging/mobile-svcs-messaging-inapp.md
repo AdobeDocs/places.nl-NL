@@ -4,8 +4,8 @@ description: Deze sectie toont u hoe te om de Dienst van Plaatsen met Overseinen
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 1%
+source-wordcount: '636'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Deze typen zijn in-app berichten omdat ze door de SDK worden geactiveerd. Lokale
 
 ### Vereisten
 
-Voordat u begint, begrijpt u hoe u een bericht in de app verzendt en maakt in Mobile Services en hoe triggers werken. Zie voor meer informatie [Maak een bericht in de app.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+Voordat u begint, begrijpt u hoe u een bericht in de app verzendt en maakt in Mobile Services en hoe triggers werken. Voor meer informatie, zie [ een in-app bericht creëren.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl)
 
 ## Regels in Experience Platform Launch
 
@@ -53,22 +53,22 @@ Nadat de regel opstelling met de juiste gebeurtenis en voorwaardenparameters is,
 
 Een handeling maken:
 
-1. Selecteer de **[!UICONTROL Adobe Analytics]** extensie.
-1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Action type]** de optie **[!UICONTROL Track.]**
+1. Selecteer de extensie **[!UICONTROL Adobe Analytics]** .
+1. Selecteer **[!UICONTROL Track.]** in de vervolgkeuzelijst **[!UICONTROL Action type]**
 1. Typ een naam voor de handeling.
-1. In het rechterdeelvenster, in **[!UICONTROL Context Data]** selecteert u het sleutelwaardepaar om de contextgegevens in te stellen die naar Analytics worden verzonden.
+1. Selecteer in het rechterdeelvenster in **[!UICONTROL Context Data]** het sleutelwaardepaar om de contextgegevens in te stellen die naar Analytics worden verzonden.
 
-U kunt bijvoorbeeld `poiname` als sleutel en `{%%Last Entered POI Name}` als de waarde.
+U kunt bijvoorbeeld `poiname` als de sleutel selecteren en `{%%Last Entered POI Name}` als de waarde.
 
 >[!TIP]
 >
->De regels voor analyseverwerking kunnen worden ingesteld om deze contextgegevens op te halen. Zie voor meer informatie [Verwerkingsregels](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). In het voorbeeld in *Een handeling maken*, verzendt de actie `poiname` als context om de gebeurtenis van de POI ingang te beschrijven die naar Analytics wordt verzonden.
+>De regels voor analyseverwerking kunnen worden ingesteld om deze contextgegevens op te halen. Voor meer informatie, zie [ Regels van de Verwerking ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). In het voorbeeld in *creeer een actie*, zal de Actie `poiname` als context verzenden om de POI ingangsgebeurtenis te beschrijven die naar Analytics wordt verzonden.
 
-![een handeling maken](/help/assets/configure-action.png)
+![ creërend een actie ](/help/assets/configure-action.png)
 
 Hier is een voorbeeld van de volledige regel:
 
-![voltooide regel](/help/assets/create-a-rule.png)
+![ voltooide regel ](/help/assets/create-a-rule.png)
 
 ## Een bericht in de app maken in Mobile Services
 
@@ -79,10 +79,10 @@ Als deel van uw parameters van de Trekker, kunt u het publiek voor het bericht m
 
   Deze optie kan worden gebruikt met een locatiespecifieke actie, zoals ingang, of het kan als context aan een andere gebeurtenis zoals een lancering of een knoopklik worden gebruikt.
 
-  Hier is een voorbeeld van hoe te om een in-app bericht te vormen om gebruikers welkom te heten die POI ingaan die heeft **[!UICONTROL Adobe]** in de naam:
+  Hier is een voorbeeld van hoe u een bericht in de app configureert om gebruikers welkom te heten die een POI invoeren die **[!UICONTROL Adobe]** in de naam heeft:
 
-  ![triggerparameters](/help/assets/trigger-parameters.png)
+  ![ trekkerparameters ](/help/assets/trigger-parameters.png)
 
-* Parameters in de rubrieken Plaatsen in het dialoogvenster *Triggers en reizigers* pagina in Mobile Services werkt niet met gegevens van de Places Service.
+* De parameters in de rubrieken van de Dienst van Plaatsen in de *Triggers en Traits* pagina in de Mobiele Diensten werken niet met gegevens van de Dienst van Plaatsen.
 
   Die parameters zijn slechts voor het gegevensbestand van de Dienst van Verouderde Plaatsen dat in de Mobiele Diensten werd gecreeerd.

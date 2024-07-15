@@ -41,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-key
 
 >[!IMPORTANT]
 >
->Vervangen `<API KEY>`, `<TOKEN>`, en `<ORGID>` met werkelijke waarden.
+>Vervang `<API KEY>` , `<TOKEN>` en `<ORGID>` door werkelijke waarden.

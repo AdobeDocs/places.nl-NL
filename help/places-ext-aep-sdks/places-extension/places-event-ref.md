@@ -5,8 +5,8 @@ feature: Mobile SDK
 exl-id: 98210ef4-5ff1-4792-b97b-2845ce02e78a
 source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 7%
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
@@ -16,33 +16,33 @@ Hier volgt een lijst met de gebeurtenissen die worden afgehandeld door de extens
 
 ## GetCurrentPointsOfInterest
 
-**Gebeurtenisdetails**
+**de Details van de Gebeurtenis**
 
-| Type | Bron | Naam | Gepauzeerd |
+| Type | Source | Naam | Gepauzeerd |
 | :--- | :--- | :--- | :--- |
 | PLAATSEN | REQUEST_CONTENT | `requestgetuserwithinplaces` | Waar |
 
-**Gebeurtenisbeschrijving**
+**Beschrijving van de Gebeurtenis**
 
 Deze gebeurtenis is een verzoek om POIs terug te winnen waarin het apparaat momenteel wordt gevestigd.
 
-**Gegevenstaakdefinitie**
+**Definitie van de Lading van Gegevens**
 
 nvt
 
 ## GetNearbyPointsOfInterest
 
-**Gebeurtenisdetails**
+**de Details van de Gebeurtenis**
 
-| Type | Bron | Naam | Gepauzeerd |
+| Type | Source | Naam | Gepauzeerd |
 | :--- | :--- | :--- | :--- |
 | PLAATSEN | REQUEST_CONTENT | `requestgetnearbyplaces` | Waar |
 
-**Gebeurtenisbeschrijving**
+**Beschrijving van de Gebeurtenis**
 
 Deze gebeurtenis is een verzoek om de nabijgelegen POIs te krijgen door rekening te houden met de huidige apparatenplaats en de gevormde bibliotheken van Plaatsen.
 
-**Gegevenstaakdefinitie**
+**Definitie van de Lading van Gegevens**
 
 | Sleutel | Type waarde | Vereist | Standaardwaarde | Beschrijving |
 | :--- | :--- | :--- | :--- | :--- |
@@ -53,17 +53,17 @@ Deze gebeurtenis is een verzoek om de nabijgelegen POIs te krijgen door rekening
 
 ## ProcessRegionEvent
 
-**Gebeurtenisdetails**
+**de Details van de Gebeurtenis**
 
-| Type | Bron | Naam | Gepauzeerd |
+| Type | Source | Naam | Gepauzeerd |
 | :--- | :--- | :--- | :--- |
 | PLAATSEN | REQUEST_CONTENT | `requestprocessregionevent` | Onwaar |
 
-**Gebeurtenisbeschrijving**
+**Beschrijving van de Gebeurtenis**
 
 Deze gebeurtenis zorgt ervoor dat de extensie Plaatsen een gebeurtenis voor een geofence-item of -uitgang verwerkt.
 
-**Gegevenstaakdefinitie**
+**Definitie van de Lading van Gegevens**
 
 | Sleutel | Type waarde | Vereist | Beschrijving |
 | :--- | :--- | :--- | :--- |

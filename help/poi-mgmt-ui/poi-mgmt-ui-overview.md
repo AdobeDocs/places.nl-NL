@@ -13,7 +13,7 @@ ht-degree: 0%
 
 POIs en bibliotheken worden gecreeerd en in het gegevensbestand van de Dienst van Plaatsen beheerd door de Dienst UI van Plaatsen te gebruiken.
 
-* Als u een bibliotheek wilt maken of meerdere bibliotheken wilt beheren, raadpleegt u [Bibliotheken beheren](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
-* Als u een POI wilt maken, raadpleegt u [Een POI maken](/help/poi-mgmt-ui/create-a-poi-ui.md).
-* Om veelvoudige POIs te beheren, zie [Eerder gemaakte OI&#39;s beheren](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
-* Voor het bulkimporteren van POI&#39;s raadpleegt u [Bulkinvoer van POI&#39;s](/help/poi-mgmt-ui/bulk-upload-pois.md).
+* Om een bibliotheek te creëren of veelvoudige bibliotheken te beheren, zie [ bibliotheken ](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md) leiden.
+* Om POI tot stand te brengen, zie [ een POI ](/help/poi-mgmt-ui/create-a-poi-ui.md) creëren.
+* Om veelvoudige POIs te beheren, zie [ eerder gecreeerd POIs ](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md) leiden.
+* Om een bulkinvoer van POIs uit te voeren, zie [ Bulk de invoer van POIs ](/help/poi-mgmt-ui/bulk-upload-pois.md).

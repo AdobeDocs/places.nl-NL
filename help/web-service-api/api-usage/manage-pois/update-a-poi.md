@@ -1,6 +1,6 @@
 ---
 title: Een POI bijwerken
-description: Werk een POI bij met de REST-API's van Plaatsen.
+description: Werk een POI bij met behulp van de REST-API's van Plaatsen.
 exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
@@ -47,4 +47,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Vervangen `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`, en `<SINGLEPOIDATA>` met werkelijke waarden.
+>Vervang `<POIID>` , `<API KEY>` , `<TOKEN>` , `<ORGID>` en `<SINGLEPOIDATA>` door werkelijke waarden.

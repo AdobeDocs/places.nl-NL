@@ -15,4 +15,4 @@ Met Plaatsingsservice in Adobe Analytics kunt u de volgende taken uitvoeren:
 
 * [POI-invoer- en afsluitgegevens verzenden via Analyse](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
 * [Locatiecontext toevoegen aan verzoeken van Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
-* [Rapport over locatiegegevens in de werkruimte Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+* [Rapport over locatiegegevens in de Analytics Workspace](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)

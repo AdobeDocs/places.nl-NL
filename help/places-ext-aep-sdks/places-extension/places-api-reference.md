@@ -6,7 +6,7 @@ exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
 source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 31%
+ht-degree: 29%
 
 ---
 
@@ -20,9 +20,9 @@ Wanneer een apparaat een van de vooraf gedefinieerde grenzen van de Plaatsingsse
 
 ### ProcessGeofence (Android)
 
-Verwerk een `Geofence` regionale gebeurtenis voor de opgegeven `transitionType`.
+Verwerk een `Geofence` region-gebeurtenis voor de opgegeven `transitionType` .
 
-Geef de `transitionType` van `GeofencingEvent.getGeofenceTransition()`. Momenteel `Geofence.GEOFENCE_TRANSITION_ENTER` en `Geofence.GEOFENCE_TRANSITION_EXIT` worden ondersteund.
+Geef `transitionType` door van `GeofencingEvent.getGeofenceTransition()` . Momenteel worden `Geofence.GEOFENCE_TRANSITION_ENTER` en `Geofence.GEOFENCE_TRANSITION_EXIT` ondersteund.
 
 **Syntaxis**
 
@@ -34,7 +34,7 @@ public static void processGeofence(final Geofence geofence, final int transition
 
 **Voorbeeld**
 
-Deze methode in uw `IntentService` die is geregistreerd voor het ontvangen van geofence-gebeurtenissen voor Android.
+Roep deze methode aan in uw `IntentService` die is geregistreerd voor het ontvangen van Android-geofence-gebeurtenissen.
 
 Hier volgt een codevoorbeeld voor deze methode:
 
@@ -60,7 +60,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent (iOS)
 
-Deze methode moet worden aangeroepen in het dialoogvenster `CLLocationManager` afgevaardigde, die vertelt of is de gebruiker ingegaan of een specifiek gebied verlaten.
+Deze methode moet worden aangeroepen in de gedelegeerde `CLLocationManager` , die aangeeft of de gebruiker een bepaald gebied heeft ingevoerd of verlaten.
 
 **Syntaxis**
 
@@ -87,7 +87,7 @@ Hier volgt het codevoorbeeld voor deze methode:
 
 ### ProcessGeofencingEvent (Android)
 
-Alles verwerken `Geofences` in de `GeofencingEvent` tegelijkertijd.
+Verwerk `Geofences` allemaal tegelijk in de `GeofencingEvent` .
 
 **Syntaxis**
 
@@ -97,7 +97,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **Voorbeeld**
 
-Deze methode in uw `IntentService` die is geregistreerd voor het ontvangen van geofence-gebeurtenissen voor Android
+Roep deze methode aan in uw `IntentService` die is geregistreerd voor het ontvangen van Android-geofence-gebeurtenissen
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
@@ -259,7 +259,7 @@ Verzoekt de locatie van het apparaat, zoals eerder bekend, door de extensie Plaa
 
 >[!TIP]
 >
->De extensie Plaatsen kent alleen locaties die aan de extensie zijn toegewezen via oproepen naar `GetNearbyPointsOfInterest`.
+>De extensie Plaatsen weet alleen welke locaties eraan zijn toegewezen via aanroepen van `GetNearbyPointsOfInterest` .
 
 
 ### GetLastKnownLocation (Android)
@@ -354,7 +354,7 @@ Hier volgt het codevoorbeeld voor deze methode:
 
 ### setAuthorizationStatus (Android)
 
-*Beschikbaar vanaf Plaatsen v1.4.0*
+*Beschikbaar die met Plaatsen v1.4.0 beginnen*
 
 Hiermee stelt u de machtigingsstatus in de extensie Plaatsen in.
 
@@ -379,14 +379,14 @@ Places.setAuthorizationStatus(PlacesAuthorizationStatus.ALWAYS);
 
 ### setAuthorizationStatus (iOS)
 
-*Beschikbaar vanaf ACPPlaces v1.3.0*
+*Beschikbaar die met ACPPlaces v1.3.0* beginnen
 
 Hiermee stelt u de machtigingsstatus in de extensie Plaatsen in.
 
 De opgegeven status wordt opgeslagen in de gedeelde status Plaatsen en is alleen ter referentie.
 Het aanroepen van deze methode heeft geen invloed op de eigenlijke status van de locatietoestemming voor dit apparaat.
 
-Wanneer de autorisatiestatus van het apparaat verandert, wordt `locationManager:didChangeAuthorizationStatus:` van uw `CLLocationManagerDelegate` wordt aangeroepen. Vanuit deze methode moet u de nieuwe `CLAuthorizationStatus` waarde voor ACPPlaces `setAuthorizationStatus:` API.
+Wanneer de autorisatiestatus van het apparaat verandert, wordt de methode `locationManager:didChangeAuthorizationStatus:` van de `CLLocationManagerDelegate` aangeroepen. Vanuit deze methode moet u de nieuwe `CLAuthorizationStatus` waarde doorgeven aan de ACPPlaces `setAuthorizationStatus:` -API.
 
 **Syntaxis**
 

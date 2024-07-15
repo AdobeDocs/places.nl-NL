@@ -27,7 +27,7 @@ Op deze manier kunt u acties uitvoeren vanuit locatiesignalen in real-time, wann
 
 Hier volgen enkele voorbeelden van manieren waarop u Plaatsen kunt gebruiken:
 
-* Verzend een bericht in real time wanneer iemand een POI ingaat, *&quot;Hey...welkom in het stadion.&quot;*
+* Verzend een bericht in real time wanneer iemand een POI ingaat, *&quot;Hee..welkom aan het stadion.&quot;*
 * Analyseer het voetverkeer van je eigen winkels tegenover je concurrenten.
 * Segmenteer een publiek dat op off-line gedrag door publieksprofielen met locatiecontext te gebruiken wordt gebaseerd.
 * Richt een gebruiker met een in-store ervaring wanneer relevant.
@@ -36,19 +36,19 @@ Hier volgen enkele voorbeelden van manieren waarop u Plaatsen kunt gebruiken:
 
 De Dienst van Plaatsen omvat de volgende componenten:
 
-* **Webservice**
+* **de dienst van het Web**
 
-  U kunt POI&#39;s maken en beheren met de REST-API&#39;s van Plaatsen. Zie voor meer informatie over de REST API&#39;s [Bibliotheken beheren](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) en [POI&#39;s beheren](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+  U kunt POI&#39;s maken en beheren met de REST-API&#39;s van Plaatsen. Voor meer informatie over REST APIs, zie [ bibliotheken beheren ](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) en [ leiden POIs ](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **POI-beheerinterface**
+* **POI de interface van het Beheer**
 
   U kunt POI&#39;s visualiseren op een kaart om de ruimtelijke context te begrijpen en om POI&#39;s en hun aangepaste metagegevens toe te voegen/te bewerken.
 
-* **Extensie Plaatsen**
+* **de uitbreiding van Plaatsen**
 
-  De mobiele API-interface voor meerdere platforms om de locatiecontext in uw mobiele apps te integreren. Zie voor meer informatie over de SDK&#39;s [Extensie Plaatsen](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  De mobiele API-interface voor meerdere platforms om de locatiecontext in uw mobiele apps te integreren. Voor meer informatie over SDKs, zie {de uitbreiding van Plaatsen 0} ](/help/places-ext-aep-sdks/places-extension/places-extension.md).[
 
-* **Opstartregels**
+* **de regels van de Lancering**
 
   De geo-intelligente regels van de Lancering die u toelaten om acties met ingang en uitgangsgebeurtenissen teweeg te brengen. De regels staan u ook toe om geo-attributen in voorwaarden te gebruiken om de ervaring te personaliseren.
 
@@ -56,21 +56,21 @@ De Dienst van Plaatsen omvat de volgende componenten:
 
 Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
-* A **punt van belangstelling (POI)** is een geolocatie die van belang is voor uw organisatie.
+* A **punt van belang (POI)** is een geo-plaats die van belang voor uw organisatie is.
 
   U kunt POI&#39;s definiëren met kenmerken zoals een naam, straal, adres, categorie en metagegevenstags.
 
-* A **geofence** is een type POI.
+* A **geofence** is een type van POI.
 
   Dit type POI is een virtuele geografische grens die door breedte- en lengtecoördinaten wordt bepaald.
 
-* A **baken** is een type POI.
+* A **baken** is een type van POI.
 
   Dit POI-type is een fysiek apparaat dat een locatie vertegenwoordigt door een grafisch Bluetooth-signaal met laag vermogen uit te zenden. De steun van Beacons komt in een toekomstige versie.
 
 * Een **bibliotheek** is een verzameling van POI&#39;s, die worden gegroepeerd om eenvoudig regels aan een reeks POI&#39;s in plaats van aan één POI toe te voegen.
 
-* An **extension** is de Experience Platform Launch-extensie die vereist is om de Places SDK te integreren in uw mobiele apps.
+* Een **uitbreiding** is de uitbreiding van het Experience Platform Launch die wordt vereist om Plaatsen SDK in uw mobiele apps te integreren.
 
   De extensie die wordt gebruikt met de andere mobiele SDK&#39;s om locatiecontext aan uw ervaringen toe te voegen.
 
@@ -80,9 +80,9 @@ Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
 * De **orgID** is de id die uw organisatie vertegenwoordigt op het Adobe Experience Platform.
 
-  Zie voor meer informatie [Uw orgID zoeken](https://forums.adobe.com/thread/2339895).
+  Voor meer informatie, zie [ Vindend uw orgID ](https://forums.adobe.com/thread/2339895).
 
-* De **Experience Cloud-id** biedt een universele, permanente id die uw bezoekers identificeert voor alle oplossingen in het Experience Cloud.
+* De **dienst van identiteitskaart van het Experience Cloud 0} {verstrekt een universele, blijvende identiteitskaart die uw bezoekers over alle oplossingen in het Experience Cloud identificeert.**
 
-  Zie voor meer informatie [Overzicht](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+  Voor meer informatie, zie [ Overzicht ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 

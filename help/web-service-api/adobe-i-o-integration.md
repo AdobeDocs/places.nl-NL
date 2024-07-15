@@ -4,14 +4,14 @@ description: Informatie over het maken van een Adobe Developer API-project.
 exl-id: d7d31938-6c0e-40f8-a9d3-30af96043119
 source-git-commit: 3d477c6133b74a7e6380d0db1af5125aaa844035
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
 
 # Plaatst API toegangsoverzicht en eerste vereisten {#developer-prereqs}
 
-Deze informatie laat u zien hoe u een project maakt in de Adobe Developer-console en een toegangstoken genereert die wordt gebruikt in aanvragen voor de Plaatsen-API.
+Deze informatie laat u zien hoe u een project maakt in de Adobe Developer Console en een toegangstoken genereert die wordt gebruikt in aanvragen voor de Plaatsen-API.
 
 ## Vereisten voor gebruikerstoegang
 
@@ -20,7 +20,7 @@ Verifieer met de beheerder van het Systeem van uw organisatie dat de volgende ta
 * U bent toegevoegd aan de organisatie.
 * U bent toegevoegd aan een profiel in de Adobe Experience Platform.
 
-  Zie voor meer informatie *Een gebruiker of ontwikkelaar toevoegen aan de service- en Experience Platform Launch-profielen Plaatsen* in [Toegang tot de Places-service](/help/places-gain-access.md).
+  Voor meer informatie, zie *een gebruiker of een ontwikkelaar aan uw de dienstprofielen van Plaatsen en van het Experience Platform Launch* in [ toegang van de Aanwinst tot de Dienst van Plaatsen ](/help/places-gain-access.md) toevoegen.
 
 ### REST API-aanvragen
 
@@ -31,30 +31,30 @@ Voor elke aanvraag voor de REST API van de Places Service zijn de volgende items
 * Clientgeheim
 * Een token voor toonder
 
-Een project met de [Adobe Developer-console](https://developer.adobe.com/console) bevat deze items.
+Een Project met de [ console van Adobe Developer ](https://developer.adobe.com/console) verstrekt deze punten.
 
-* Als u een Project for Places Service-API wilt maken, raadpleegt u de *Een serviceproject voor plaatsen maken* hieronder.
+* Om een Project voor de Dienst API van Plaatsen tot stand te brengen, zie *Creërend de sectie van het Project van de Dienst van Plaatsen* hieronder.
 
 >[!IMPORTANT]
 >
->Als u zich niet kunt aanmelden bij [Adobe Developer-console](https://developer.adobe.com/console)of als Plaatsingsservice geen optie is op de knop *Integratiepagina maken*, zie *Organisatie-eisen* in [API-overzicht webservices](/help/web-service-api/places-web-services.md).
+>Als u niet login aan [ de console van Adobe Developer ](https://developer.adobe.com/console) kunt, of als de Dienst van Plaatsen geen optie op *is creeer de pagina van Integraties*, zie *vereisten van de Organisatie* in [ de diensten API van het Web overzicht ](/help/web-service-api/places-web-services.md).
 
 ## Een Service API-project voor plaatsen maken
 
 Voer de volgende handelingen uit om een Project for Places Service API te maken:
 
-1. Aanmelden bij [Adobe Developer-website](https://developer.adobe.com) met uw Adobe ID.
-2. Klikken **[!UICONTROL Console]** rechtsboven op de pagina.
-3. Als u aan meer dan één organisatie van Adobe wordt toegewezen, selecteer de correcte organisatie van de drop-down lijst in de hogere juiste hoek van de pagina.
+1. Login aan [ website van Adobe Developer ](https://developer.adobe.com) met uw Adobe ID.
+2. Klik op **[!UICONTROL Console]** rechtsboven op de pagina.
+3. Als u aan meer dan één organisatie van de Adobe wordt toegewezen, selecteer de correcte organisatie van de drop-down lijst in de hogere juiste hoek van de pagina.
 4. Klik op de knop **[!UICONTROL Create new project]**.
-5. Klikken **[!UICONTROL Add API]** in Get begonnen met uw nieuwe projectsectie.
+5. Klik op **[!UICONTROL Add API]** in de sectie Aan de slag met uw nieuwe project.
 6. Als u de API Plaatsen wilt selecteren, schuift u de pagina omlaag naar de kaart Plaatsen en klikt u op het selectievakje rechtsboven op de kaart.
 7. Klik op de knop **[!UICONTROL Next]**.
 8. Selecteer de optie OAuth Server-aan-Server (als er een keus is).
-9. Geef de referentie een naam en klik op **[!UICONTROL Next]**.
+9. Geef de referentie een naam en klik op **[!UICONTROL Next]** .
 10. Selecteer een profiel (een profiel moet werken als er meerdere zijn).
 11. Klik op **[!UICONTROL Save and configure API]**.
-12. Klik in het linkerdeelvenster op de knop **[!UICONTROL OAuth Server-to-Server]** link onder CREDENTIALS
+12. Klik in het linkerdeelvenster op de koppeling **[!UICONTROL OAuth Server-to-Server]** onder CREDENTIALS
 13. Deze pagina bevat het volgende:
    * Een manier om een toegangstoken te produceren dat in de REST API verzoeken van de Dienst van Plaatsen moet worden gebruikt.
    * Bekijk een krullbevel voor een voorbeeld hoe u een toegangstoken van uw eigen code kunt produceren.
@@ -67,4 +67,4 @@ Voer de volgende handelingen uit om een Project for Places Service API te maken:
 
 >[!IMPORTANT]
 >
->Adobe-toegangstokens zijn geldig **alleen** gedurende 24 uur, dus sla het voorbeeldCURL bevel (stap 5) op. Als het toegangstoken niet meer geldig is, moet u het teken opnieuw produceren.
+>De de toegangstokens van de Adobe zijn geldig **slechts** voor 24 uren, zodat sparen het bevel van steekproefCURL (stap 5). Als het toegangstoken niet meer geldig is, moet u het teken opnieuw produceren.
