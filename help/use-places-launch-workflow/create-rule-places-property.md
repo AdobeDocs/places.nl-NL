@@ -54,7 +54,7 @@ Handelingen bepalen wat de toepassing moet doen als reactie op de voorwaarde dat
 
 >[!CAUTION]
 >
->In dit voorbeeld wordt ervan uitgegaan dat u een POI-bibliotheek van alle koffiebars in de Verenigde Staten hebt gemaakt. Voor meer informatie over het creëren van POIs en bibliotheken, zie [ een POI ](/help/poi-mgmt-ui/create-a-poi-ui.md) creëren en *een Bibliotheek* in [ leiden veelvoudige bibliotheken ](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>In dit voorbeeld wordt ervan uitgegaan dat u een POI-bibliotheek van alle koffiebars in de Verenigde Staten hebt gemaakt. Voor meer informatie over het creëren van POIs en bibliotheken, zie [ een POI ](/help/poi-mgmt-ui/create-a-poi-ui.md) creëren en *een Bibliotheek* in [ leiden veelvoudige bibliotheken ](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=nl-NL).
 
 De volgende procedure is een voorbeeld van hoe u een regel kunt maken die een post terugstuurt naar de Slack wanneer u een koffiewinkel in San Francisco betreedt.
 
@@ -124,7 +124,7 @@ Een gegevenselement maken in Experience Platform Launch:
 
 ### Publish the rule
 
-1. Als u de regel wilt activeren, moet u deze publiceren. Voor meer informatie over het publiceren van uw regel in Experience Platform Launch, zie [ het Publiceren ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+1. Als u de regel wilt activeren, moet u deze publiceren. Voor meer informatie over het publiceren van uw regel in Experience Platform Launch, zie [ het Publiceren ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL).
 
 ### Buiten entry&#39;s en exit&#39;s denken
 

@@ -23,7 +23,7 @@ Dit document gaat uit van het volgende:
 
 1. De Adobe Analytics-gebruiker is een beheerder en heeft toegang tot verwerkingsregels.
 
-   Voor meer informatie over verwerkingsregels, zie [ overzicht van de Regels van de Verwerking ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+   Voor meer informatie over verwerkingsregels, zie [ overzicht van de Regels van de Verwerking ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=nl-NL).
 
 1. In het bezit van de Lancering, zijn de gegevenselementen gecreeerd voor de variabelen van de Dienst van Plaatsen die u wilt.
 
@@ -44,7 +44,7 @@ In dit voorbeeld zijn voor de handeling van de regel de volgende waarden gedefin
 
 ## 2. Maak analytische variabelen
 
-Om de contextgegevens (verzonden in stap 1) in kaart te brengen, moeten de variabelen eerst voor de het rapportreeks van Analytics worden gecreeerd. Voor meer informatie over het creëren van variabelen in Analytics, zie [ variabelen van de Omzetting (eVars) ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html).
+Om de contextgegevens (verzonden in stap 1) in kaart te brengen, moeten de variabelen eerst voor de het rapportreeks van Analytics worden gecreeerd. Voor meer informatie over het creëren van variabelen in Analytics, zie [ variabelen van de Omzetting (eVars) ](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=nl-NL).
 
 In dit voorbeeld is een conversievariabele, **[!UICONTROL Evar2]** , gemaakt met de naam **[!UICONTROL Places POI Name]** . Voor elke locatievariabele die u in de rapportage wilt weergeven, moeten extra variabelen worden gemaakt.
 
@@ -52,7 +52,7 @@ In dit voorbeeld is een conversievariabele, **[!UICONTROL Evar2]** , gemaakt met
 
 ## 3. Verwerkingsregels instellen
 
-Deze stap is nodig om contextgegevens (stap 1) toe te wijzen aan analytische variabelen (stap 2). Voor meer informatie bij het creëren van verwerkingsregels, zie [ overzicht van de Regels van de Verwerking ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
+Deze stap is nodig om contextgegevens (stap 1) toe te wijzen aan analytische variabelen (stap 2). Voor meer informatie bij het creëren van verwerkingsregels, zie [ overzicht van de Regels van de Verwerking ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=nl-NL).
 
 In dit voorbeeld is een verwerkingsregel gemaakt om de waarde van de contextgegevens **[!UICONTROL poi.name]** toe te wijzen aan **[!UICONTROL Places POI Name (eVar2)]** . Voor elke gemaakte locatievariabele moeten aanvullende verwerkingsregels worden gemaakt.
 
@@ -60,7 +60,7 @@ In dit voorbeeld is een verwerkingsregel gemaakt om de waarde van de contextgege
 
 ## 4. Genereer een rapport in Workspace
 
-Deze stap toont een basisrapport in Analytics Workspace om de gegevens te bekijken die in stappen 1-3 worden verzameld. Voor meer informatie over hoe te om Analytics Workspace te gebruiken, zie {het overzicht van Workspace van 0} Analytics [&#128279;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
+Deze stap toont een basisrapport in Analytics Workspace om de gegevens te bekijken die in stappen 1-3 worden verzameld. Voor meer informatie over hoe te om Analytics Workspace te gebruiken, zie {het overzicht van Workspace van 0} Analytics [&#128279;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=nl-NL).
 
 In dit voorbeeld heeft het rapport de volgende instellingen:
 

@@ -84,5 +84,5 @@ Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
 * De **dienst van identiteitskaart van het Experience Cloud 0&rbrace; &lbrace;verstrekt een universele, blijvende identiteitskaart die uw bezoekers over alle oplossingen in het Experience Cloud identificeert.**
 
-  Voor meer informatie, zie [ Overzicht ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+  Voor meer informatie, zie [ Overzicht ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=nl-NL).
 

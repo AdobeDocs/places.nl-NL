@@ -37,7 +37,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Belangrijke wijzigingen van Adobe-medewerkers
 
-Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] en het is uw taak om een bijdrage te leveren aan technische artikelen of technische artikelen te ontwerpen. Gebruik hiervoor de privéopslagruimte op `https://git.corp.adobe.com/AdobeDocs`. Zie de [Handleiding voor interne samenwerking](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html).
+Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een [!UICONTROL Adobe Experience Cloud] en het is uw taak om een bijdrage te leveren aan technische artikelen of technische artikelen te ontwerpen. Gebruik hiervoor de privéopslagruimte op `https://git.corp.adobe.com/AdobeDocs`. Zie de [Handleiding voor interne samenwerking](https://experienceleague.adobe.com/docs/collaborative-doc-instructions/collaboration-guide/home.html?lang=nl-NL).
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 

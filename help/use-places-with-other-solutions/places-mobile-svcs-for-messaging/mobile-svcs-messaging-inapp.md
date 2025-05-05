@@ -62,7 +62,7 @@ U kunt bijvoorbeeld `poiname` als de sleutel selecteren en `{%%Last Entered POI 
 
 >[!TIP]
 >
->De regels voor analyseverwerking kunnen worden ingesteld om deze contextgegevens op te halen. Voor meer informatie, zie [ Regels van de Verwerking ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). In het voorbeeld in *creeer een actie*, zal de Actie `poiname` als context verzenden om de POI ingangsgebeurtenis te beschrijven die naar Analytics wordt verzonden.
+>De regels voor analyseverwerking kunnen worden ingesteld om deze contextgegevens op te halen. Voor meer informatie, zie [ Regels van de Verwerking ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=nl-NL). In het voorbeeld in *creeer een actie*, zal de Actie `poiname` als context verzenden om de POI ingangsgebeurtenis te beschrijven die naar Analytics wordt verzonden.
 
 ![ creërend een actie ](/help/assets/configure-action.png)
 
