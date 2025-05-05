@@ -46,7 +46,7 @@ De Dienst van Plaatsen omvat de volgende componenten:
 
 * **de uitbreiding van Plaatsen**
 
-  De mobiele API-interface voor meerdere platforms om de locatiecontext in uw mobiele apps te integreren. Voor meer informatie over SDKs, zie {de uitbreiding van Plaatsen 0} ](/help/places-ext-aep-sdks/places-extension/places-extension.md).[
+  De mobiele API-interface voor meerdere platforms om de locatiecontext in uw mobiele apps te integreren. Voor meer informatie over SDKs, zie {de uitbreiding van Plaatsen 0} [&#128279;](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **de regels van de Lancering**
 
@@ -82,7 +82,7 @@ Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
   Voor meer informatie, zie [ Vindend uw orgID ](https://forums.adobe.com/thread/2339895).
 
-* De **dienst van identiteitskaart van het Experience Cloud 0} {verstrekt een universele, blijvende identiteitskaart die uw bezoekers over alle oplossingen in het Experience Cloud identificeert.**
+* De **dienst van identiteitskaart van het Experience Cloud 0&rbrace; &lbrace;verstrekt een universele, blijvende identiteitskaart die uw bezoekers over alle oplossingen in het Experience Cloud identificeert.**
 
   Voor meer informatie, zie [ Overzicht ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 

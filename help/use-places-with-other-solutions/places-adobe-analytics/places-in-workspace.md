@@ -60,7 +60,7 @@ In dit voorbeeld is een verwerkingsregel gemaakt om de waarde van de contextgege
 
 ## 4. Genereer een rapport in Workspace
 
-Deze stap toont een basisrapport in Analytics Workspace om de gegevens te bekijken die in stappen 1-3 worden verzameld. Voor meer informatie over hoe te om Analytics Workspace te gebruiken, zie {het overzicht van Workspace van 0} Analytics ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).[
+Deze stap toont een basisrapport in Analytics Workspace om de gegevens te bekijken die in stappen 1-3 worden verzameld. Voor meer informatie over hoe te om Analytics Workspace te gebruiken, zie {het overzicht van Workspace van 0} Analytics [&#128279;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
 
 In dit voorbeeld heeft het rapport de volgende instellingen:
 

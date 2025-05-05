@@ -17,5 +17,5 @@ De elementen van gegevens zijn de bouwstenen voor uw gegevenswoordenboek of gege
 
 Een gegevenselement is een variabele waarvan de waarde kan worden toegewezen aan querytekenreeksen, URL&#39;s, cookiewaarden, JavaScript-variabelen enzovoort. In Experience Platform Launch, kunt u deze waarde door zijn veranderlijke naam van verwijzingen voorzien. De inzameling van gegevenselementen wordt het woordenboek van bepaalde gegevens dat u kunt gebruiken om uw regels (gebeurtenissen, voorwaarden, en acties) te bouwen, en het gegevenswoordenboek wordt gedeeld over Experience Platform Launch en kan met de uitbreiding van Plaatsen worden gebruikt.
 
-Voor meer informatie over gegevenselementen, zie {de Elementen van 0} Gegevens ](https://docs.adobelaunch.com/launch-reference/managing-resources/data-elements).[
+Voor meer informatie over gegevenselementen, zie {de Elementen van 0} Gegevens [&#128279;](https://docs.adobelaunch.com/launch-reference/managing-resources/data-elements).
 

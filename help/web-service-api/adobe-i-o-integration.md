@@ -56,12 +56,12 @@ Voer de volgende handelingen uit om een Project for Places Service API te maken:
 11. Klik op **[!UICONTROL Save and configure API]**.
 12. Klik in het linkerdeelvenster op de koppeling **[!UICONTROL OAuth Server-to-Server]** onder CREDENTIALS
 13. Deze pagina bevat het volgende:
-   * Een manier om een toegangstoken te produceren dat in de REST API verzoeken van de Dienst van Plaatsen moet worden gebruikt.
-   * Bekijk een krullbevel voor een voorbeeld hoe u een toegangstoken van uw eigen code kunt produceren.
-   * Client-id weergeven (ook API-sleutel genoemd)
-   * Het clientgeheim weergeven
-   * De organisatie-id weergeven
-   * Al deze zijn vereist in de aanvragen aan de REST API van de Dienst van Plaatsen.
+    * Een manier om een toegangstoken te produceren dat in de REST API verzoeken van de Dienst van Plaatsen moet worden gebruikt.
+    * Bekijk een krullbevel voor een voorbeeld hoe u een toegangstoken van uw eigen code kunt produceren.
+    * Client-id weergeven (ook API-sleutel genoemd)
+    * Het clientgeheim weergeven
+    * De organisatie-id weergeven
+    * Al deze zijn vereist in de aanvragen aan de REST API van de Dienst van Plaatsen.
 14. U kunt de naam van het project wijzigen in een beschrijvende naam door op de projectnaam in het pad linksboven in het venster te klikken
 15. Klik vervolgens op de knop **[!UICONTROL Edit project]** rechtsboven op de pagina.
 

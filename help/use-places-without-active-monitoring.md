@@ -19,7 +19,7 @@ De ontwikkelaar verzamelt de locatie van het apparaat met behulp van de API&#39;
 
 >[!TIP]
 >
->Als de het gebruiksgevallen van uw app actieve gebiedscontrole vereisen, zie {de Dienst van Plaatsen van het 0} Gebruik met uw eigen controlemethode ](/help/using-your-own-monitor.md).[
+>Als de het gebruiksgevallen van uw app actieve gebiedscontrole vereisen, zie {de Dienst van Plaatsen van het 0} Gebruik met uw eigen controlemethode [&#128279;](/help/using-your-own-monitor.md).
 
 De service Plaatsen gebruiken zonder controle van het actieve gebied:
 

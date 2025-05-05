@@ -47,4 +47,4 @@ Een interessant punt (POI) is een locatie of een punt op een kaart die van belan
    1. Typ de naam van de sleutel.
    1. Typ de sleutelwaarde.
 
-1. Klik op **[!UICONTROL  Save]**.
+1. Klik op **[!UICONTROL &#x200B; Save]**.
