@@ -13,5 +13,5 @@ ht-degree: 0%
 
 POIs wordt gecreeerd en beheerd in het gegevensbestand van de Dienst van Plaatsen door de Dienst UI van Plaatsen te gebruiken.
 
-* Om een bibliotheek tot stand te brengen of te wijzigen, zie [ bibliotheken ](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md) leiden.
-* Om POI tot stand te brengen of te wijzigen, zie [ POIs ](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md) leiden.
+* Om een bibliotheek tot stand te brengen of te wijzigen, zie [&#x200B; bibliotheken &#x200B;](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md) leiden.
+* Om POI tot stand te brengen of te wijzigen, zie [&#x200B; POIs &#x200B;](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md) leiden.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Alvorens u de Mobiele uitbreiding van de Diensten voor overseinen kunt gebruiken, herzie de volgende eerste vereisten:
 
-* In de Places Service zijn interessante punten gecreëerd. Voor meer informatie, zie [ een POI ](/help/poi-mgmt-ui/create-a-poi-ui.md) creëren.
+* In de Places Service zijn interessante punten gecreëerd. Voor meer informatie, zie [&#x200B; een POI &#x200B;](/help/poi-mgmt-ui/create-a-poi-ui.md) creëren.
 
   >[!IMPORTANT]
   >
@@ -21,23 +21,23 @@ Alvorens u de Mobiele uitbreiding van de Diensten voor overseinen kunt gebruiken
 
 * Hier is *beheert Plaatsen* POI beheerspagina in de erfenis Mobiele Diensten UI voor oudere versies van SDK:
 
-  ![ Verouderde UI ](/help/assets/legacy-location-v4-ui.png)
+  ![&#x200B; Verouderde UI &#x200B;](/help/assets/legacy-location-v4-ui.png)
 
 * Hier volgt de gebruikersinterface van de Plaatsingsservice:
 
-  ![ het beheer UI van POI van de Dienst van Plaatsen ](/help/assets/places-ui.png)
+  ![&#x200B; het beheer UI van POI van de Dienst van Plaatsen &#x200B;](/help/assets/places-ui.png)
 
 * De ACS SDK is correct geconfigureerd met de extensie Plaatsen.
 
-  Dit betekent dat gegevens beschikbaar zijn als gebeurtenissen en/of omstandigheden in de engine voor regels voor Experience Platforms Launch voor uw mobiele app. Voor meer informatie, zie [ uitbreiding van Plaatsen ](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  Dit betekent dat gegevens beschikbaar zijn als gebeurtenissen en/of omstandigheden in de engine voor regels voor Experience Platforms Launch voor uw mobiele app. Voor meer informatie, zie [&#x200B; uitbreiding van Plaatsen &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * Word vertrouwd met het maken en publiceren van regels voor Experience Platforms Launch voor de ACS-SDK in uw mobiele app.
 
-  Voor meer informatie, zie [ motor van Regels ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
+  Voor meer informatie, zie [&#x200B; motor van Regels &#x200B;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
 
 * Experience Platform Launch gegevenselementen worden gecreeerd van de uitbreidingsgegevens van Plaatsen die in de motor van Regels zullen worden gebruikt.
 
-  Voor meer informatie, zie [ elementen van Gegevens ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
+  Voor meer informatie, zie [&#x200B; elementen van Gegevens &#x200B;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 
 ## Rapportage
 
@@ -45,16 +45,16 @@ Voordat u rapportage kunt gebruiken, moet u aan de volgende voorwaarden voldoen:
 
 * Plaatsen van servicegegevens naar Adobe Analytics Report Suite verzenden.
 
-  Voor meer informatie, zie [ Dienst van Plaatsen van het Gebruik met Adobe Analytics ](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+  Voor meer informatie, zie [&#x200B; Dienst van Plaatsen van het Gebruik met Adobe Analytics &#x200B;](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
 
 * Word vertrouwd met het melden van de Mobiele Diensten.
 
-  Voor meer informatie, zie [ Rapporten ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl).
+  Voor meer informatie, zie [&#x200B; Rapporten &#x200B;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl).
 
 ## Visualisatie melden
 
 U kunt rapporten van de Mobiele Dienst in werking stellen gebruikend de gegevens van de Dienst van Plaatsen die naar Adobe Analytics worden verzonden. In het volgende voorbeeld worden gebeurtenissen verzonden wanneer gebruikers items in een van de POI&#39;s hebben. In dit rapport is een filter van de POI-invoergebeurtenis toegevoegd over het uit-van-de-box gebruikersrapport:
 
-![ visualisatie van het Rapport ](/help/assets/report-visualize.png)
+![&#x200B; visualisatie van het Rapport &#x200B;](/help/assets/report-visualize.png)
 
 De extra flexibiliteit in het visualiseren van de gegevens van de Dienst van Plaatsen is beschikbaar in de interfaces van Adobe Analytics.

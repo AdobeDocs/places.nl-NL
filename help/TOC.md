@@ -54,7 +54,7 @@ ht-degree: 13%
             + [Meerdere POI&#39;s verwijderen](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
       + [Query-API&#39;s](web-service-api/api-usage/query-apis.md)
 + Extensies voor de mobiele SDK&#39;s {#places-ext-aep-sdks}
-   + [ de uitbreiding van Plaatsen ](places-ext-aep-sdks/places-extension/places-extension.md)
+   + [&#x200B; de uitbreiding van Plaatsen &#x200B;](places-ext-aep-sdks/places-extension/places-extension.md)
 + [De Dienst van Plaatsen van het gebruik met uw eigen monitoroplossing](using-your-own-monitor.md)
 + [De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole](use-places-without-active-monitoring.md)
 + De Service Plaatsen gebruiken als onderdeel van de workflow voor Experience Platforms Launch {#use-places-launch-workflow}

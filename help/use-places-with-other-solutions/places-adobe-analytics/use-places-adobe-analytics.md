@@ -14,7 +14,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->Deze sectie veronderstelt dat u de Dienst van Plaatsen in uw toepassing hebt uitgevoerd. Voor meer informatie over het uitvoeren van de Dienst van Plaatsen, zie [ uitbreidingen van Plaatsen ](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>Deze sectie veronderstelt dat u de Dienst van Plaatsen in uw toepassing hebt uitgevoerd. Voor meer informatie over het uitvoeren van de Dienst van Plaatsen, zie [&#x200B; uitbreidingen van Plaatsen &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt u regels in Experience Platform Launch tot stand brengen om de gegevens van de Dienst van Plaatsen naar Adobe Analytics te verzenden. Als u dit type regel wilt maken, selecteert u de eigenschap in Launch en voert u de volgende stappen uit:
 
@@ -41,7 +41,7 @@ Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt 
 
 1. Klik op **[!UICONTROL Keep Changes]**.
 
-   ![ &quot;selecteer een gebeurtenis&quot;](/help/assets/pt-selectEvent.png)
+   ![&#x200B; &quot;selecteer een gebeurtenis&quot;](/help/assets/pt-selectEvent.png)
 
 
 ## 3. Voorwaarden toevoegen
@@ -62,7 +62,7 @@ In dit voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de regel alle
 
 1. Klik op **[!UICONTROL Keep Changes]**.
 
-   ![ &quot;plaats een voorwaarde&quot;](/help/assets/pt-setCondition.png)
+   ![&#x200B; &quot;plaats een voorwaarde&quot;](/help/assets/pt-setCondition.png)
 
 
 ## 4. De actie definiëren
@@ -81,13 +81,13 @@ In dit voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de regel alle
 
    In het volgende voorbeeld wordt een `TrackAction` -aanroep verzonden naar Analytics met extra contextgegevens van `poi.name` gelijk aan de naam van de POI die deze entry-gebeurtenis heeft geactiveerd:
 
-   ![ &quot;plaats een actie&quot;](/help/assets/pt-setAction.png)
+   ![&#x200B; &quot;plaats een actie&quot;](/help/assets/pt-setAction.png)
 
 ## 5. Sla de regel op en herstel de eigenschap
 
 Nadat u uw configuratie voltooit, verifieer dat uw Regel als het volgende beeld kijkt:
 
-![ &quot;regel wordt gecreeerd&quot;](/help/assets/pt-ruleComplete.png)
+![&#x200B; &quot;regel wordt gecreeerd&quot;](/help/assets/pt-ruleComplete.png)
 
 1. Klikken **[!UICONTROL Save]**
 

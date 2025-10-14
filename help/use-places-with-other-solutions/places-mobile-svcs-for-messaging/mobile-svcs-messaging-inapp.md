@@ -33,7 +33,7 @@ Deze typen zijn in-app berichten omdat ze door de SDK worden geactiveerd. Lokale
 
 ### Vereisten
 
-Voordat u begint, begrijpt u hoe u een bericht in de app verzendt en maakt in Mobile Services en hoe triggers werken. Voor meer informatie, zie [ een in-app bericht creëren.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl)
+Voordat u begint, begrijpt u hoe u een bericht in de app verzendt en maakt in Mobile Services en hoe triggers werken. Voor meer informatie, zie [&#x200B; een in-app bericht creëren.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl)
 
 ## Regels in Experience Platform Launch
 
@@ -62,13 +62,13 @@ U kunt bijvoorbeeld `poiname` als de sleutel selecteren en `{%%Last Entered POI 
 
 >[!TIP]
 >
->De regels voor analyseverwerking kunnen worden ingesteld om deze contextgegevens op te halen. Voor meer informatie, zie [ Regels van de Verwerking ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=nl-NL). In het voorbeeld in *creeer een actie*, zal de Actie `poiname` als context verzenden om de POI ingangsgebeurtenis te beschrijven die naar Analytics wordt verzonden.
+>De regels voor analyseverwerking kunnen worden ingesteld om deze contextgegevens op te halen. Voor meer informatie, zie [&#x200B; Regels van de Verwerking &#x200B;](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=nl-NL). In het voorbeeld in *creeer een actie*, zal de Actie `poiname` als context verzenden om de POI ingangsgebeurtenis te beschrijven die naar Analytics wordt verzonden.
 
-![ creërend een actie ](/help/assets/configure-action.png)
+![&#x200B; creërend een actie &#x200B;](/help/assets/configure-action.png)
 
 Hier is een voorbeeld van de volledige regel:
 
-![ voltooide regel ](/help/assets/create-a-rule.png)
+![&#x200B; voltooide regel &#x200B;](/help/assets/create-a-rule.png)
 
 ## Een bericht in de app maken in Mobile Services
 
@@ -81,7 +81,7 @@ Als deel van uw parameters van de Trekker, kunt u het publiek voor het bericht m
 
   Hier is een voorbeeld van hoe u een bericht in de app configureert om gebruikers welkom te heten die een POI invoeren die **[!UICONTROL Adobe]** in de naam heeft:
 
-  ![ trekkerparameters ](/help/assets/trigger-parameters.png)
+  ![&#x200B; trekkerparameters &#x200B;](/help/assets/trigger-parameters.png)
 
 * De parameters in de rubrieken van de Dienst van Plaatsen in de *Triggers en Traits* pagina in de Mobiele Diensten werken niet met gegevens van de Dienst van Plaatsen.
 

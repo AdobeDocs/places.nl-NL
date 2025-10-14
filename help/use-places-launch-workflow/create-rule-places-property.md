@@ -54,7 +54,7 @@ Handelingen bepalen wat de toepassing moet doen als reactie op de voorwaarde dat
 
 >[!CAUTION]
 >
->In dit voorbeeld wordt ervan uitgegaan dat u een POI-bibliotheek van alle koffiebars in de Verenigde Staten hebt gemaakt. Voor meer informatie over het creëren van POIs en bibliotheken, zie [ een POI ](/help/poi-mgmt-ui/create-a-poi-ui.md) creëren en *een Bibliotheek* in [ leiden veelvoudige bibliotheken ](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=nl-NL).
+>In dit voorbeeld wordt ervan uitgegaan dat u een POI-bibliotheek van alle koffiebars in de Verenigde Staten hebt gemaakt. Voor meer informatie over het creëren van POIs en bibliotheken, zie [&#x200B; een POI &#x200B;](/help/poi-mgmt-ui/create-a-poi-ui.md) creëren en *een Bibliotheek* in [&#x200B; leiden veelvoudige bibliotheken &#x200B;](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=nl-NL).
 
 De volgende procedure is een voorbeeld van hoe u een regel kunt maken die een post terugstuurt naar de Slack wanneer u een koffiewinkel in San Francisco betreedt.
 
@@ -80,7 +80,7 @@ Een gegevenselement maken in Experience Platform Launch:
 
 ### Een regel maken in het Experience Platform Launch voor Plaatsen
 
-![ creërend een regel ](/help/assets/placesrule.png)
+![&#x200B; creërend een regel &#x200B;](/help/assets/placesrule.png)
 
 1. Klik in Experience Platform Launch op het tabblad **[!UICONTROL Rules]**.
 1. Klik op **[!UICONTROL Add Rule]**.
@@ -124,10 +124,10 @@ Een gegevenselement maken in Experience Platform Launch:
 
 ### Publish the rule
 
-1. Als u de regel wilt activeren, moet u deze publiceren. Voor meer informatie over het publiceren van uw regel in Experience Platform Launch, zie [ het Publiceren ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL).
+1. Als u de regel wilt activeren, moet u deze publiceren. Voor meer informatie over het publiceren van uw regel in Experience Platform Launch, zie [&#x200B; het Publiceren &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=nl-NL).
 
 ### Buiten entry&#39;s en exit&#39;s denken
 
 Het gebruiken van de diensten van Plaatsen de geo-fence ingangen en de uitgang om regels in Experience Platform Launch teweeg te brengen is ongelooflijk krachtig, maar u kunt plaatsgegevens als voorwaarde voor andere gebeurtenissen ook gebruiken om in brand te steken. U kunt bijvoorbeeld een gebeurtenistrigger voor Mobile Core Track Action hebben die klaar is om te worden geactiveerd op basis van een bepaalde trackAction-aanroepgebeurtenis in uw app. Op basis van deze gebeurtenis kunt u aanvullende locatievoorwaarden aan de gebeurtenis toevoegen voordat een actie wordt uitgevoerd. Bijvoorbeeld, open omhoog een in-app onderzoek wanneer een aankoop `trackAction` gebeurtenis voorkomt, maar **slechts** als de huidige plaats van de gebruiker specifieke meta-gegevens van de Dienst van Plaatsen omvat.
 
-![ creeer een voorwaarde ](/help/assets/places-condition.png)
+![&#x200B; creeer een voorwaarde &#x200B;](/help/assets/places-condition.png)

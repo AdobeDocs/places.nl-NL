@@ -38,7 +38,7 @@ De Dienst van Plaatsen omvat de volgende componenten:
 
 * **de dienst van het Web**
 
-  U kunt POI&#39;s maken en beheren met de REST-API&#39;s van Plaatsen. Voor meer informatie over REST APIs, zie [ bibliotheken beheren ](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) en [ leiden POIs ](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+  U kunt POI&#39;s maken en beheren met de REST-API&#39;s van Plaatsen. Voor meer informatie over REST APIs, zie [&#x200B; bibliotheken beheren &#x200B;](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) en [&#x200B; leiden POIs &#x200B;](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **POI de interface van het Beheer**
 
@@ -80,9 +80,9 @@ Hier volgen enkele algemene termen die in deze documentatie worden gebruikt:
 
 * De **orgID** is de id die uw organisatie vertegenwoordigt op het Adobe Experience Platform.
 
-  Voor meer informatie, zie [ Vindend uw orgID ](https://forums.adobe.com/thread/2339895).
+  Voor meer informatie, zie [&#x200B; Vindend uw orgID &#x200B;](https://forums.adobe.com/thread/2339895).
 
 * De **dienst van identiteitskaart van het Experience Cloud 0&rbrace; &lbrace;verstrekt een universele, blijvende identiteitskaart die uw bezoekers over alle oplossingen in het Experience Cloud identificeert.**
 
-  Voor meer informatie, zie [ Overzicht ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=nl-NL).
+  Voor meer informatie, zie [&#x200B; Overzicht &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=nl-NL).
 

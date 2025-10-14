@@ -13,7 +13,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->In dit document wordt ervan uitgegaan dat de Plaatsen-service in uw toepassing is geïmplementeerd. Voor meer informatie over het uitvoeren van de Dienst van Plaatsen, zie [ uitbreidingen van Plaatsen ](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>In dit document wordt ervan uitgegaan dat de Plaatsen-service in uw toepassing is geïmplementeerd. Voor meer informatie over het uitvoeren van de Dienst van Plaatsen, zie [&#x200B; uitbreidingen van Plaatsen &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt u regels in Experience Platform Launch tot stand brengen en uw gegevens van de Dienst van Plaatsen aan alle gebeurtenissen van Adobe Analytics vastmaken. Als u dit type regel wilt maken, selecteert u de eigenschap in Launch en voert u de volgende stappen uit:
 
@@ -39,7 +39,7 @@ Nadat de Dienst van Plaatsen de ingang en uitgangsgebeurtenissen verzendt, kunt 
 
 Nu kunt u de trekkers bepalen die u voor deze Regel wilt omvatten. In dit voorbeeld is de trigger gebaseerd op alle `TrackAction` -aanroepen. Klik op **[!UICONTROL Keep Changes]** nadat u de gebeurtenis hebt geconfigureerd.
 
-![ &quot;creeer een gebeurtenis&quot;](/help/assets/ad-setEvent_use-analytics-data.png)
+![&#x200B; &quot;creeer een gebeurtenis&quot;](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Voorwaarden toevoegen
@@ -60,7 +60,7 @@ In dit voorbeeld, wordt een Voorwaarde gecreeerd die de Regel veroorzaakt om sle
 
 1. Klik op **[!UICONTROL Keep Changes]**.
 
-![ &quot;creeer een voorwaarde&quot;](/help/assets/ad-setCondition_use-analytics-data.png)
+![&#x200B; &quot;creeer een voorwaarde&quot;](/help/assets/ad-setCondition_use-analytics-data.png)
 
 ## 4. De actie definiëren
 
@@ -78,13 +78,13 @@ In het rechterdeelvenster kunt u een vrije JSON-payload toevoegen die gegevens t
 
 In het volgende voorbeeld worden `poi.city` - en `poi.name` -waarden toegevoegd aan de contextgegevens van de gebeurtenis Analytics. De waarden voor de nieuwe toetsen worden dynamisch bepaald door de SDK wanneer deze gebeurtenis wordt verwerkt.
 
-![ &quot;creeer een actie&quot;](/help/assets/ad-setAction_use-analytics-data.png)
+![&#x200B; &quot;creeer een actie&quot;](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Sla de regel op en herstel de eigenschap
 
 Nadat u uw configuratie voltooit, verifieer dat uw Regel als het volgende beeld kijkt:
 
-![ &quot;de regel is volledig.&quot;](/help/assets/ad-ruleComplete_use-analytics-data.png)
+![&#x200B; &quot;de regel is volledig.&quot;](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Klikken **[!UICONTROL Save]**
 

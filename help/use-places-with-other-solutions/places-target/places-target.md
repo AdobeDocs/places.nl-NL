@@ -11,7 +11,7 @@ ht-degree: 7%
 
 # Plaatsingsservice gebruiken voor Adobe Target {#places-target}
 
-In dit document wordt ervan uitgegaan dat de extensie Plaatsen is geïmplementeerd in de toepassing. Als u hulp het uitvoeren van de uitbreiding van Plaatsen nodig hebt, zie [ uitbreidingen van Plaatsen ](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+In dit document wordt ervan uitgegaan dat de extensie Plaatsen is geïmplementeerd in de toepassing. Als u hulp het uitvoeren van de uitbreiding van Plaatsen nodig hebt, zie [&#x200B; uitbreidingen van Plaatsen &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 Nadat de extensie Plaatsen gebeurtenissen voor entry en exits verzendt, kunt u regels in Launch gebruiken om de gegevens van de Plaatsingsservice aan uw Adobe Target SDK-gebeurtenissen toe te voegen. Als de gewenste eigenschap is geselecteerd in Launch, kunt u dit type regel maken door de volgende taken uit te voeren:
 
@@ -35,7 +35,7 @@ Nadat de extensie Plaatsen gebeurtenissen voor entry en exits verzendt, kunt u r
 1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Event Type]** de optie **[!UICONTROL Content Requested]**.
 1. Klik op **[!UICONTROL Keep Changes]**.
 
-![ voeg een gebeurtenis ](/help/assets/ad-setEvent_target.png) toe
+![&#x200B; voeg een gebeurtenis &#x200B;](/help/assets/ad-setEvent_target.png) toe
 
 ## 3. Voorwaarden toevoegen
 
@@ -51,7 +51,7 @@ In het volgende voorbeeld wordt een voorwaarde gemaakt die ervoor zorgt dat de r
 1. Wijzig in het rechterdeelvenster de vervolgkeuzelijst en de nummerbesturingselementen, zodat de voorwaarde **[!UICONTROL User has launched the app greater than or equal to 5 times]** leest.
 1. Klik op **[!UICONTROL Keep Changes]**.
 
-![ voeg een voorwaarde ](/help/assets/ad-setCondition_target.png) toe
+![&#x200B; voeg een voorwaarde &#x200B;](/help/assets/ad-setCondition_target.png) toe
 
 ## 4. De actie definiëren
 
@@ -71,13 +71,13 @@ In het volgende voorbeeld worden `poiCity` - en `poiName` -waarden toegevoegd aa
 >
 >De aantekening van `request[*]` kan luid als _voor elk voorwerp in de `request` serie_ worden gelezen.
 
-![ bepaal de actie ](/help/assets/ad-setAction-target.png)
+![&#x200B; bepaal de actie &#x200B;](/help/assets/ad-setAction-target.png)
 
 ## 5. Sparen de Regel en herbouwt uw Bezit
 
 Nadat u uw configuratie voltooit, verifieer dat uw Regel als het volgende beeld kijkt:
 
-![ voltooide regel ](/help/assets/ad-ruleComplete-target.png)
+![&#x200B; voltooide regel &#x200B;](/help/assets/ad-ruleComplete-target.png)
 
 1. Klikken **[!UICONTROL Save]**
 1. Bouw uw bezit van de Lancering opnieuw en stel het aan het correcte Milieu op.

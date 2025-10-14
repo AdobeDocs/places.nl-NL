@@ -29,7 +29,7 @@ De de productcontext van Plaatsen van de Dienst is beschikbaar met alle organisa
 
 * Zorg ervoor dat u als gebruiker onder de de productcontexten van Plaatsen van de Dienst en van het Experience Platform Launch in de Admin Console wordt vermeld.
 
-  Voor meer informatie, zie *Toevoegend een gebruiker aan de Dienst van Experience Platforms Launch en van Plaatsen* in [ vaak gestelde vragen ](/help/places-gain-access.md).
+  Voor meer informatie, zie *Toevoegend een gebruiker aan de Dienst van Experience Platforms Launch en van Plaatsen* in [&#x200B; vaak gestelde vragen &#x200B;](/help/places-gain-access.md).
 
 
 ### 2. Maak uw POI&#39;s
@@ -38,11 +38,11 @@ De punten van Interesse (POI) zijn geo-fences die u voor uw organisaties creeert
 
 * De gebruikersinterface van de Plaatsingsservice gebruiken.
 
-  Voor meer informatie, zie [ het overzicht van de Dienst van Plaatsen ](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
+  Voor meer informatie, zie [&#x200B; het overzicht van de Dienst van Plaatsen &#x200B;](/help/poi-mgmt-ui/poi-mgmt-ui-overview.md).
 
 * Het gebruiken van APIs van de dienst van het Web van Plaatsen.
 
-  Voor meer informatie, zie [ Dienst API van het Web ](/help/web-service-api/places-web-services.md).
+  Voor meer informatie, zie [&#x200B; Dienst API van het Web &#x200B;](/help/web-service-api/places-web-services.md).
 
 
 ### 3. Configureer de extensie Plaatsen
@@ -55,6 +55,6 @@ Raadpleeg de volgende informatie voor meer informatie over het configureren van 
 
 Als u van plan bent om actieve gebiedscontrole te doen, zult u direct met werkend systeem moeten uitvoeren. Raadpleeg de volgende documenten voor meer informatie:
 
-* iOS - [ documentatie CoreLocation ](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
+* iOS - [&#x200B; documentatie CoreLocation &#x200B;](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
 
-* Android - [ documentatie van de Plaats ](https://developer.android.com/training/location/geofencing)
+* Android - [&#x200B; documentatie van de Plaats &#x200B;](https://developer.android.com/training/location/geofencing)

@@ -20,7 +20,7 @@ Verifieer met de beheerder van het Systeem van uw organisatie dat de volgende ta
 * U bent toegevoegd aan de organisatie.
 * U bent toegevoegd aan een profiel in de Adobe Experience Platform.
 
-  Voor meer informatie, zie *een gebruiker of een ontwikkelaar aan uw de dienstprofielen van Plaatsen en van het Experience Platform Launch* in [ toegang van de Aanwinst tot de Dienst van Plaatsen ](/help/places-gain-access.md) toevoegen.
+  Voor meer informatie, zie *een gebruiker of een ontwikkelaar aan uw de dienstprofielen van Plaatsen en van het Experience Platform Launch* in [&#x200B; toegang van de Aanwinst tot de Dienst van Plaatsen &#x200B;](/help/places-gain-access.md) toevoegen.
 
 ### REST API-aanvragen
 
@@ -31,19 +31,19 @@ Voor elke aanvraag voor de REST API van de Places Service zijn de volgende items
 * Clientgeheim
 * Een token voor toonder
 
-Een Project met de [ console van Adobe Developer ](https://developer.adobe.com/console) verstrekt deze punten.
+Een Project met de [&#x200B; console van Adobe Developer &#x200B;](https://developer.adobe.com/console) verstrekt deze punten.
 
 * Om een Project voor de Dienst API van Plaatsen tot stand te brengen, zie *Creërend de sectie van het Project van de Dienst van Plaatsen* hieronder.
 
 >[!IMPORTANT]
 >
->Als u niet login aan [ de console van Adobe Developer ](https://developer.adobe.com/console) kunt, of als de Dienst van Plaatsen geen optie op *is creeer de pagina van Integraties*, zie *vereisten van de Organisatie* in [ de diensten API van het Web overzicht ](/help/web-service-api/places-web-services.md).
+>Als u niet login aan [&#x200B; de console van Adobe Developer &#x200B;](https://developer.adobe.com/console) kunt, of als de Dienst van Plaatsen geen optie op *is creeer de pagina van Integraties*, zie *vereisten van de Organisatie* in [&#x200B; de diensten API van het Web overzicht &#x200B;](/help/web-service-api/places-web-services.md).
 
 ## Een Service API-project voor plaatsen maken
 
 Voer de volgende handelingen uit om een Project for Places Service API te maken:
 
-1. Login aan [ website van Adobe Developer ](https://developer.adobe.com) met uw Adobe ID.
+1. Login aan [&#x200B; website van Adobe Developer &#x200B;](https://developer.adobe.com) met uw Adobe ID.
 2. Klik op **[!UICONTROL Console]** rechtsboven op de pagina.
 3. Als u aan meer dan één organisatie van de Adobe wordt toegewezen, selecteer de correcte organisatie van de drop-down lijst in de hogere juiste hoek van de pagina.
 4. Klik op de knop **[!UICONTROL Create new project]**.

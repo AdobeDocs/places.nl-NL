@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Met de batch-API&#39;s kunt u meerdere API&#39;s maken, bijwerken of verwijderen.
 
-Gebruik de set Python-scripts om u te helpen bij het in batch importeren van uw POI&#39;s vanuit een `.csv` -bestand naar de Places-database van uw organisatie. U kunt het zip dossier van deze manuscripten [ hier downloaden ](https://github.com/adobe/places-scripts). Zie het README-bestand in de reactie voor instructies over het gebruik van de scripts.
+Gebruik de set Python-scripts om u te helpen bij het in batch importeren van uw POI&#39;s vanuit een `.csv` -bestand naar de Places-database van uw organisatie. U kunt het zip dossier van deze manuscripten [&#x200B; hier downloaden &#x200B;](https://github.com/adobe/places-scripts). Zie het README-bestand in de reactie voor instructies over het gebruik van de scripts.
 
 U kunt de batch-API&#39;s gebruiken om de volgende taken uit te voeren:
 

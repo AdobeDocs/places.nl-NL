@@ -13,25 +13,25 @@ ht-degree: 0%
 
 De **knoop van POIs van de Invoer** in de Dienst van Plaatsen kan worden gebruikt om nieuwe POIs in bulk te uploaden gebruikend een Csv- dossier. Er is een voorbeeldspreadsheetsjabloon beschikbaar waarmee u kunt zien welke gegevenskolommen vereist zijn en hoe u optionele aangepaste metagegevens kunt toevoegen.
 
-![ Bulk het Scherm van de Invoer ](/help/assets/Bulk-import.png)
+![&#x200B; Bulk het Scherm van de Invoer &#x200B;](/help/assets/Bulk-import.png)
 
 In deze video ziet u het proces voor bulkimport en bulkbewerking:
 
 <!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
 
-[ het Bulk van de Dienst van Plaatsen Invoer en geeft POIs ](https://www.youtube.com/watch?v=75qVtirsXhg) uit
+[&#x200B; het Bulk van de Dienst van Plaatsen Invoer en geeft POIs &#x200B;](https://www.youtube.com/watch?v=75qVtirsXhg) uit
 
 ## Python API-scripts
 
-Een reeks manuscripten Python zijn gecreeerd om de partijinvoer van POIs van een .csv dossier in een POI gegevensbestand te vereenvoudigen door de Dienst APIs van het Web te gebruiken. Deze manuscripten kunnen van deze open bron [ git repo ](https://github.com/adobe/places-scripts) worden gedownload.
+Een reeks manuscripten Python zijn gecreeerd om de partijinvoer van POIs van een .csv dossier in een POI gegevensbestand te vereenvoudigen door de Dienst APIs van het Web te gebruiken. Deze manuscripten kunnen van deze open bron [&#x200B; git repo &#x200B;](https://github.com/adobe/places-scripts) worden gedownload.
 
-Alvorens u deze manuscripten in werking stelt, om tot de Webdienst APIs toegang te hebben, zie *Vereisten voor gebruikerstoegang* in [ het overzicht van de Integratie en eerste vereisten ](/help/web-service-api/adobe-i-o-integration.md).
+Alvorens u deze manuscripten in werking stelt, om tot de Webdienst APIs toegang te hebben, zie *Vereisten voor gebruikerstoegang* in [&#x200B; het overzicht van de Integratie en eerste vereisten &#x200B;](/help/web-service-api/adobe-i-o-integration.md).
 
 Hier volgt wat informatie over de scripts:
 
 >[!TIP]
 >
->Deze informatie is ook inbegrepen in een readmedossier in [ git repo ](https://github.com/adobe/places-scripts).
+>Deze informatie is ook inbegrepen in een readmedossier in [&#x200B; git repo &#x200B;](https://github.com/adobe/places-scripts).
 
 ## CSV-bestand
 
@@ -75,7 +75,7 @@ De waarden van de volgende kolommen worden gebruikt in de Dienst UI van Plaatsen
 
      De pictogramwaarden worden weergegeven in de volgorde waarin ze worden weergegeven in de volgende afbeelding:
 
-     ![ pictogrammen in UI ](/help/assets/UI_icons.png)
+     ![&#x200B; pictogrammen in UI &#x200B;](/help/assets/UI_icons.png)
 
    * Als de waarde leeg blijft, gebruikt de gebruikersinterface ster als het standaardpictogram.
 
@@ -83,7 +83,7 @@ De waarden van de volgende kolommen worden gebruikt in de Dienst UI van Plaatsen
 
 ## Het script uitvoeren
 
-1. De dossiers van de download van [ git repo ](https://github.com/adobe/places-scripts) aan uw lokale folder.
+1. De dossiers van de download van [&#x200B; git repo &#x200B;](https://github.com/adobe/places-scripts) aan uw lokale folder.
 1. Open het `config.py` -bestand in een teksteditor en voer de volgende taken uit:
 
    a. Bewerk de volgende variabelewaarden als tekenreeksen:
@@ -94,15 +94,15 @@ De waarden van de volgende kolommen worden gebruikt in de Dienst UI van Plaatsen
 
    * `access_code`
 
-     Dit is uw toegangscode die uit de vraag aan Adobe IMS werd verkregen. Voor informatie over hoe te om deze toegangscode te verkrijgen, zie *Vereisten voor gebruikerstoegang* in [ het overzicht van de Integratie en eerste vereisten ](/help/web-service-api/adobe-i-o-integration.md).
+     Dit is uw toegangscode die uit de vraag aan Adobe IMS werd verkregen. Voor informatie over hoe te om deze toegangscode te verkrijgen, zie *Vereisten voor gebruikerstoegang* in [&#x200B; het overzicht van de Integratie en eerste vereisten &#x200B;](/help/web-service-api/adobe-i-o-integration.md).
 
    * `org_id`
 
-     De orgID van het Experience Cloud waarin POIs moeten worden ingevoerd. Voor informatie over hoe te om org identiteitskaart te verkrijgen, zie *Vereisten voor gebruikerstoegang* in [ het overzicht van de Integratie en eerste vereisten ](/help/web-service-api/adobe-i-o-integration.md).
+     De orgID van het Experience Cloud waarin POIs moeten worden ingevoerd. Voor informatie over hoe te om org identiteitskaart te verkrijgen, zie *Vereisten voor gebruikerstoegang* in [&#x200B; het overzicht van de Integratie en eerste vereisten &#x200B;](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-     Dit is de REST API-sleutel van uw Plaatsen die is verkregen via de Adobe I/O Places Integration. Voor informatie over hoe te om de API sleutel te verkrijgen, zie *Vereisten voor gebruikerstoegang* in [ het overzicht van de Integratie en eerste vereisten ](/help/web-service-api/adobe-i-o-integration.md).
+     Dit is de REST API-sleutel van uw Plaatsen die is verkregen via de Adobe I/O Places Integration. Voor informatie over hoe te om de API sleutel te verkrijgen, zie *Vereisten voor gebruikerstoegang* in [&#x200B; het overzicht van de Integratie en eerste vereisten &#x200B;](/help/web-service-api/adobe-i-o-integration.md).
 
    b. Sla uw wijzigingen op.
 

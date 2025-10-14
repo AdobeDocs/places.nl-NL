@@ -15,9 +15,9 @@ ht-degree: 2%
 
 * **de Uitbreidingen van de Monitor van Plaatsen en van Plaatsen**
 
-   * De plaatsen en de uitbreidingen van de Monitor van Plaatsen zijn toegevoegd voor [ toepassingen van React Native ](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
-   * De plaatsen en de uitbreidingen van de Monitor van Plaatsen zijn toegevoegd voor [ toepassingen Cordova ](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Voor meer informatie zie: [ Gebruikend de Uitbreiding van Plaatsen ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * De plaatsen en de uitbreidingen van de Monitor van Plaatsen zijn toegevoegd voor [&#x200B; toepassingen van React Native &#x200B;](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
+   * De plaatsen en de uitbreidingen van de Monitor van Plaatsen zijn toegevoegd voor [&#x200B; toepassingen Cordova &#x200B;](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
+   * Voor meer informatie zie: [&#x200B; Gebruikend de Uitbreiding van Plaatsen &#x200B;](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## woensdag 12 mei 2020
@@ -49,13 +49,13 @@ ht-degree: 2%
 * **ACPPlaces 1.3.1 (iOS)**
 
    * Plaatst uitbreiding meldt nu versieinformatie aan de gebeurtenishub in de Kern SDK.
-   * De informatie van het POI-lidmaatschap van het apparaat heeft nu een standaardtijd-aan-leven van één uur van de tijd het wordt verzameld. Voor meer informatie, zie [ Wijzigend het lidmaatschap van Plaatsen tijd-aan-levende ](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * De informatie van het POI-lidmaatschap van het apparaat heeft nu een standaardtijd-aan-leven van één uur van de tijd het wordt verzameld. Voor meer informatie, zie [&#x200B; Wijzigend het lidmaatschap van Plaatsen tijd-aan-levende &#x200B;](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 
 * **Plaatsen 1.4.1 (Android)**
 
    * Plaatst uitbreiding meldt nu versieinformatie aan de gebeurtenishub in de Kern SDK.
-   * De informatie van het POI-lidmaatschap van het apparaat heeft nu een standaardtijd-aan-leven van één uur van de tijd het wordt verzameld. Voor meer informatie, zie [ Wijzigend het lidmaatschap van Plaatsen tijd-aan-levende ](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * De informatie van het POI-lidmaatschap van het apparaat heeft nu een standaardtijd-aan-leven van één uur van de tijd het wordt verzameld. Voor meer informatie, zie [&#x200B; Wijzigend het lidmaatschap van Plaatsen tijd-aan-levende &#x200B;](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## dinsdag 27 januari 2020
 
@@ -293,8 +293,8 @@ Hier volgen de belangrijkste functies van deze release:
 
 We hebben een beheerinterface beschikbaar gemaakt waarin u uw belangenbehartigingen (POI&#39;s) kunt weergeven en beheren. U kunt ook uw POI&#39;s ordenen in bibliotheken. Naast standaardmetagegevens zoals plaats, staat en categorie, ondersteunen we ook de mogelijkheid om aangepaste metagegevens toe te voegen aan uw persoonlijke expressies.
 
-* Om UI te zien, ga [ https://places.adobe.com ](https://places.adobe.com).
-* Om met UI begonnen te worden, zie [ Begonnen het worden ](/help/getting-started.md).
+* Om UI te zien, ga [&#x200B; https://places.adobe.com &#x200B;](https://places.adobe.com).
+* Om met UI begonnen te worden, zie [&#x200B; Begonnen het worden &#x200B;](/help/getting-started.md).
 
 #### Extensie plaatsen
 
@@ -306,7 +306,7 @@ In de extensie Plaatsen:
 * Gebeurtenissen van de regel die op POI ingang of uitgang teweegbrengen.
 * Creeer gegevenselementen die aan huidige POI van de gebruiker richten.
 
-Voor meer informatie over de uitbreiding van Plaatsen, zie [ uitbreiding van Plaatsen ](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+Voor meer informatie over de uitbreiding van Plaatsen, zie [&#x200B; uitbreiding van Plaatsen &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### Plaatst API&#39;s
 
@@ -318,7 +318,7 @@ U kunt de Plaatsen APIs gebruiken om het volgende te doen:
 
   U kunt het meegeleverde Python-hulpprogramma gebruiken om de bulkimport te voltooien.
 
-Voor meer informatie over Plaatsen APIs, zie [ dienst API van het Web ](/help/web-service-api/places-web-services.md).
+Voor meer informatie over Plaatsen APIs, zie [&#x200B; dienst API van het Web &#x200B;](/help/web-service-api/places-web-services.md).
 
 ### Binnenkort beschikbaar
 

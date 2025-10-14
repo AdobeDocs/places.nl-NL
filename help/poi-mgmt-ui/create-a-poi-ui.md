@@ -20,7 +20,7 @@ Een interessant punt (POI) is een locatie of een punt op een kaart die van belan
 
    De straal is de minimale afstand en de aanbevolen waarde is 100 meter.
 
-   ![ bepalen een POI ](/help/assets/define_poi.png)
+   ![&#x200B; bepalen een POI &#x200B;](/help/assets/define_poi.png)
 
 1. Optionele stappen:
 1. De volgende stappen zijn optioneel:

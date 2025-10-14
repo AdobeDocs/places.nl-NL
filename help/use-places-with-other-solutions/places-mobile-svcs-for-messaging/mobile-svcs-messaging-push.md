@@ -21,11 +21,11 @@ Controleer voordat u begint of u de volgende taken hebt uitgevoerd:
 
 * Het pushmeldingskanaal in Mobile Services is ingesteld.
 
-  Voor meer informatie, zie [ een duwbericht ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl) creëren.
+  Voor meer informatie, zie [&#x200B; een duwbericht &#x200B;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl) creëren.
 
 * Begrijp hoe te om een dupmelding naar een segment van Analytics in de Mobiele Diensten te verzenden.
 
-  Voor meer informatie, zie [ een duwbericht ](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl) creëren.
+  Voor meer informatie, zie [&#x200B; een duwbericht &#x200B;](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl) creëren.
 
 ## Een melding verzenden
 
@@ -35,4 +35,4 @@ Op het **[!UICONTROL Audience]** lusje van *creeer duw bericht* werkschema, kunt
 
 * In de **[!UICONTROL Custom Segment]** sectie, bouw een publiek door de beschikbare parameters van het douanesegment te gebruiken.
 
-![ vestiging een duw bericht ](/help/assets/push-set-up.png)
+![&#x200B; vestiging een duw bericht &#x200B;](/help/assets/push-set-up.png)

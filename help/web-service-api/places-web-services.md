@@ -29,13 +29,13 @@ Voordat u de API voor webservices kunt gebruiken, moet u controleren of aan de v
 
 * De Dienst van Plaatsen wordt provisioned in uw organisatie, en u hebt aangewezen toegang als gebruiker.
 
-  Voor meer informatie, zie *Vereisten voor gebruikerstoegang* in [ het overzicht van de Integratie en eerste vereisten ](/help/web-service-api/adobe-i-o-integration.md).
+  Voor meer informatie, zie *Vereisten voor gebruikerstoegang* in [&#x200B; het overzicht van de Integratie en eerste vereisten &#x200B;](/help/web-service-api/adobe-i-o-integration.md).
 
 * Nadat de Dienst van Plaatsen wordt voorzien in uw organisatie, en u hebt toegang, creeer een Adobe integratie voor de Dienst van Plaatsen.
 
-  Voor meer informatie, zie *Creërend de integratie van de Dienst van Plaatsen* in [ het overzicht van de Integratie en eerste vereisten ](/help/web-service-api/adobe-i-o-integration.md).
+  Voor meer informatie, zie *Creërend de integratie van de Dienst van Plaatsen* in [&#x200B; het overzicht van de Integratie en eerste vereisten &#x200B;](/help/web-service-api/adobe-i-o-integration.md).
 
 Aanvullende informatie:
 
-* Voor meer informatie over beschikbare APIs en hoe te om hen te gebruiken, zie [ bibliotheken ](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) beheren en [ leiden POIs ](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
-* Voor meer informatie over de kopballen en de parameters in deze APIs, zie [ Kopballen en parameters ](/help/web-service-api/api-usage/headers-and-parameters.md).
+* Voor meer informatie over beschikbare APIs en hoe te om hen te gebruiken, zie [&#x200B; bibliotheken &#x200B;](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) beheren en [&#x200B; leiden POIs &#x200B;](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+* Voor meer informatie over de kopballen en de parameters in deze APIs, zie [&#x200B; Kopballen en parameters &#x200B;](/help/web-service-api/api-usage/headers-and-parameters.md).

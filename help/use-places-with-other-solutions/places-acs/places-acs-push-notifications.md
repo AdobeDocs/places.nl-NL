@@ -17,19 +17,19 @@ In deze sectie leert u hoe u historische geo-locatiegegevens kunt gebruiken om p
 
 Voer de volgende taken uit voordat u begint:
 
-* Heb een mobiele toepassing die met Adobe Experience Platform Mobile SDK, met inbegrip van de [ uitbreiding van Adobe Campaign Standard ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) wordt gevormd.
+* Heb een mobiele toepassing die met Adobe Experience Platform Mobile SDK, met inbegrip van de [&#x200B; uitbreiding van Adobe Campaign Standard &#x200B;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) wordt gevormd.
 
-* Integreer [ Adobe Experience Platform Mobile SDK ](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) in uw app.
-* Voeg de [ Uitbreiding van Adobe Campaign Standard ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) aan uw mobiele toepassingsconfiguratie toe.
+* Integreer [&#x200B; Adobe Experience Platform Mobile SDK &#x200B;](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) in uw app.
+* Voeg de [&#x200B; Uitbreiding van Adobe Campaign Standard &#x200B;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) aan uw mobiele toepassingsconfiguratie toe.
 
-* [ creeer een POI ](/help/poi-mgmt-ui/create-a-poi-ui.md) in het POI van de Dienst van Plaatsen beheersinterface.
+* [&#x200B; creeer een POI &#x200B;](/help/poi-mgmt-ui/create-a-poi-ui.md) in het POI van de Dienst van Plaatsen beheersinterface.
 
-* Laat en installeer de [ uitbreiding van Plaatsen ](/help/places-ext-aep-sdks/places-extension/places-extension.md) toe.
+* Laat en installeer de [&#x200B; uitbreiding van Plaatsen &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md) toe.
 
 
 ## Gegevenselementen maken in Experience Platform Launch
 
-Na het verifiëren dat de uitbreiding van Plaatsen en een gebied controlerende oplossing ([ documentatie CoreLocation ](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) voor iOS, of [ de plaatsdocumentatie van Android ](https://developer.android.com/training/location/geofencing)) correct in uw toepassing werken, moet u gegevenselementen in Experience Platform Launch tot stand brengen. Met gegevenselementen kunt u de informatie lezen die is verschaft door de extensies die via de Mobile SDK-gebeurtenishub komen en fungeren als een alias voor het ophalen van gegevens van de clienttoepassing. Om gegevens van de uitbreidingen van Plaatsen terug te winnen en de informatie van de Dienst van Plaatsen naar Campagne te verzenden, moet u een paar gegevenselementen tot stand brengen.
+Na het verifiëren dat de uitbreiding van Plaatsen en een gebied controlerende oplossing ([&#x200B; documentatie CoreLocation &#x200B;](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) voor iOS, of [&#x200B; de plaatsdocumentatie van Android &#x200B;](https://developer.android.com/training/location/geofencing)) correct in uw toepassing werken, moet u gegevenselementen in Experience Platform Launch tot stand brengen. Met gegevenselementen kunt u de informatie lezen die is verschaft door de extensies die via de Mobile SDK-gebeurtenishub komen en fungeren als een alias voor het ophalen van gegevens van de clienttoepassing. Om gegevens van de uitbreidingen van Plaatsen terug te winnen en de informatie van de Dienst van Plaatsen naar Campagne te verzenden, moet u een paar gegevenselementen tot stand brengen.
 
 Een gegevenselement maken:
 
@@ -40,7 +40,7 @@ Een gegevenselement maken:
 
    **[!UICONTROL Last Entered]** haalt de naam op van de POI die de gebruiker het laatst heeft ingevoerd en **[!UICONTROL Last Exited]** geeft de naam van de POI die de gebruiker het laatst heeft verlaten. In dit voorbeeld hebben we **[!UICONTROL Last Entered]** geselecteerd en een naam voor het gegevenselement getypt, zoals **[!UICONTROL Last Entered POI Name]** en geklikt **[!UICONTROL Save]** .
 
-   ![ &quot;Push messaging in Campaign Standard&quot;](/help/assets/ACS_Push1.png)
+   ![&#x200B; &quot;Push messaging in Campaign Standard&quot;](/help/assets/ACS_Push1.png)
 
 1. Herhaal de stappen 1-4 hierboven en creeer gegevenselementen voor *Laatste binnengekomen POI Breedte*, *Laatste ingevoerde POI Lengte*, en *Laatste binnen POI Straal*.
 
@@ -110,7 +110,7 @@ Nu we locatiegegevens hebben die in Campagne worden gevuld, kunnen we POI&#39;s 
    >
    >U kunt extra selecties maken om de periode te bepalen sinds het vorige bezoek van de gebruiker aan deze POI.
 
-   ![ &quot;Push messaging 2 in ACS&quot;](/help/assets/ACS_push2.png)
+   ![&#x200B; &quot;Push messaging 2 in ACS&quot;](/help/assets/ACS_push2.png)
 
 1. Klik op **[!UICONTROL Confirm]**.
 1. Voer de telling opnieuw bovenaan uit om de grootte van uw publiek te wijzigen.
@@ -120,6 +120,6 @@ Nu we locatiegegevens hebben die in Campagne worden gevuld, kunnen we POI&#39;s 
 1. U kunt extra POI-locatiefilters uitslepen om meerdere POI&#39;s in uw bericht op te nemen.
 1. Klik op **[!UICONTROL Next]** om het maken van de pushmelding voor levering te voltooien.
 
-   ![ &quot;Push messaging 3 in ACS&quot;](/help/assets/ACS_push3.png)
+   ![&#x200B; &quot;Push messaging 3 in ACS&quot;](/help/assets/ACS_push3.png)
 
 Het gebruiken van de Dienst van Plaatsen met Adobe Campaign Standard geeft u een krachtig hulpmiddel om uw overseinen aan gebruikers te segmenteren en te richten die op geo-fence ingangen en uitgang worden gebaseerd. Deze integratie helpt u meer gepersonaliseerde en contextuele gebruiksgevallen te bouwen.

@@ -15,7 +15,7 @@ Hier volgt een aantal informatie en veelgestelde vragen over Plaatsen Service.
 
 ## Migreren van trackLocation in de v4 SDK
 
-Als u van v4 SDK migreert en een vervanging aan `trackLocation` API zoekt, te verwijzen gelieve naar de onderwerp [ Dienst van Plaatsen van het Gebruik zonder de Actieve Controle van het Gebied ](use-places-without-active-monitoring.md).
+Als u van v4 SDK migreert en een vervanging aan `trackLocation` API zoekt, te verwijzen gelieve naar de onderwerp [&#x200B; Dienst van Plaatsen van het Gebruik zonder de Actieve Controle van het Gebied &#x200B;](use-places-without-active-monitoring.md).
 
 ## Grootte en betrouwbaarheid
 

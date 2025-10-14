@@ -29,8 +29,8 @@ De ontwikkelaar van de app moet de huidige locatie van het apparaat verzamelen m
 
 Raadpleeg de volgende documentatie voor meer informatie:
 
-- [ CoreLocation ](https://developer.apple.com/documentation/corelocation) (Apple)
-- [ Plaats APIs in de Diensten van Google Play ](https://developer.android.com/training/location) (Google)
+- [&#x200B; CoreLocation &#x200B;](https://developer.apple.com/documentation/corelocation) (Apple)
+- [&#x200B; Plaats APIs in de Diensten van Google Play &#x200B;](https://developer.android.com/training/location) (Google)
 
 ## 2. Aangrenzende aandachtspunten van de SDK ophalen
 
@@ -38,7 +38,7 @@ Nadat u de plaats van de gebruiker verkrijgt, kunt u het tot SDK overgaan om een
 
 ### Android
 
-Hier is een steekproefimplementatie in Android die a [`BroadcastReceiver` ](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F...index#5) gebruikt:
+Hier is een steekproefimplementatie in Android die a [`BroadcastReceiver` &#x200B;](https://codelabs.developers.google.com/codelabs/background-location-updates-android-o/index.html?index=..%2F...index#5) gebruikt:
 
 ```java
 public class LocationBroadcastReceiver extends BroadcastReceiver {
@@ -84,7 +84,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Doelstelling-C
 
-Hier volgt een voorbeeldimplementatie voor iOS. De code toont implementatie van de [`locationManager:didUpdateLocations:` ](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) methode in [`CLLocationManagerDelegate` ](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
+Hier volgt een voorbeeldimplementatie voor iOS. De code toont implementatie van de [`locationManager:didUpdateLocations:` &#x200B;](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) methode in [`CLLocationManagerDelegate` &#x200B;](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -100,7 +100,7 @@ Hier volgt een voorbeeldimplementatie voor iOS. De code toont implementatie van 
 
 ### Swift
 
-Hier volgt een voorbeeldimplementatie voor iOS. De code toont implementatie van de [`locationManager(_:didUpdateLocations:)` ](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) methode in [`CLLocationManagerDelegate` ](https://developer.apple.com/documentation/corelocation/cllocationmanager):
+Hier volgt een voorbeeldimplementatie voor iOS. De code toont implementatie van de [`locationManager(_:didUpdateLocations:)` &#x200B;](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) methode in [`CLLocationManagerDelegate` &#x200B;](https://developer.apple.com/documentation/corelocation/cllocationmanager):
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -116,19 +116,19 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 
 ## 3. Voeg gegevens van Plaatsen aan uw verzoeken Analytics toe
 
-Door de API `getNearbyPointsOfInterest` aan te roepen, maakt de SDK van Plaatsen alle POI-gegevens relevant voor het apparaat beschikbaar via gegevenselementen in Launch. Door een [ regel van Gegevens van de Band ](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) te gebruiken, kunnen de gegevens van Plaatsen automatisch aan toekomstige verzoeken aan Analytics worden toegevoegd. Dit elimineert de behoefte aan een eenmalig vraag aan Analytics op het tijdstip dat de plaats van het apparaat wordt verzameld.
+Door de API `getNearbyPointsOfInterest` aan te roepen, maakt de SDK van Plaatsen alle POI-gegevens relevant voor het apparaat beschikbaar via gegevenselementen in Launch. Door een [&#x200B; regel van Gegevens van de Band &#x200B;](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) te gebruiken, kunnen de gegevens van Plaatsen automatisch aan toekomstige verzoeken aan Analytics worden toegevoegd. Dit elimineert de behoefte aan een eenmalig vraag aan Analytics op het tijdstip dat de plaats van het apparaat wordt verzameld.
 
-Zie [ de Context van de Plaats aan de Verzoeken van Analytics ](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) toevoegen om meer over dit onderwerp te leren.
+Zie [&#x200B; de Context van de Plaats aan de Verzoeken van Analytics &#x200B;](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) toevoegen om meer over dit onderwerp te leren.
 
 ## Optioneel - Invoergebeurtenissen activeren wanneer de gebruiker zich in een POI bevindt
 
 >[!TIP]
 >
->De geadviseerde manier om het gegeven van Plaatsen te vangen is [ de gegevens van Plaatsen aan uw verzoeken van Analytics ](#attach-places-data-to-your-analytics-requests) vast te maken.
+>De geadviseerde manier om het gegeven van Plaatsen te vangen is [&#x200B; de gegevens van Plaatsen aan uw verzoeken van Analytics &#x200B;](#attach-places-data-to-your-analytics-requests) vast te maken.
 >
->Als het gebruiksgeval de gebeurtenis van de a [ gebiedingang ](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) vereist om door SDK worden teweeggebracht, zal het manueel moeten worden gedaan zoals hieronder geschetst.
+>Als het gebruiksgeval de gebeurtenis van de a [&#x200B; gebiedingang &#x200B;](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) vereist om door SDK worden teweeggebracht, zal het manueel moeten worden gedaan zoals hieronder geschetst.
 
-De lijst die door `getNearbyPointsOfInterest` API is teruggekeerd bevat [ douanevoorwerpen ](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) die erop wijzen als de gebruiker momenteel binnen POI is. Als de gebruiker zich in een POI bevindt, kunt u de SDK een ingangsgebeurtenis voor dat gebied laten activeren.
+De lijst die door `getNearbyPointsOfInterest` API is teruggekeerd bevat [&#x200B; douanevoorwerpen &#x200B;](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) die erop wijzen als de gebruiker momenteel binnen POI is. Als de gebruiker zich in een POI bevindt, kunt u de SDK een ingangsgebeurtenis voor dat gebied laten activeren.
 
 >[!IMPORTANT]
 >
@@ -243,7 +243,7 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 In de onderstaande codevoorbeelden ziet u hoe u de huidige locatie van het apparaat ophaalt, de benodigde gebeurtenissen voor het invoeren activeert en ervoor zorgt dat u tijdens één bezoek niet meerdere items voor dezelfde locatie ophaalt.
 
-Dit codevoorbeeld omvat de facultatieve stap van [ die een ingangsgebeurtenissen teweegbrengen wanneer de gebruiker in POI ](#trigger-entry-events-when-the-user-is-in-a-poi) is.
+Dit codevoorbeeld omvat de facultatieve stap van [&#x200B; die een ingangsgebeurtenissen teweegbrengen wanneer de gebruiker in POI &#x200B;](#trigger-entry-events-when-the-user-is-in-a-poi) is.
 
 >[!IMPORTANT]
 >
@@ -412,4 +412,4 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 Naast het activeren van Places Service-entry-gebeurtenissen in de SDK, kunnen vanwege de activerende entry-gebeurtenissen alle gegevens die uw POI&#39;s definiëren, door de rest van de SDK worden gebruikt via `data elements` in Experience Platform Launch. Met Experience Platform Launch `rules` kunt u dynamisch de gegevens van de Dienst van Plaatsen aan inkomende gebeurtenissen vastmaken die door SDK worden verwerkt. Bijvoorbeeld, kunt u de meta- gegevens van POI vastmaken waarin de gebruiker wordt gevestigd en de gegevens verzenden naar Analytics als contextgegevens.
 
-Voor meer informatie, zie [ Gebruikend de Dienst van Plaatsen met andere oplossingen van de Adobe ](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).
+Voor meer informatie, zie [&#x200B; Gebruikend de Dienst van Plaatsen met andere oplossingen van de Adobe &#x200B;](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md).

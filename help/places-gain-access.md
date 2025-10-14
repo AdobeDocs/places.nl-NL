@@ -11,23 +11,23 @@ ht-degree: 0%
 
 # Toegang tot de Places-service {#adding-user-launch-places}
 
-De Dienst van Plaatsen is nu beschikbaar binnen de Inzameling van Gegevens UI. U kunt tot de Inzameling van Gegevens van het snelle toegangsmenu op [ huis van Adobe Experience Cloud ](https://experience.adobe.com) toegang hebben.
+De Dienst van Plaatsen is nu beschikbaar binnen de Inzameling van Gegevens UI. U kunt tot de Inzameling van Gegevens van het snelle toegangsmenu op [&#x200B; huis van Adobe Experience Cloud &#x200B;](https://experience.adobe.com) toegang hebben.
 
-![ snel toegangsmenu ](/help/assets/quickaccess.png)
+![&#x200B; snel toegangsmenu &#x200B;](/help/assets/quickaccess.png)
 
 U hebt ook toegang tot Gegevensverzameling via het menu Adobe Experience Platform:
 
-![ het menu van het Experience Platform ](/help/assets/solutionaccessmenu.png)
+![&#x200B; het menu van het Experience Platform &#x200B;](/help/assets/solutionaccessmenu.png)
 
 Als uw gebruikers-id toegang heeft, ziet u het pictogram Plaatsingsservice in het linkerdeelvenster onder Gegevensbeheer in gegevensverzameling, zoals hieronder wordt aangegeven:
 
-![ Verzameling van Gegevens verlaten paneel ](/help/assets/places_in_data_collection.png)
+![&#x200B; Verzameling van Gegevens verlaten paneel &#x200B;](/help/assets/places_in_data_collection.png)
 
 Als u de Plaatsingsservice niet op deze locatie ziet, neemt u contact op met een beheerder in uw organisatie om uw gebruikersnaam toe te voegen aan Adobe Experience Platform in de Admin Console.
 
 ## Een gebruiker toevoegen om toegang te krijgen tot de service Plaatsen en de gegevensverzameling van Adobe Experience Platform te ervaren
 
-Plaatsen worden nu opgenomen in Adobe Experience Platform. Om gebruikers toe te staan om tot de [ Dienst van Plaatsen ](https://experience.adobe.com/#/data-collection/places) toegang te hebben, moeten zij aan Adobe Experience Platform in de Admin Console als gebruiker worden toegevoegd. Om gebruikers toegang tot de Inzameling van Gegevens van het Experience Platform met de vereiste toestemmingen te verlenen om mobiele eigenschappen te vormen en Plaatsen met de SDK van Adobe Experience Platform te gebruiken, moeten zij ook aan de Inzameling van Gegevens van Adobe Experience Platform in de Admin Console worden toegevoegd en de volgende toestemmingen voor de Inzameling van Gegevens van Adobe Experience Platform worden gegeven:
+Plaatsen worden nu opgenomen in Adobe Experience Platform. Om gebruikers toe te staan om tot de [&#x200B; Dienst van Plaatsen &#x200B;](https://experience.adobe.com/#/data-collection/places) toegang te hebben, moeten zij aan Adobe Experience Platform in de Admin Console als gebruiker worden toegevoegd. Om gebruikers toegang tot de Inzameling van Gegevens van het Experience Platform met de vereiste toestemmingen te verlenen om mobiele eigenschappen te vormen en Plaatsen met de SDK van Adobe Experience Platform te gebruiken, moeten zij ook aan de Inzameling van Gegevens van Adobe Experience Platform in de Admin Console worden toegevoegd en de volgende toestemmingen voor de Inzameling van Gegevens van Adobe Experience Platform worden gegeven:
 
 * Alle machtigingen onder Eigenschaprechten:
    * Goedkeuren
@@ -46,10 +46,10 @@ Als dit de eerste keer is dat u een gebruiker toevoegt, voert u de volgende stap
 
 ### 1. Controleer of Adobe Experience Platform en Adobe Experience Platform Data Collection zijn ingericht
 
-1. Login aan uw organisatie van het Experience Cloud, [ huis Adobe Experience Cloud ](https://experience.adobe.com).
+1. Login aan uw organisatie van het Experience Cloud, [&#x200B; huis Adobe Experience Cloud &#x200B;](https://experience.adobe.com).
 1. Klik in de rechterbovenhoek op de shell-switch van het Experience Cloud om een vervolgkeuzemenu weer te geven.
 
-   ![ shell schakelaar ](/help/assets/places_shell_switcher1.png)
+   ![&#x200B; shell schakelaar &#x200B;](/help/assets/places_shell_switcher1.png)
 
 1. Klik onder aan de lijst op **[!UICONTROL Admin Console]** . (Een koppeling naar de **[!UICONTROL Admin Console]** vindt u ook in de sectie Snelle toegang.)
 
@@ -94,4 +94,4 @@ Voor gebruikers die ook toegang tot de REST API van de Dienst van Plaatsen nodig
 3. Binnen het profiel, klik op het **lusje van Ontwikkelaars**
 4. Klik de blauwe **toevoegen knoop van de Ontwikkelaar**, vult de gebruiker met hun AdobeID en naam in, dan klik sparen om de toevoeging te voltooien.
 
-Na het voltooien van de bovenstaande stappen ontvangt de gebruiker een e-mail met het bericht dat hij of zij toegang heeft tot **[!UICONTROL Adobe Experience Platform]** en **[!UICONTROL Adobe Experience Platform Data Collection]** . Zij kunnen dan login aan [ Adobe Experience Cloud ](https://experience.adobe.com) voor deze organisatie en de Dienst van toegangsplaatsen en de Inzameling van Gegevens. Als u ook de stappen **[!UICONTROL Add a developer]** voltooit, kan de gebruiker zich aan [ Adobe Developer Console ](https://developer.adobe.com/console/home) ook aanmelden om een Project tot stand te brengen dat toegang tot de REST API van de Dienst van Plaatsen zou verlenen.
+Na het voltooien van de bovenstaande stappen ontvangt de gebruiker een e-mail met het bericht dat hij of zij toegang heeft tot **[!UICONTROL Adobe Experience Platform]** en **[!UICONTROL Adobe Experience Platform Data Collection]** . Zij kunnen dan login aan [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com) voor deze organisatie en de Dienst van toegangsplaatsen en de Inzameling van Gegevens. Als u ook de stappen **[!UICONTROL Add a developer]** voltooit, kan de gebruiker zich aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console/home) ook aanmelden om een Project tot stand te brengen dat toegang tot de REST API van de Dienst van Plaatsen zou verlenen.

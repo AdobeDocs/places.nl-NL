@@ -56,14 +56,14 @@ Elke POI bevat de volgende gegevensverwijzingen:
 
 1. Typ een naam voor het gegevenselement en klik op **[!UICONTROL Save]** .
 
-   ![ creeer gegevenselement ](/help/assets/create-de-7-v3.png)
+   ![&#x200B; creeer gegevenselement &#x200B;](/help/assets/create-de-7-v3.png)
 
 
 ## Een gegevenselement gebruiken
 
 Nadat een gegevenselement wordt gecreeerd, als een plukker van het gegevenselement aanwezig is, kunt u het gegevenselement van om het even welke regelcomponent gebruiken.
 
-![ Gebruik het gegevenselement ](/help/assets/use-de-v2.png)
+![&#x200B; Gebruik het gegevenselement &#x200B;](/help/assets/use-de-v2.png)
 
 Als een plukker van gegevenselement niet in de regelcomponent aanwezig is, kunt u het gegevenselement gebruiken door de naam van het gegevenselement met de **[!UICONTROL %%]** tokens te verpakken.
 Als de naam van het gegevenselement bijvoorbeeld **[!UICONTROL Last POI City]** is, kunt u **[!UICONTROL LAST POI City]** aan een tekstinvoer toevoegen.

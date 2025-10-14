@@ -17,14 +17,14 @@ Deze informatie helpt u begrijpen hoe u de informatie van de Dienst van Plaatsen
 
 Voer de volgende taken uit voordat u begint:
 
-* Heb een mobiele toepassing die met Adobe Experience Platform Mobile SDK, met inbegrip van de [ uitbreiding van Adobe Campaign Standard ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) wordt gevormd.
+* Heb een mobiele toepassing die met Adobe Experience Platform Mobile SDK, met inbegrip van de [&#x200B; uitbreiding van Adobe Campaign Standard &#x200B;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) wordt gevormd.
 
-* Integreer [ Adobe Experience Platform Mobile SDK ](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) in uw app.
-* Voeg de [ Uitbreiding van Adobe Campaign Standard ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) aan uw mobiele toepassingsconfiguratie toe.
+* Integreer [&#x200B; Adobe Experience Platform Mobile SDK &#x200B;](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) in uw app.
+* Voeg de [&#x200B; Uitbreiding van Adobe Campaign Standard &#x200B;](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) aan uw mobiele toepassingsconfiguratie toe.
 
-* [ creeer een POI ](/help/poi-mgmt-ui/create-a-poi-ui.md) in het POI van de Dienst van Plaatsen beheersinterface.
+* [&#x200B; creeer een POI &#x200B;](/help/poi-mgmt-ui/create-a-poi-ui.md) in het POI van de Dienst van Plaatsen beheersinterface.
 
-* Installeer en vorm de [ uitbreiding van Plaatsen ](/help/places-ext-aep-sdks/places-extension/places-extension.md) en een gebied controlerende oplossing ([ documentatie CoreLocation ](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) voor iOS, of [ de plaatsdocumentatie van Android ](https://developer.android.com/training/location/geofencing)) in uw mobiele toepassing.
+* Installeer en vorm de [&#x200B; uitbreiding van Plaatsen &#x200B;](/help/places-ext-aep-sdks/places-extension/places-extension.md) en een gebied controlerende oplossing ([&#x200B; documentatie CoreLocation &#x200B;](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) voor iOS, of [&#x200B; de plaatsdocumentatie van Android &#x200B;](https://developer.android.com/training/location/geofencing)) in uw mobiele toepassing.
 
 ## In-app-berichten verzenden op basis van een geo-fence-item of -uitgang
 
@@ -38,18 +38,18 @@ Voer de volgende taken uit voordat u begint:
 
    In het onderstaande voorbeeld kunt u een bericht in de app activeren dat alleen wordt weergegeven voor gebruikers die een van de vakantieruimten invoeren die deelnemen aan een programma voor gratis dranken. U wilt deze gebruikers een coupon sturen wanneer ze aankomen.
 
-   ![ &quot;In-App Message Places metadata&quot;](/help/assets/last-entered-vacation.png)
+   ![&#x200B; &quot;In-App Message Places metadata&quot;](/help/assets/last-entered-vacation.png)
 
 1. Klik op **[!UICONTROL Next]** om het maken van het In-app-bericht voor levering te voltooien.
 
-   ![ &quot;creeer een gebeurtenis&quot;](/help/assets/prepare-ACS.png)
+   ![&#x200B; &quot;creeer een gebeurtenis&quot;](/help/assets/prepare-ACS.png)
 
    Als u de berichtlevering in de app wilt testen, start u de toepassing in de Xcode- of Android-studio en gebruikt u de locatiesimulator om een POI te selecteren die voldoet aan de berichtcriteria.
 
-   ![ &quot;drink coupon&quot;](/help/assets/drink-coupon-on-app.png)
+   ![&#x200B; &quot;drink coupon&quot;](/help/assets/drink-coupon-on-app.png)
 
 Het gebruiken van de Diensten van Plaatsen met Adobe Campaign Standard geeft u een krachtig hulpmiddel om uw overseinen aan gebruikers te segmenteren en te richten die op geo-fence ingangen en uitgang worden gebaseerd. Dankzij deze integratie kunt u meer persoonlijke en contextafhankelijke gebruiksscenario&#39;s maken.
 
 <!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
 
-[ de Dienst van de Plaats van Adobe Experience Platform met het Overseinen van de Campagne ](https://www.youtube.com/watch?v=ikiTTQw9c-o)
+[&#x200B; de Dienst van de Plaats van Adobe Experience Platform met het Overseinen van de Campagne &#x200B;](https://www.youtube.com/watch?v=ikiTTQw9c-o)

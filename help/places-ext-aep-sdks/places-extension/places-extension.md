@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Extensie Plaatsen {#places-extension}
 
-Navigeer aan het de ontwikkelaarsportaal van de Adobe om documentatie voor de [ uitbreidingen van SDK van Plaatsen ](https://developer.adobe.com/client-sdks/documentation/places/) te bekijken.
+Navigeer aan het de ontwikkelaarsportaal van de Adobe om documentatie voor de [&#x200B; uitbreidingen van SDK van Plaatsen &#x200B;](https://developer.adobe.com/client-sdks/documentation/places/) te bekijken.
 
 <!-- 
 

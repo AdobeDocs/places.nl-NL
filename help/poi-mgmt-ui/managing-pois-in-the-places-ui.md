@@ -32,7 +32,7 @@ Met behulp van de interface Plaatsen worden POI&#39;s en bibliotheken gemaakt en
 
 ## POI&#39;s filteren op plaats, staat, land of metagegevens
 
-![ filter een POI ](/help/assets/filter_poi.png)
+![&#x200B; filter een POI &#x200B;](/help/assets/filter_poi.png)
 
 1. Meld u met uw Adobe ID aan bij de gebruikersinterface van de Plaatsingsservice.
 1. Klik in de rechterbovenhoek op het filterpictogram.
