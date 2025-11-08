@@ -36,7 +36,7 @@ Het bestand metadata.md bevat metadata op repo-niveau die worden doorgegeven aan
 | zelfstudies, titel | Zelden gebruikt wanneer Tutorials niet geschikt zijn |
 | tutorials-url | Koppeling naar videotutorials: helpx-tutorials of KT-tutorials |
 | mini-toc-levels | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrail. standaard is dit 2 |
-| git-repo | https://github.com/AdobeDocs/places.en |
+| git-repo | https://github.com/AdobeDocs/places.nl-NL |
 | index | set index=no for soft launch |
 
 In TOC.md-bestand
