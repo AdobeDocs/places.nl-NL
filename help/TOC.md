@@ -6,7 +6,7 @@ feature: Places
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 + [Aanvullende informatie](release-notes.md)
 + [Aan de slag](getting-started.md)
 + [Toegang tot de Places-service](places-gain-access.md)
-+ Plaatst Service UI {#poi-mgmt-ui}
++ Gebruikersinterface voor Plaatsingsservice {#poi-mgmt-ui}
    + [Overzicht van de gebruikersinterface van de service Plaatsen](poi-mgmt-ui/poi-mgmt-ui-overview.md)
    + [Een POI maken](poi-mgmt-ui/create-a-poi-ui.md)
    + [Eerder gemaakte OI&#39;s beheren](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
@@ -39,7 +39,7 @@ ht-degree: 13%
          + [Alle bibliotheken in uw organisatie lezen](web-service-api/api-usage/manage-libraries/read-all-libraries-in-your-organization.md)
          + [Een rang op uw bibliotheken instellen](web-service-api/api-usage/manage-libraries/set-a-ran-on-your-libraries.md)
          + [De rang van een bibliotheek ophalen](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
-      + Betrokken punten beheren {#manage-pois}
+      + Belangenpunten beheren {#manage-pois}
          + [Overzicht van PO&#39;s beheren](web-service-api/api-usage/manage-pois/manage-pois.md)
          + [Een POI maken](web-service-api/api-usage/manage-pois/create-a-poi.md)
          + [Een POI lezen](web-service-api/api-usage/manage-pois/read-a-poi.md)
@@ -54,21 +54,21 @@ ht-degree: 13%
             + [Meerdere POI&#39;s verwijderen](web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
       + [Query-API&#39;s](web-service-api/api-usage/query-apis.md)
 + Extensies voor de mobiele SDK&#39;s {#places-ext-aep-sdks}
-   + [&#x200B; de uitbreiding van Plaatsen &#x200B;](places-ext-aep-sdks/places-extension/places-extension.md)
+   + [ de uitbreiding van Plaatsen ](places-ext-aep-sdks/places-extension/places-extension.md)
 + [De Dienst van Plaatsen van het gebruik met uw eigen monitoroplossing](using-your-own-monitor.md)
 + [De Dienst van Plaatsen van het gebruik zonder actieve gebiedscontrole](use-places-without-active-monitoring.md)
-+ De Service Plaatsen gebruiken als onderdeel van de workflow voor Experience Platforms Launch {#use-places-launch-workflow}
-   + [De Dienst van Plaatsen van het gebruik als deel van het Experience Platform Launch werkschema](use-places-launch-workflow/places-launch-workflow.md)
++ De Dienst van Plaatsen van het gebruik als deel van het Platform van de Ervaring Starten werkschema {#use-places-launch-workflow}
+   + [De Dienst van Plaatsen van het gebruik als deel van het Platform van de Ervaring Starten werkschema](use-places-launch-workflow/places-launch-workflow.md)
    + [Gegevenselementen definiëren](use-places-launch-workflow/define-data-elements.md)
    + [In- en uitreisregels maken](use-places-launch-workflow/create-rule-places-property.md)
-+ Plaatsingsservice gebruiken met andere oplossingen voor Adoben {#use-places-with-other-solutions}
++ De Dienst van Plaatsen van het gebruik met andere Oplossingen van Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Plaatsingsservice gebruiken voor Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [POI-invoer- en afsluitgegevens naar Analytics verzenden](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Locatiecontext toevoegen aan verzoeken van Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
       + [Rapport over locatiegegevens in Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
-   + Adobe voor mobiele services {#places-mobile-svcs-messaging}
-      + [Adobe mobiele services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
+   + Adobe Mobile Services {#places-mobile-svcs-messaging}
+      + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Pushmeldingen](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Meldingen in de app](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
    + Adobe Campaign Standard {#places-acs}
